@@ -336,7 +336,7 @@ peer review, manuscript   submission, blockchain, conference management, scienti
 	 \hline
  		\citet{2017_Madhwal} & \textit{Supply Chain Management, Blockchain, Aircraft, Segments} \\ 
 	 \hline
-	 \citet{2017_Naerland} & texit{Blockchain, Bill of Lading, International Trade, Decentralized Environments}\\
+	 \citet{2017_Naerland} & \textit{Blockchain, Bill of Lading, International Trade, Decentralized Environments}\\
 	 \hline
 	 \citet{2017_Ouaddah} & \textit{Internet of things, Security, Privacy, Access control, Blockchain, Bitcoin, Cryptocurrency} \\ 
 	 \hline
@@ -380,7 +380,7 @@ All technical keywords that were found are listed in this table:
  	\hline\hline
  	Bitcoin & Bitcoin & \cite{2016_Jacynycz,2017_Ouaddah,2015_Zyskind}\\ 
 	 \hline
-	 Blockchain & Blockchain & \cite{2015_Dennis,2015_Zyskind,2016_Bahga,2016_Jacynycz,2016_Sharples,2016_Tian,2016_Yasin,2016_Yue,2017_Coyne,2017_Gipp,2017_Madhwal,2017_Ouaddah,2018_Alessandra}\\ 
+	 Blockchain & Blockchain & \cite{2018_Alessandra,2016_Bahga,2017_Coyne,2015_Dennis,2017_Gipp,2016_Jacynycz,2017_Madhwal,2017_Naerland,2017_Ouaddah,2016_Sharples,2016_Tian,2016_Yasin,2016_Yue,2015_Zyskind}\\ 
 	 \hline
 	 \multirow{3}{*}{Crypto} & cryptographic protocols & \cite{2016_Azaria,2015_Dennis} \\ \cline{2-3}
 	 & Cryptocurrency(ies) & \cite{2016_Jacynycz,2017_Ouaddah}\\ \cline{2-3}
@@ -390,10 +390,11 @@ All technical keywords that were found are listed in this table:
 	  & Digital Revolution & \multirow{2}{*}{\cite{2018_Alessandra}} \\ \cline{2-2}
 	  & Digital Innovation & \\
 	 \hline
-	 \multirow{3}{*}{Distributed} & distributed networks & \cite{2015_Dennis}\\ \cline{2-3}
+	 \multirow{4}{*}{Distributed} & distributed networks & \cite{2015_Dennis}\\ \cline{2-3}
 	  & distributed information systems
 & \cite{2016_Azaria}\\ \cline{2-3}
-	  & distributed software & \cite{2016_Jacynycz}\\
+	  & distributed software & \cite{2016_Jacynycz}\\ \cline{2-3}
+	  & Decentralized environments & \cite{2017_Naerland} \\
 	 \hline
  	Internet of Things & Internet of things & \cite{2016_Bahga,2017_Jaag,2016_Kianmajd}\\ 
 	 \hline
@@ -452,8 +453,10 @@ All keywords related to the application area can be found in this table:
 	 & Reputation management & \cite{2016_Sharples} \\ \cline{2-3}
 	 & Online Reputation & \cite{2016_Yasin} \\
 	 \hline
-	 \multirow{2}{*}{Supply Chain} & Supply Chain Management & \cite{2017_Madhwal}\\ \cline{2-3}
-	 & Agri-food supply chain & \cite{2016_Tian} \\
+	 \multirow{4}{*}{Supply Chain} & Supply Chain Management & \cite{2017_Madhwal}\\ \cline{2-3}
+	 & Agri-food supply chain & \cite{2016_Tian} \\ \cline{2-3}
+	 & Bill of Lading & \multirow{2}{*}{\cite{2017_Naerland}} \\ \cline{2-2}
+	 & International trade & \\
 	 \hline
 	 \multirow{5}{*}{System} & Reputation system(s) & \cite{2015_Dennis,2016_Schaub} \\ \cline{2-3}
 	 & Distributed information systems & \cite{2016_Azaria} \\ \cline{2-3}
@@ -482,75 +485,6 @@ All keywords related to the application area can be found in this table:
 	 \hline
 \end{longtable}
 
-
-\begin{center}
-\begin{tikzpicture}
-  % Dialectics
-  %\node[draw] (Technical) at (0,0) {Technical};
-  \node[draw,fill=gray,text=white] (Blockchain) at (-3,-0.5) {Blockchain};
-  \node[draw,fill=gray,text=white] (Internet of Things) at (0,2.5) {Internet of Things \cite{2016_Bahga,2017_Jaag,2016_Kianmajd}};
-  \node[draw,fill=gray,text=white] (Crypto) at (-2.5,-1.5) {Crypto \cite{2016_Azaria,2015_Dennis,2016_Jacynycz,2016_Kianmajd,2017_Ouaddah}};
-  \node[draw,fill=gray,text=white] (Bitcoin) at (2.5,-1.5) {Bitcoin \cite{2016_Jacynycz,2017_Ouaddah,2015_Zyskind}};
-  \node[draw,fill=gray,text=white] (Digital) at (2.5,1.5) {Digital \cite{2018_Alessandra,2016_Yasin}};
-  \node[draw,fill=gray,text=white] (Smart Contract) at (4,0.5) {Smart Contract \cite{2016_Bahga,2016_Jacynycz,2016_Yasin}};
-  \node[draw,fill=gray,text=white] (Distributed) at (-2.5,1.5) {Distributed \cite{2016_Azaria,2015_Dennis,2016_Jacynycz}};
-  \node[draw,fill=gray,text=white] (Privacy) at (3,-0.5) {Privacy \cite{2017_Ouaddah,2016_Yue,2015_Zyskind}};
-  \node[draw,fill=gray,text=white] (P2P) at (-3.0,0.5) {P2P \cite{2015_Dennis,2016_Jacynycz}};
-  \node[draw,fill=gray,text=white] (Others) at (0,-2.5) {Others};
-  
-  \draw node[vertex] (Joint) at (0,0) {};
-  
-  \draw[->,draw=blue] (Joint) to (Smart Contract);
-  \draw[->,draw=blue] (Joint) to (Privacy);
-  \draw[->,draw=blue] (Joint) to (Bitcoin);
-  \draw[->,draw=blue] (Joint) to (P2P);
-  \draw[->,draw=blue] (Joint) to (Blockchain);
-  \draw[->,draw=blue] (Joint) to (Internet of Things); 
-  \draw[->,draw=blue] (Joint) to (Digital);
-  \draw[->,draw=blue] (Joint) to (Distributed);
-  \draw[->,draw=blue] (Joint) to (Crypto);
-  \draw[->,draw=blue] (Joint) to (Others);     
-  
-\end{tikzpicture}
-\end{center}
-\begin{center}
-\begin{tikzpicture}
-  % Others
-    \node[draw,fill=gray,text=white] (Bittorent) at (3,2.5) {Bittorent \cite{2015_Dennis}};
-  \node[draw,fill=gray,text=white] (Bounty) at (3.5,1.5) {Bounty \cite{2016_Jacynycz}};
-  \node[draw,fill=gray,text=white] (Ethereum) at (4,0.5) {Ethereum \cite{2016_Jacynycz}};
-  \node[draw,fill=gray,text=white] (Protocols) at (4,-0.5) {Protocols \cite{2016_Kianmajd}};
-  \node[draw,fill=gray,text=white] (Blind Signature) at (4,-1.5) {Blind Signature \cite{2016_Schaub}};
-  \node[draw,fill=gray,text=white] (Certification Authority) at (4,-2.5) {Certification Authority \cite{2016_Schaub}};
-  \node[draw,fill=gray,text=white] (Trusted Third Party) at (0,-3.5) {Trusted Third Party \cite{2016_Schaub}};
-  \node[draw,fill=gray,text=white] (Traceability system) at (-4.5,-0.5) {Traceability system \cite{2016_Tian}};
-  \node[draw,fill=gray,text=white] (RFID) at (-3,-1.5) {RFID \cite{2016_Tian}};
-  \node[draw,fill=gray,text=white] (Indicator-centric schema) at (-5,0.5) {Indicator-centric schema \cite{2016_Yue}};
-  \node[draw,fill=gray,text=white] (Ledger) at (-2.5,-2.5) {Ledger \cite{2017_Coyne}};
-  \node[draw,fill=gray,text=white] (Security) at (-2,2.5) {Security \cite{2017_Ouaddah}};
-  \node[draw,fill=gray,text=white] (Information Technology) at (-4.5,1.5) {Information Technology \cite{2018_Alessandra}};
-  \node[draw,fill=gray,text=white] (Machine Learning) at (0,3.5) {Machine Learning\cite{2018_Alessandra}};
-
-  
-  \draw node[vertex] (Joint) at (0,0) {};
-  \draw[->,draw=blue] (Joint) to (Bittorent);  
-  \draw[->,draw=blue] (Joint) to (Bounty);
-  \draw[->,draw=blue] (Joint) to (Ethereum);
-  \draw[->,draw=blue] (Joint) to (Protocols);
-  \draw[->,draw=blue] (Joint) to (Blind Signature);
-  \draw[->,draw=blue] (Joint) to (Certification Authority);
-  \draw[->,draw=blue] (Joint) to (Trusted Third Party);
-  \draw[->,draw=blue] (Joint) to (Traceability system);
-  \draw[->,draw=blue] (Joint) to (Indicator-centric schema);
-  \draw[->,draw=blue] (Joint) to (Ledger);
-  \draw[->,draw=blue] (Joint) to (Security);
-  \draw[->,draw=blue] (Joint) to (Information Technology);
-  \draw[->,draw=blue] (Joint) to (Machine Learning);
-  
-
-  
-\end{tikzpicture}
-\end{center}
 
 
 %______________________________________________________________________
