@@ -315,6 +315,7 @@ From the twenty publications selected (see the section \ref{subsubsec:selected_p
 	\hline
  	\textbf{Publication} & \textbf{Keywords} \\ [0.5ex] 
  	\hline\hline
+ 	\endhead
  	\citet{2018_Alessandra} & \textit{Information Technology, Smart City, Digital Revolution, Digital Innovation, Blockchain, Smart Energy Grid, Machine Learning}\\ 
 	 \hline
 	  \citet{2016_Azaria} & \textit{electronic medical records, cryptographic protocols, access control, distributed information systems} \\ 
@@ -378,6 +379,7 @@ All technical keywords that were found are listed in this table:
 	\hline
  	\textbf{Category} & \textbf{Term} & \textbf{Publication(s)} \\ [0.5ex] 
  	\hline\hline
+ 	\endhead
  	Bitcoin & Bitcoin & \cite{2016_Jacynycz,2017_Ouaddah,2015_Zyskind}\\ 
 	 \hline
 	 Blockchain & Blockchain & \cite{2018_Alessandra,2016_Bahga,2017_Coyne,2015_Dennis,2017_Gipp,2016_Jacynycz,2017_Madhwal,2017_Naerland,2017_Ouaddah,2016_Sharples,2016_Tian,2016_Yasin,2016_Yue,2015_Zyskind}\\ 
@@ -423,6 +425,35 @@ All technical keywords that were found are listed in this table:
 	 & Machine Learning & \\
 	 \hline
 \end{longtable}
+\begin{tikzpicture}[font=\small]
+    \begin{axis}[
+      ybar,
+      bar width=20pt,
+      xlabel={Categories of Keywords},
+      ylabel={\#publications},
+      ymin=0,
+      ytick=\empty,
+      xtick=data,
+      axis x line=bottom,
+      axis y line=left,
+      enlarge x limits=0.2,
+      symbolic x coords={Blockchain,Crypto,Distributed,Bitcoin,Digital,IoT,Smart Contract,P2P,Privacy},
+      nodes near coords,
+      xticklabel style={rotate=45,anchor=east},
+    ]
+      \addplot[fill=orange] coordinates {
+        (Blockchain,14)
+        (Crypto,5)
+        (Distributed,4)
+        (Bitcoin,3)
+        (Digital,3)
+        (IoT,3)
+        (Smart Contract,3)
+        (P2P,2)
+        (Privacy,2)
+      };
+    \end{axis}
+  \end{tikzpicture}
 
 \clearpage
 All keywords related to the application area can be found in this table:
@@ -431,6 +462,7 @@ All keywords related to the application area can be found in this table:
 	\hline
  	\textbf{Category} & \textbf{Term} & \textbf{Publication(s)} \\ [0.5ex] 
  	\hline\hline
+ 	\endhead
  	Access control & Access control & \cite{2016_Azaria,2017_Ouaddah}\\ 
 	 \hline
 	 \multirow{7}{*}{Data/records} & Personal data & \cite{2015_Zyskind} \\  \cline{2-3}
@@ -484,8 +516,33 @@ All keywords related to the application area can be found in this table:
 	 & Smart City & \cite{2018_Alessandra} \\
 	 \hline
 \end{longtable}
-
-
+\begin{tikzpicture}[font=\small]
+    \begin{axis}[
+      ybar,
+      bar width=20pt,
+      xlabel={Categories of Keywords},
+      ylabel={\#publications},
+      ymin=0,
+      ytick=\empty,
+      xtick=data,
+      axis x line=bottom,
+      axis y line=left,
+      enlarge x limits=0.2,
+      symbolic x coords={Data/Records,System,Reputation,Supply Chain,Finance,Grids,Access control},
+      nodes near coords,
+      xticklabel style={rotate=45,anchor=east},
+    ]
+      \addplot[fill=orange] coordinates {
+        (Data/Records,6)
+        (System,6)
+        (Reputation,4)
+        (Supply Chain,3)
+        (Finance,2)
+        (Grids,2)
+        (Access control,2)
+      };
+    \end{axis}
+  \end{tikzpicture}
 
 %______________________________________________________________________
 

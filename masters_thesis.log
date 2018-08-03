@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  3 AUG 2018 14:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  3 AUG 2018 15:38
 entering extended mode
 **./masters_thesis.tex
 (masters_thesis.tex
@@ -1377,13 +1377,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 (sections/sec_introduction.tex) [1] (sections/sec_background.tex
-<./images/gartner_hype_cycle.png, id=303, 504.08325pt x 424.58624pt>
+<./images/gartner_hype_cycle.png, id=305, 504.08325pt x 424.58624pt>
 File: ./images/gartner_hype_cycle.png Graphic file (type png)
 <use ./images/gartner_hype_cycle.png>
 Package pdftex.def Info: ./images/gartner_hype_cycle.png  used on input line 15
 .
 (pdftex.def)             Requested size: 256.0774pt x 215.70036pt.
-<./images/blockchain_1.png, id=305, 249.3315pt x 249.3315pt>
+<./images/blockchain_1.png, id=307, 249.3315pt x 249.3315pt>
 File: ./images/blockchain_1.png Graphic file (type png)
 <use ./images/blockchain_1.png>
 Package pdftex.def Info: ./images/blockchain_1.png  used on input line 22.
@@ -1399,12 +1399,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-<./images/encryption.png, id=325, 963.6pt x 542.025pt>
+<./images/encryption.png, id=327, 963.6pt x 542.025pt>
 File: ./images/encryption.png Graphic file (type png)
 <use ./images/encryption.png>
 Package pdftex.def Info: ./images/encryption.png  used on input line 51.
 (pdftex.def)             Requested size: 341.43436pt x 192.05217pt.
-<./images/signature.png, id=327, 548.0475pt x 311.9655pt>
+<./images/signature.png, id=329, 548.0475pt x 311.9655pt>
 File: ./images/signature.png Graphic file (type png)
 <use ./images/signature.png>
 Package pdftex.def Info: ./images/signature.png  used on input line 59.
@@ -2025,17 +2025,17 @@ Missing character: There is no 0 in font nullfont!
 [28
 
 ]
-Underfull \hbox (badness 4543) in paragraph at lines 333--334
+Underfull \hbox (badness 4543) in paragraph at lines 334--335
 \OT1/cmr/m/it/12 tocur-ren-cies, Dis-tributed Soft-ware, Ethereum,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 []|\OT1/cmr/m/it/12 Blockchain, Rep-u-ta-tion man-age-ment, Self-
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 345--346
+Underfull \hbox (badness 4927) in paragraph at lines 346--347
 \OT1/cmr/m/it/12 determined learn-ing, e-portfolios, Records of
  []
 
@@ -2043,30 +2043,36 @@ Underfull \hbox (badness 4927) in paragraph at lines 345--346
 
 ]
 Missing character: There is no ; in font nullfont!
- [30] [31
+ [30]
+Package pgfplots info on input line 443: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+ [31
 
-] [32
-
-] [33]) [34
-
-] (sections/sec_discussion.tex) [35
+] [32] [33
 
 ]
-(sections/sec_conclusion.tex) [36
+Package pgfplots info on input line 534: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+ [34]) [35
+
+] (sections/sec_discussion.tex) [36
+
+]
+(sections/sec_conclusion.tex) [37
 
 ] (sections/appendix.tex (masters_thesis.nls)
-[37
+[38
 
 ] (sections/sec_summary_reviews.tex
 Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
-[38
+[39
 
-])) [39] (masters_thesis.bbl [40
+])) [40] (masters_thesis.bbl [41
 
-] [41] [42]
+] [42] [43]
 Underfull \hbox (badness 10000) in paragraph at lines 265--270
 \OT1/cmr/m/n/12 viewdoc / download ; jsessionid = C1C55F92FFC0899D3B8DD6743360D
 2C7 ?
@@ -2102,7 +2108,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--312
  frontdoor / deliver / index / docId /
  []
 
-[43] [44]) [45] (sections/eidesstattliche_erklaerung.tex) [46
+[44] [45]) [46] (sections/eidesstattliche_erklaerung.tex) [47
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
@@ -2119,13 +2125,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 35488 strings out of 492973
- 853892 string characters out of 3122262
- 1086145 words of memory out of 3000000
- 38349 multiletter control sequences out of 15000+200000
- 12796 words of font info for 49 fonts, out of 3000000 for 9000
+ 35908 strings out of 492973
+ 866112 string characters out of 3122262
+ 1108474 words of memory out of 3000000
+ 38768 multiletter control sequences out of 15000+200000
+ 14344 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,98p,1434b,848s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,11n,98p,1434b,2232s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ckrutzenbichler/AppD
@@ -2137,9 +2143,9 @@ rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ckrutzenbichl
 er/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmti12.pfb>
-Output written on masters_thesis.pdf (53 pages, 1072732 bytes).
+Output written on masters_thesis.pdf (54 pages, 1077891 bytes).
 PDF statistics:
- 1244 PDF objects out of 1440 (max. 8388607)
- 299 named destinations out of 1000 (max. 500000)
+ 1250 PDF objects out of 1440 (max. 8388607)
+ 300 named destinations out of 1000 (max. 500000)
  366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
