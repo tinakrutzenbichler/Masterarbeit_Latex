@@ -1,0 +1,110 @@
+\ProvidesPackage{masters_thesis_style}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[title]{appendix} % for the appendix numbering
+\usepackage{color}
+\usepackage{csquotes}
+\usepackage{datetime}
+\usepackage{filecontents}
+\usepackage[inline]{enumitem}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{hyperref}
+\usepackage{lineno}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage[square,numbers]{natbib}
+\usepackage{nomencl}
+\usepackage{pdflscape}
+\usepackage{pdfpages}
+\usepackage{pgfgantt}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{pgf-pie}
+\usepackage{subfigure}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{titlepic}
+\usepackage[nottoc]{tocbibind} % to add lof/lot to toc
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+
+\tikzset{
+    vertex/.style = {
+        circle,
+        fill            = black,
+        outer sep = 2pt,
+        inner sep = 1pt,
+    }
+}
+
+\pgfplotsset{width=14cm,compat=1.12}  
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\urlstyle{same}
+\begin{comment}
+\usepackage[round]{natbib}
+To get the text into landscape
+\end{comment}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\setlength{\oddsidemargin}{5mm}
+\setlength{\evensidemargin}{5mm}
+\pagestyle{plain}
+\pagenumbering{roman}
+
+\setlength{\headheight}{13.6pt} % behebt headheight Warning
+
+% Korrektes Format für Nummerierung von Abbildungen (figure) und
+% Tabellen (table): <Kapitelnummer>.<Abbildungsnummer>
+\makeatletter
+\@addtoreset{figure}{section}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+\@addtoreset{table}{section}
+\renewcommand{\thetable}{\thesection.\arabic{table}}
+\makeatother
+
+\sloppy % Damit LaTeX nicht so viel über "overfull hbox" u.Ä. meckert
+
+% Ränder
+\addtolength{\topmargin}{-16mm}
+\setlength{\oddsidemargin}{25mm}
+\setlength{\evensidemargin}{35mm}
+\addtolength{\oddsidemargin}{-1in}
+\addtolength{\evensidemargin}{-1in}
+\setlength{\textwidth}{15cm}
+\addtolength{\textheight}{34mm}
+
+
+% Start My commands
+\newcommand{\quoteit}[1]{\textit{\enquote{#1}}} 
+\newcommand{\quotebf}[1]{\textbf{\enquote{#1}}} 
+\newcommand{\citetwo}[2]{\citet{#1} and \citet{#2}}
+\newcommand{\urlfootnote}[1]{\footnote{\url{#1}}} 
+% End my commands
+
+% for the list of abbreviations
+\makenomenclature
+
+%% This code creates the groups
+% -----------------------------------------
+\usepackage{etoolbox}
+\renewcommand\nomgroup[1]{%
+  \item[\bfseries
+  \ifstrequal{#1}{P}{Publication Channels}{%
+  \ifstrequal{#1}{N}{Number Sets}{%
+  \ifstrequal{#1}{O}{Others}{}}}%
+]}
+% -----------------------------------------

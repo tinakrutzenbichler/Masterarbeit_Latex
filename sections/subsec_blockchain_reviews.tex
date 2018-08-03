@@ -1,0 +1,240 @@
+\subsection{Blockchain Reviews}
+\label{subsec:BlockchainReviews}
+All the papers presented in chapter \ref{subsubsec:review_publications} have one thing in common, they analyzed the Blockchain and reviewed their results. Nevertheless, they all focus on different aspects of the newly popular technology. As can be seen in figure \ref{fig:blockchain_reviews}, the review publications were categorized in four major areas: finanical, technical, application and other reviews.
+\begin{figure}[ht!]
+\centering
+\begin{tikzpicture}
+  % Blockchain Reviews
+  \node[draw,fill=gray,text=white] (Blockchain Review) at (0,0) {Blockchain Review};
+  \node[draw,fill=gray,text=white] (Financial Review) at (-6,-2) {Financial Review};
+  \node[draw,fill=gray,text=white] (Technical Review) at (-2,-2) {Technical Review}; 		  \node[draw,fill=gray,text=white] (Application Review) at (2,-2) {Application Review};
+  \node[draw,fill=gray,text=white] (Other Review) at (6,-2) {Other Review};
+  
+  \draw node[vertex] (Joint) at (0,-0.25) {}; 
+  \draw[->,draw=blue] (Joint) to (Financial Review);  
+  \draw[->,draw=blue] (Joint) to (Technical Review); 
+  \draw[->,draw=blue] (Joint) to (Application Review); 
+  \draw[->,draw=blue] (Joint) to (Other Review);   
+  
+\end{tikzpicture}
+\caption{Blockchain Reviews} \label{fig:blockchain_reviews}
+\end{figure}
+\subsubsection{Financial Reviews}
+Since the Blockchain technology was born with the invention of a cryptocurrency, more precisely Bitcoin \cite{2009_Nakamoto}, there is a lot of research about it in the financial sector. There are multiple publications that focus on reviewing cryptocurrencies.\\ 
+
+\begin{figure}[ht!]
+\centering
+\begin{tikzpicture}
+  % Blockchain Reviews
+  \node[draw,fill=gray,text=white] (Financial Review) at (0,0) {Financial Review};
+  \node[draw,fill=gray,text=white] (Cryptocurrency) at (0,-1) {Cryptocurrency};
+  \node[draw,fill=gray,text=white] (Bitcoin) at (-1,-2) {Bitcoin}; 		
+  \node[draw,fill=gray,text=white] (Ethereum) at (3,-2) {Ethereum}; 	  
+  \node[draw,fill=gray,text=white] (Security) at (-6.5,-4) {Security};
+  \node[draw,fill=gray,text=white] (Privacy) at (-4.5,-4) {Privacy};
+  \node[draw,fill=gray,text=white] (Scalability) at (-2.5,-4) {Scalability};
+  \node[draw,fill=gray,text=white] (Decentralization) at (0.5,-4) {Decentralization};
+  \node[draw,fill=gray,text=white] (Data Analytics) at (4,-4) {Data Analytics};
+  
+  \draw node[vertex] (Joint) at (0,-0.25) {}; 
+  \draw[->,draw=blue] (Joint) to (Cryptocurrency); 
+  \draw[->,draw=blue] (Cryptocurrency) to (Bitcoin);  
+  \draw[->,draw=blue] (Cryptocurrency) to (Ethereum);  
+  \draw[->,draw=blue] (Cryptocurrency) to (Data Analytics); 
+  \draw[->,draw=blue] (Bitcoin) to (Security); 
+  \draw[->,draw=blue] (Bitcoin) to (Privacy); 
+  \draw[->,draw=blue] (Bitcoin) to (Scalability); 
+  \draw[->,draw=blue] (Bitcoin) to (Decentralization);
+  \draw[->,draw=blue] (Bitcoin) to (Data Analytics);
+  \draw[->,draw=blue] (Ethereum) to (Data Analytics);
+  
+\end{tikzpicture}
+\caption{Financial Reviews} \label{fig:financial_reviews}
+\end{figure}
+
+In their research, \citet{2017_Tama} review various areas in which the Blockchain technology has been implemented:
+\begin{enumerate*}[label={\Alph*)},font={\color{red!50!black}\bfseries}]
+\item Financial Service
+\item Healthcare
+\item Business and Industry
+\item Other Implementations
+\end{enumerate*}.
+In their section \enquote{Finanical services} \citep[chap. 3.A]{2017_Tama}, they discuss the functionality of the Blockchain for financial transactions and different crytpcurrency systems, like Bitcoin\footnote{\url{https://bitcoin.org/}}, Litecoin\footnote{\url{https://litecoin.org/}}, Peercoin\footnote{\url{https://peercoin.net/}}, Ethereum\footnote{\url{https://www.ethereum.org/}}, etc.\\
+In \cite{2016_Karame} and \cite{2018_Conti} other issues related to only Bitcoin are adressed.\\
+\citet{2016_Karame} talks about the security measurements of Bitcoin's Blockchain regarding current attacks. They mention certain challenges of Bitcoin's Blockchain, above all in the areas security, scalability and decentralization.
+\begin{itemize}[noitemsep,align=left]
+	\item \textbf{Security}\\ Studies \cite{2015_Gervais,2015_Heilman, 2012_Karame} have been conducted to show certain attacks on Bitcoin.\\ To improve the scalability issues, Bitcoin made some necessary changes to their system. Yet these changes effect the security of the environement. In their publication, \citet{2015_Gervais} tackle this problem. They show that an attacker can use these weak points for example for a \quoteit{Denial-of-service attack (DoS attack)\footnote{\url{https://en.wikipedia.org/wiki/Denial-of-service_attack}}}. As their contribution, they suggest certain countermeasures to be able to provide the same level of security while changing the scalability. \\ In their research, \citet{2015_Heilman} implement an eclipse attack on the P2P-system of Bitcoin and present countermeasures to prevent their attack.
+	\citet{2012_Karame} concluded that Bitcoin is not suitable to use for fast payments because the verification time for a transaction is 10 minutes. Their contribution was that they provided a survey about the security issues that result of using Bitcoin for fast payments.
+	\item \textbf{Scalability} \\ One of Bitcoin's problems is also the transaction rate. They are able to process 7 transactions per second, whilst Visa can process around 50.000 transactions.
+	\item \textbf{Decentralization} \\ In their study, \citet{2014_Gervais} analyze the limits of decentralization in the cryptocurrency Bitcoin. In their article, they proof that some of the processes that are implemented in Bitcoin are not fully decentralized and that a set of peers could be able to control the decision making process.
+\end{itemize}
+In their work, \citet{2018_Conti} discuss the security and privacy  concerns of Bitcoin. In their first part, they review the current vulnerabilities which can end up being a security thread. Further on, they investigate the usefulness and stability of the current security solutions and they also discuss the privacy related challenges. In their conclusion, they summarize these open challenges and present countermeasures for them.
+\citet{2017_Bartoletti} on the other hand, put their attention more towards the data analytics that can be done on the information stored on the Blockchain. Their main contribution is a framework that can be used for general purpose analytics on the Blockchain of Bitcoin or Ethereum to be able to coordinate the Blockchain data with data from other sources and then to organize them in a database.
+\subsubsection{Technical Review}
+\textcolor{red}{\textbf{[TO DO]}}
+Papers to add:
+\cite{2017_Cuccuru,2018_Chalaemwongwan,2017_Mingxiao,2017_Romano,2016_Yli-Huumo,2018_Zhang,2015_Bonneau}
+
+\begin{figure}[ht!]
+\centering
+\begin{tikzpicture}
+  % Blockchain Reviews
+  \node[draw,fill=gray,text=white] (Technical Review) at (0,0) {Technical Review};
+  \node[draw,fill=gray,text=white] (Smart Contracts) at (-6,-2) {Smart Contracts};
+  \node[draw,fill=gray,text=white] (Consensus Algorithms) at (-2,-2) {Consensus Algorithms}; 		  
+  \node[draw,fill=gray,text=white] (Functionality) at (2,-2) {Functionality};
+  \node[draw,fill=gray,text=white] (Other) at (6,-2) {Other};
+  
+  \draw node[vertex] (Joint) at (0,-0.25) {}; 
+  \draw[->,draw=blue] (Joint) to (Smart Contracts);  
+  \draw[->,draw=blue] (Joint) to (Consensus Algorithms); 
+  \draw[->,draw=blue] (Joint) to (Functionality); 
+  \draw[->,draw=blue] (Joint) to (Other);   
+  
+\end{tikzpicture}
+\caption{Technical Reviews} \label{fig:technical_reviews}
+\end{figure}
+
+%______________________________________________________________________
+
+\clearpage
+\subsubsection{Application Reviews} 
+There are also multiple review papers that focus on analyzing the application areas in which the Blockchain has been used or tested. Some papers focus only on one specific area, whilst others summarize all.
+
+\begin{figure}[ht!]
+\centering
+\begin{tikzpicture}
+  % Blockchain Reviews
+  \node[draw,fill=gray,text=white] (Application Reviews) at (-3,2.5) {Application Reviews};
+  \node[draw,fill=gray,text=white] (General) at (4,6) {General /All};
+  \node[draw,fill=gray,text=white] (IoT) at (3.5,5) {IoT};
+  \node[draw,fill=gray,text=white] (Smart Places) at (4,4) {Smart Places}; 		
+  \node[draw,fill=gray,text=white] (Big Data) at (4,3) {Big Data}; 	  
+  \node[draw,fill=gray,text=white] (Healthcare) at (4,2) {Healthcare};
+  \node[draw,fill=gray,text=white] (Education) at (4,1) {Education};
+  \node[draw,fill=gray,text=white] (Government) at (4,0) {Government};
+  \node[draw,fill=gray,text=white] (Distributed Computing) at (3.5,-1) {Distributed Computing};
+  
+  \draw node[vertex] (Joint) at (-1,2.5) {}; 
+  \draw[->,draw=blue] (Joint) to (General); 
+  \draw[->,draw=blue] (Joint) to (IoT);
+  \draw[->,draw=blue] (Joint) to (Smart Places);
+  \draw[->,draw=blue] (Joint) to (Big Data);
+  \draw[->,draw=blue] (Joint) to (Healthcare);
+  \draw[->,draw=blue] (Joint) to (Education);
+  \draw[->,draw=blue] (Joint) to (Government);
+  \draw[->,draw=blue] (Joint) to (Distributed Computing);
+  
+\end{tikzpicture}
+\caption{Application Reviews} \label{fig:application_reviews}
+\end{figure}
+\begin{description}[noitemsep,align=left]
+	\item[Internet of things] \cite{2016_Conoscenti,2018_Fernandez,2017_Yeow}
+	\citet{2016_Conoscenti} conducted a \quoteit{Systematic Literature Review (SLR)} on the blockchain use cases following the guide of \citet{2007_Kitchenham}. They analyze 18 application examples from which 4 are designed for the IoT.\\
+	\citet{2018_Fernandez} put their focus only on IoT use cases or as they call it in their publication, the \quoteit{Blockchain-based IoT (BIoT)} applications. In the first part of their paper, they describe the Blockchain basics and then continue with explaining how it changes the current cloud-centered IoT applications. They finish by discussing challenges and optimization possibilities and provide ideas for further research.\\
+	\citet{2017_Yeow} on the other hand, focus their review on the consensus algorithms for decentralized edge-centric Internet of Things. \quoteit{Edge computing}\footnote{\url{https://en.wikipedia.org/wiki/Edge_computing}} shifts the control for computing away from the server or the central nodes.
+	\item[Smart Places] \citet{2018_Brandao} conduct a Systematic Literature Review on literature that was published about the Blockchain. Their five research questions focus on the evolution over the years in the numbers of publications on the topic, the main features analyzed, the application areas, the limitation in the present papers and potential future trends in the Blockchain research.
+	\item[Big Data] The Big Data areas that can be strengthened by using the Blockchain are analyzed by  \citet{2017_Karafiloski}. In their research they review potential Blockchain applications, they focus on the following four areas:
+	\begin{enumerate*}[label={\Alph*)},font={\color{red!50!black}\bfseries}]
+\item Personal Data
+\item Digital Property
+\item Internet of Things
+\item Healthcare
+\end{enumerate*}.
+	\item[Healthcare]
+	\citet{2018_Ekin} review the use cases of the Blockchain in health care. They start by discussing advantages and disadvantages and then focus on the Estonian system, which is the first national health care system implemented on the Blockchain.
+	\\ In their chapter \quoteit{Blockchain Applications - Healthcare}, \citet[chap. 3.B]{2017_Tama} discuss the usage of the BC in different examples regarding healt care systems. The health care the main issue if the interoperability. It is very difficult to share electronic health records because of a lot of privacy regulations involved. They present a few concrete example of how to solve these problems.\\
+	\citet{2018_Boulos} provide a review of the state-of-the-art today on the usage of Blockchain in health care. They analyze certain kind of challenges in that area: 
+\begin{enumerate*}[label={\arabic*)},font={\color{red!50!black}\bfseries}]
+	\item Securing Patient and Provider identities
+	\item Health supply chain management
+	\item Clinical research and data monetization
+	\item Medical fraud detection
+	\item Others
+\end{enumerate*}.
+In their last chapter, they discuss geospacial Blockchain applications for smart cities or regions and their challenges. They state that in this area, the IoT with geo-tagged data builds the foundation for these smart ecosystems. 
+	\item[Education] \citet{2018_Chen} present the  current and future blockchain-based systems in education.They conclude with discussing potential issues the blockchain-based ecosystems in education.
+	\item[Government] Many governments wolrd wide explore the possibilities that can obtain by using new technologies to transform their services into smarter services. The work of \citet{2018_Batubara} on the other hand shows that the publications on blockchain application for e-Government are not very numerous yet. As they did in the publication \cite{2016_Conoscenti}, a \quoteit{Systematic Literature Review (SLR)} is conducted on the blockchain use cases following the guide of \citet{2007_Kitchenham}. Their research question focuses on the present challenges and future research regarding the blockchain-based systems for e-Government solutions.\\ \citet{2018_Alketbi} survey the most promising application areas of the Blockchain technology in the domain of government services. They investigate the literature and identify securtiy benefits but also challenges. In their conclusion, they mention that the technology has a high potential in this area.
+	\item[Distributed Computing] \citet{2017_Herlihy} reviews the theory and practice of distributed systems that are based on the Blockchain technology and makes a clear distinction from current distributed systems.
+\end{description}
+
+All four papers \cite{2017_Kogon,2018_Li,2018_Miraz, 2017_Tama} review or analyze the current literature on Blockchain use cases or applications, yet each of them has put their focus on a different aspect.
+Whereas \citetwo{2018_Miraz}{2018_Li} distance themselves from the first application of BC, Bitcoin and other crytocurrecies that followed, \citetwo{2017_Kogon}{2017_Tama} include these financial applications in their publications.\\
+\citet{2018_Li} provide a very global overview. They selected 39 relevant article from various databases and started to compare these. The comparison criteria were first the publication year and the geographic distribution and then the publication type and the nature of studies. In their section \quoteit{Main applications of blockchain in business organizations} \citep[chap. 3.3]{2018_Li} they categorize the papers according to the form of blockchain usage. They first divide their sample by saying that on the one hand they have various applciations of blockchain in business organizations and on the other hand they have research papers. Further on, they say that for the applications of Blockchain, you also have some that present a specific usage and others that make more of a general use of the technology. The other papers focus on topics like regulation issues, impact, advantages and disadvantages, user experience and opportunities, risks and challenges. Their last criteria is was the focus of inquiry and the level of analysis. For this they invented a schema and classified the papers accordingly. For the focus of the paper, they have the questions what (usage), why (incentive), whom (people) and how (process). Their levels of application were individuals, firms or governments.\\
+\citet{2017_Kogon}'s focus was more specific than \cite{2018_Li}'s research. He did not only focus on the business literature but also on the original use cryptocurrencies. He divided the Blockchain applications, that he discussed in three areas: financial distributed ledgers, smart-contracts and non-financial distributed ledgers. He provided some examples for each of his categories.\\
+\cite{2018_Miraz}'s analysis was more specific than \cite{2017_Kogon}'s again. He focused on three different areas of blockchain applications: 
+\begin{enumerate*}[label={\arabic*)},font={\color{red!50!black}\bfseries}]
+\item Cloud
+\item IoT Ecosystem
+\item Digital Economy \cite{2016_Underwood}
+\end{enumerate*}.
+
+
+Also \cite{2017_Naerland} says that there is a "need to investigate blockchain application for decentralized, inter-organizational environments that have already been implemented".
+
+%______________________________________________________________________
+\clearpage
+\begin{landscape}
+\subsubsection{Review Publications}
+\label{subsubsec:review_publications}
+\begin{center}
+\begin{tabular}{ |c|c|c| }
+	\hline
+ 	Publication Channel & Rating &  Paper(s) \\ [0.5ex] 
+ 	\hline\hline
+	 Hawaii International Conference on System Sciences & A & \cite{2018_Li} \\ 
+	 \hline
+ 	ACM Conference on Computer and Communications Security (CCS) & A* & \cite{2016_Karame} \\ 
+ 	\hline
+ 	ACM Symposium on Principles of Distributed Computing(PODC) & A* & \cite{2017_Herlihy} \\ 
+ 	\hline
+ 	IEEE Symposium on Security and Privacy S\&P & A* & \cite{2015_Bonneau} \\ 
+ 	\hline
+ 	 International Conference on Digital Government Research (DGO) & B & \cite{2018_Batubara} \\ 
+ 	 \hline
+ 	 International Conference on Advanced Information Networking and Applications (AINA) & B & \cite{2018_Chalaemwongwan} \\ 
+ 	 \hline
+ 	 International Journal of Law and Information Technology & C & \cite{2017_Cuccuru} \\ 
+ 	 \hline
+ 	 ACS/IEEE International Conference on Computer Systems and Applications (AICCSA) & C & \cite{2016_Conoscenti} \\ 
+ 	\hline
+ 	World Conference on Information Systems and Technologies & C & \cite{2018_Brandao} \\ 
+ 	\hline
+ 	Honors College, Pace University & N/A & \cite{2017_Kogon} \\ 
+ 	\hline
+ 	MDPI Open Access Journals 'Cryptography'  & N/A & \cite{2017_Romano} \\ 
+ 	\hline
+ 	Plos One  & N/A & \cite{2016_Yli-Huumo} \\ 
+ 	\hline
+ 	Workshop on Scalable and Resilient Infrastructures for Distributed Ledgers  & N/A & \cite{2017_Bartoletti} \\ 
+ 	\hline
+ 	International Conference on Smart Technologies  & N/A & \cite{2017_Karafiloski} \\ 
+ 	\hline
+ 	International Conference on Systems, Man, and Cybernetics (SMC) & N/A & \cite{2017_Mingxiao} \\ 
+ 	\hline
+ 	International Conference on Electrical Engineering and Computer Science (ICECOS) & N/A & \cite{2017_Tama} \\ 
+ 	\hline
+ 	IEEE Access Volume 6 & N/A & \cite{2017_Yeow} \cite{2018_Fernandez} \cite{2018_Meng}\\ 
+ 	\hline
+ 	Learning and Technology Conference (L\&T) & N/A & \cite{2018_Alketbi} \\ 
+ 	\hline
+ 	IEEE Communications Surveys \& Tutorials & N/A & \cite{2018_Conti} \\ 
+ 	\hline
+ 	Signal Processing and Communications Applications Conference (SIU) & N/A & \cite{2018_Ekin} \\ 
+ 	\hline
+ 	Annals of Emerging Technologies in Computing (AETiC) & N/A & \cite{2018_Miraz} \\ 
+ 	\hline
+ 	Annals of Emerging Technologies in Computing (AETiC) & N/A & \cite{2018_Miraz} \\ 
+ 	\hline
+ 	International Conference on Distributed and Event-based Systems & N/A & \cite{2018_Zhang} \\ 
+ 	\hline
+ 	International Conference on Exploring Services Science (IESS) & N/A & \cite{2017_Seebacher} \\ 
+ 	\hline
+ 	Smart Learning Environments & N/A & \cite{2018_Chen} \\ 
+ 	\hline
+ 	International Journal of Health Geographics & N/A & \cite{2018_Boulos} \\ 
+ 	\hline
+\end{tabular}
+\end{center}
+\end{landscape}
+%______________________________________________________________________

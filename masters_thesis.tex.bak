@@ -1,0 +1,628 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{csquotes}
+\usepackage[inline]{enumitem}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{hyperref}
+\usepackage{lineno}
+\usepackage{lscape}
+\usepackage{mathtools}
+\usepackage[square,numbers]{natbib}
+\usepackage{pdflscape}
+\usepackage{pgfgantt}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{titlepic}
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+
+% My commands
+\newcommand{\myquote}[1]{\textit{\enquote{#1}}} 
+\newcommand{\citetwo}[2]{\citet{#1} and \citet{#2}}
+
+% Define block styles for TikZ
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+    text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+    text width=5em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+    minimum height=2em]
+% Finish 
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\urlstyle{same}
+\begin{comment}
+\usepackage[round]{natbib}
+To get the text into landscape
+\end{comment}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\setlength{\oddsidemargin}{5mm}
+\setlength{\evensidemargin}{5mm}
+\pagestyle{plain}
+\pagenumbering{roman}
+
+% pdflatex: Bilder in den Formaten .jpeg, .png und .pdf
+% latex: Bilder im .eps-Format
+\usepackage{graphicx}
+%für pdf
+\usepackage{pdfpages}
+\usepackage{subfigure}
+
+
+\setlength{\headheight}{13.6pt} % behebt headheight Warning
+
+% Korrektes Format für Nummerierung von Abbildungen (figure) und
+% Tabellen (table): <Kapitelnummer>.<Abbildungsnummer>
+\makeatletter
+\@addtoreset{figure}{section}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+\@addtoreset{table}{section}
+\renewcommand{\thetable}{\thesection.\arabic{table}}
+\makeatother
+
+\sloppy % Damit LaTeX nicht so viel über "overfull hbox" u.Ä. meckert
+
+% Ränder
+\addtolength{\topmargin}{-16mm}
+\setlength{\oddsidemargin}{25mm}
+\setlength{\evensidemargin}{35mm}
+\addtolength{\oddsidemargin}{-1in}
+\addtolength{\evensidemargin}{-1in}
+\setlength{\textwidth}{15cm}
+\addtolength{\textheight}{34mm}
+%______________________________________________________________________
+
+\begin{document}
+%______________________________________________________________________
+\begin{center}
+\vspace{3cm}
+angefertig an\\
+\textsc{Universität Passau}\\
+Department ``Fakultät für Informatik und Mathematik''\\
+Lehrstuhl für Informatik mit Schwerpunkt Verteilte Informationssysteme\\
+\end{center}
+\vspace{4cm}
+\begin{center}
+{\large\textbf{Master's Thesis}}\vspace{.5cm}\\
+{\LARGE \textit{\glqq Innovative Blockchain-Driven Business Applications\grqq}}\vspace{0.5cm}\\
+{\large An Analysis Of Disruptive Product Offerings}\\
+\vspace{2cm}
+{\large Christina Krutzenbichler}\\\href{mailto:c.krutzenbichler@outlook.de}{c.krutzenbichler@outlook.de} \\
+Matrikelnummer: 
+\end{center}
+\vfill
+\begin{tabular}{ll}
+Betreuer Universität Passau: & Prof. Dr. Harald Kosch \\
+Betreuer INSA Lyon: & Lionel Brunie\\
+Betreuer Firma 'SQLI': & Florence Narboux 
+\end{tabular}
+
+%______________________________________________________________________
+
+\clearpage
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\section{Introduction}
+Starting to work in the context of industrial maintenance, I focused my research on current technologies in the field.\\
+I did not have to look far to come to the conclusion, that the fourth industrial revolution is currently ongoing. In Germany the term ‘Industry 4.0’ emerged as a label for it and was widely accepted. There are certain technologies or more methodologies that play an important role: Machine Learning, Big Data, Data Analytics, Internet of Things (IoT), Blockchain and many more. \\
+In the smart factory, mainly IoT technologies are implemented at this instant, to connect machines to other machines and make them work more autonomously. These IoT devices are usually connected by a centralized server in the cloud and focus on the server-client model. One of the main issues here is to find something that decentralizes the control of these IoT devices. Here the Blockchain (BC) is a technology that recently got a lot of attention. It was first used as the underlying technology to the cryptocurrency Bitcoin. Connecting these two technologies would therefore be an opportunity to provide a decentralized system. \\
+Since there are not many defined standards describing Blockchain technology, it was quite hard to start the research. Digging deeper, I figured out, that there is a high need for use cases (empirical studies), so that for different areas, the advantages and drawbacks of the solutions can be tested. Reading the review papers on Blockchain use cases, I realized that neither of them were able to answer my question, neither to provide me with a good overview. I started to design my own schema to analyze the use cases and then tested it on some use cases.\\
+The paper is structured as follows: in Chapter 1, a Background on the basics of the Blockchain technology, in Chapter 2, my approach for information selection and the papers I selected to be analyzed, in Chapter 3, my approach on defining the criteria used to differentiate the selected paper, in chapter 4, the papers are discussed according to the criteria that were presented in chapter 3. In the 5th chapter, the results of chapter 4 are discussed, chapter 5 is the solution and presents further research opportunities.
+
+%______________________________________________________________________
+
+\clearpage
+\section{Background}
+\subsection{What is Blockchain?}
+Gartner\footnote{https://www.gartner.com/}, a research and advisory company, provides a yearly statistic called ‘Hype Cycle for Emerging Technologies, 2017’. The y-axis shows the expectations in the technology and the x-axis is the time. This is categorized into five sections: Innovation Trigger, Peak of Inflated Expectations, Trough of Disillusionment, Slope of Enlightenment, Plateau of Productivity. 
+\begin{figure}[h]
+	\caption{Gartner Hype Cycle for Emerging Technologies 2017}
+    \centering
+    \includegraphics[width=0.6\textwidth]{gartner_hype_cycle.png}
+    \label{gartner_hype_cycle}
+\end{figure} \\
+In 2016, the Blockchain technology was in the Peak of Inflated Expectations. That means it gained a lot of publicity and produced several successful use cases, but not many firms take part in using this new technology. By 2017, the Blockchain moved into the area of Trough of Disillusionment. This means that the interest in the technology is fading and that there is a certain number of use cases that did not succeed. The Blockchain is in between those two sections in 2017 and the final report of 2018 has not yet been published. \cite{2017_Panetta} \\
+\begin{wrapfigure}{l}{0.20\textwidth}
+	\caption{Bitcoin is not Blockchain}
+    \centering
+    \includegraphics[width=0.20\textwidth]{blockchain_1.png}
+    \label{blockchain_1}
+\end{wrapfigure}
+The main thing to mention here, is that the Blockchain is not the same as Bitcoin. Nevertheless, Blockchain started with the invention of Bitcoin by \cite{2009_Nakamoto} in 2009. Bitcoin is a system that used the Blockchain for digital payment processing. This makes Bitcoin the first application of the Blockchain technology. With the invention of Bitcoin, the following problems of cryptocurrencies were solved:
+\begin{itemize}[noitemsep]
+	\item Double spending problem (Byzantine Generals' Problem)
+	\item No trusted third-party
+	\item Cryptographic proof instead of trust
+\end{itemize}
+The Blockchain is nothing less than a successful combination of already existing technologies. The technologies it combined are: P2P networks, cryptography, consensus decision-making.
+A Peer-to-Peer (P2P) network is a form of a distributed architecture. Different peers participate in the system and all have equal rights. There is no central server, so the peers act as clients and servers at the same to share information between them. \cite{2001_Schollmeier}
+Consensus decision-making is nothing less than a group decision-making process. Here, the group-members try to develop and then agree on a decision, which represents the best interest for the group. The consensus that they established can be seen the acceptable resolution.
+Overall, Cryptography is the research field that tries to establish secure communication between peers when there is an enemy, in this field also called adversary, that could steal the information. So basically, it describes the practice of converting someone’s readable data, into unreadable data and vice-versa. \cite{2018_Meinel}
+%______________________________________________________________________
+
+\subsubsection{Consensus algorithms}
+In a P2P Network, you have no trusted third party. Therefore, some rules need to be defined as for how to find a consensus between the different members of your system. There are multiple algorithms that already existed and are now used by various Blockchain technology implementations. Here, you can define between ‘mining’ and ‘minting’. In a mining process you focus on how many resources you spend to build a new block in the blockchain and in minting, you focus more on how much existing resources you have. Consensus algorithms using mining are for example Proof-of-Work (PoW), Proof-of-Burn (PoB). Proof-of-Stake (PoS), Delegated Proof-of-Stake and Federated Byzantine Agreement (FBA) are on the other hand example for algorithms using minting.
+%______________________________________________________________________
+
+\subsubsection{Public-key cryptography}
+In the Blockchain context, Public-key cryptography is used. Every peer in the network has a private key and a public key. The public key can be seen by all other peers in the network, whereas the private key is kept secret by every user. The peers in the system have to fulfill two operations before sending a message: Encryption, Signature.
+\begin{figure}[h]
+	\caption{Public-key cryptography: Encryption process}
+    \centering
+    \includegraphics[width=0.8\textwidth]{encryption.png}
+    \label{encryption}
+\end{figure} \\
+In the figure \ref{encryption}, you can see that the user 1 wants to transfer a message to user 2, he encrypts the message using the public key of the user 2. The encrypted message is then transferred via internet, so the user 2 can see it. Since only he is in possession of his private key, he is the only one that is able to encrypt it and read the message that the user 1 wanted him to. All user that participate in the network have access to the public keys of the other peers, but only the peer with the right private key can encrypt the message that has been sent.\\
+The signature process tries to copy a handwritten signature. This process provides proof, that a user is really the sender of a certain message. In Figure 4: Public-key cryptography: Signature Process, User 1 is sending a message to User 2. Since his message is very long, he is using a hash function to reduce the size of the message. Then he is using his private key to sign the message and the signed message will be send to another user. The user 2 then can verify with the public key of user 1, if it was really him that send the message. \\
+\begin{figure}[h]
+	\caption{Public-key cryptography: Signature Process}
+    \centering
+    \includegraphics[width=0.8\textwidth]{signature.png}
+    \label{signature}
+\end{figure} \\
+These two processes are combined in the Public-key cryptography process.\\
+Further, I would like to explain a bit, what a cryptographic hash function is. The process is quite simple, you get an input of any size, which is sometimes also called a message, and you then use the hash function to map this input to an output of a fixed size. This function can not be reversed, meaning that you can not calculate the input by using the hash function on the output. In Blockchain systems, these hashes are organized into a hash tree or Merkle tree. This means that you have a certain number of transaction, that got hashed, then you hash them with each other and you build a tree until you arrive at the tree root, which is also called the Merkle Root. 
+
+%______________________________________________________________________
+
+\subsubsection{Types of Blockchains}
+There is not a general specification of the different types of blockchains. Nevertheless, some researches are trying to establish a common standard. \cite{2018_Fernandez} mention that there are public and private Blockchains. Anyone can use a public blockchain without the approval of third parties, but a private blockchain is controlled by someone that can allow other peers to join the ecosystem. There are also permissionless and permissioned blockchains. The difference between those is that in a permissionless environment, any peer can act as a normal user or a miner and has access to all the functionalities offered by the blockchain. A permissioned blockchain is controlled by one instance and they can authorize peers to have access to certain functionalities and deny them the access to others. Another term is a consortium Blockchain. Here certain predefined peers have the control over the consensus process. \cite{2018_Meinel}
+They also differ between logic-oriented and transaction oriented blockchains. Logic-oriented solutions focus on executing a certain logic implemented, like for example the smart contracts of Ethereum. The Bitcoin Blockchain is an example for a transaction oriented blockchain because it is clearly focused on transferring the cryptocurrency. Also, a blockchain system can be token-based or not.
+
+%______________________________________________________________________
+
+\subsubsection{Hyperledger}
+In the beginning, the ‘Hyperledger’ project was conducted by 11 different groups, including the Linux Foundation, IBM, JP Morgan and many more. Since this project is open source, the number of collaborators is constantly growing. Currently they have already developed various tools for their Hyperledger Fabric Blockchain. Their goal by implementing this blockchain technology was to provide an open source blockchain for enterprises so that they can construct industry-specific systems for secure transaction handling.
+
+%______________________________________________________________________
+
+\clearpage
+\subsection{State of the art in Blockchain reviews}
+The review article \cite{2018_Li} was published by [authors] in 2018. Its main goal is to determine the size and scope of the business literature on the blockchain technology. During their scan, they found 39 papers that fit all their criteria.\\ In the second chapter (pp. 4475 - 4477), the authors describe their technique for reviewing the existing literature. As described earlier, I oriented my search also based on their keywords, but I used different online libraries. They created a 3x4 matrix to classify their information. It refers on the one hand to the focus of the paper. Here they established 4 different sections: 
+\begin{itemize}[noitemsep]
+	\item What? What kind of blockchain application was used in the publication?
+	\item Why? Why did the authors decide to use blockchain technology?
+	\item Whom? Who did they implement the blockchain for?
+	\item How? How did they implement the blockchain?
+\end{itemize}
+And on the other hand, it shows the level of application and is divided into individuals, firms and governments.
+The third chapter (pp. 4477 - 4480) covers the results that were found. Here, they divided into four sections:
+\begin{description}[align=left]
+	\item [Publication year and geographic distribution] In this section, they name the publication year of every paper. Also, they took a look at where, geographically, the paper was published (the research was conducted).
+	\item [Publication type and nature of studies] This part gives an overview of the different types of papers that were used and the method of scientific research that was conducted. Most papers were conference proceedings and the main method used was conceptual research.
+	\item [Main applications of blockchain in business organizations] 76.9 \% of the selected 39 papers discuss the different usages of the blockchain technology in business organizations. The rest 23.1\% concentrate on other subjects, for example opportunities, risks or challenges.
+	\item [Focus of inquiry and level of analysis] Classification of the papers according to their framework that they developed for their research. X axis and y axis. Most of the papers focused on the how for firms.
+\end{description} 
+Their analysis was described in the fourth chapter (pp. 4480 - 4481). The authors found a few gaps in the current literature on the subject:
+\begin{itemize}
+	\item Not a lot of empirical studies have been conducted and there is a big absence of these studies that examine why companies would invest and adopt the blockchain.
+	\item In their classification, they had the whom question, which analyzed the impact of blockchain on different actors. They think that in the literature this is not documented yet.
+\end{itemize}
+Nevertheless, they also say that they had some limitations during their search. The first one was the language restriction to English and also their search strategy. Secondly, the risk of selection bias was there. They concluded by saying that in the end there was no panel of experts that validated their findings, like it would normally be done. \\
+The scoping review that was done in this paper was well conducted and scientifically very well described. Also, as mentioned on (p. 4479), the full list of blockchain usages, that they used, is available upon request (Types of Blockchain Usage, 2018). Therefore, I mailed the leading author and he send me a list of all used articles within a few days. \\
+Reading this review, I expected to find more technical aspects, but they were missing completely. I got a very good selection of papers, but I could not say which one is good or which blockchain implementation I would use, because they never presented an overview in the end. Also, the list the author mailed includes 22 articles that are types of blockchain usage. Yet it was a little hard to find the articles because he did not put the original title of the respective publication. In the end, I was quite disappointed to not get an overview of all article and criteria to be able to see the difference between the articles they selected.\\
+Overall a very good scientific publication which provides a good selection of literature of blockchain use cases in the business area.\\ \citeauthor*{2016_Karame} \cite{2016_Karame}\\
+Objective:\\
+In their work, they present a tutorial that overviews, details and analyzes the security measurements done by Bitcoin and the underlying Blockchain.\\
+Contribution:\\
+captured recent reported attacks or threats in the systems
+He mentions three challenges that Bitcoin has to overcome at the time:
+Security - \cite{2015_Gervais}, \cite{2015_Heilman} \cite{2012_Karame}
+Scalability 
+Limits of (De-)centralization \cite{2014_Gervais}
+
+%______________________________________________________________________
+\clearpage
+\begin{landscape}
+\subsubsection{Selected Review Papers}
+\label{sec:selected_review_papers}
+\begin{center}
+\begin{tabular}{ |c|c|c| }
+	\hline
+ 	Publication Channel & Rating &  Paper(s) \\ [0.5ex] 
+ 	\hline\hline
+	 Hawaii International Conference on System Sciences & A & \cite{2018_Li} \\ 
+	 \hline
+ 	ACM Conference on Computer and Communications Security (CCS) & A* & \cite{2016_Karame} \\ 
+ 	\hline
+ 	ACM Symposium on Principles of Distributed Computing(PODC) & A* & \cite{2017_Herlihy} \\ 
+ 	\hline
+ 	IEEE Symposium on Security and Privacy S\&P & A* & \cite{2015_Bonneau} \\ 
+ 	\hline
+ 	 International Conference on Digital Government Research (DGO) & B & \cite{2018_Batubara} \\ 
+ 	 \hline
+ 	 International Conference on Advanced Information Networking and Applications (AINA) & B & \cite{2018_Chalaemwongwan} \\ 
+ 	 \hline
+ 	 International Journal of Law and Information Technology & C & \cite{2017_Cuccuru} \\ 
+ 	 \hline
+ 	 ACS/IEEE International Conference on Computer Systems and Applications (AICCSA) & C & \cite{2016_Conoscenti} \\ 
+ 	\hline
+ 	World Conference on Information Systems and Technologies & C & \cite{2018_Brandao} \\ 
+ 	\hline
+ 	Honors College, Pace University & N/A & \cite{2017_Kogon} \\ 
+ 	\hline
+ 	MDPI Open Access Journals 'Cryptography'  & N/A & \cite{2017_Romano} \\ 
+ 	\hline
+ 	Plos One  & N/A & \cite{2016_Yli-Huumo} \\ 
+ 	\hline
+ 	Workshop on Scalable and Resilient Infrastructures for Distributed Ledgers  & N/A & \cite{2017_Bartoletti} \\ 
+ 	\hline
+ 	International Conference on Smart Technologies  & N/A & \cite{2017_Karafiloski} \\ 
+ 	\hline
+ 	International Conference on Systems, Man, and Cybernetics (SMC) & N/A & \cite{2017_Mingxiao} \\ 
+ 	\hline
+ 	International Conference on Electrical Engineering and Computer Science (ICECOS) & N/A & \cite{2017_Tama} \\ 
+ 	\hline
+ 	IEEE Access Volume 6 & N/A & \cite{2017_Yeow} \cite{2018_Fernandez} \cite{2018_Meng}\\ 
+ 	\hline
+ 	Learning and Technology Conference (L\&T) & N/A & \cite{2018_Alketbi} \\ 
+ 	\hline
+ 	IEEE Communications Surveys \& Tutorials & N/A & \cite{2018_Conti} \\ 
+ 	\hline
+ 	Signal Processing and Communications Applications Conference (SIU) & N/A & \cite{2018_Ekin} \\ 
+ 	\hline
+ 	Annals of Emerging Technologies in Computing (AETiC) & N/A & \cite{2018_Miraz} \\ 
+ 	\hline
+ 	Annals of Emerging Technologies in Computing (AETiC) & N/A & \cite{2018_Miraz} \\ 
+ 	\hline
+ 	International Conference on Distributed and Event-based Systems & N/A & \cite{2018_Zhang} \\ 
+ 	\hline
+ 	International Conference on Exploring Services Science (IESS) & N/A & \cite{2017_Seebacher} \\ 
+ 	\hline
+ 	Smart Learning Environments & N/A & \cite{2018_Chen} \\ 
+ 	\hline
+ 	International Journal of Health Geographics & N/A & \cite{2018_Boulos} \\ 
+ 	\hline
+\end{tabular}
+\end{center}
+
+
+\end{landscape}
+%______________________________________________________________________
+\subsubsection{Papers}
+All the papers presented in chapter \ref{sec:selected_review_papers} have one thing in common, they analyzed the Blockchain and reviewed their results. Nevertheless, they all focus on different aspects of the newly popular technology.
+\paragraph{Financial} Since the Blockchain technology was born with the invention of a cryptocurrency, more precisely Bitcoin \cite{2009_Nakamoto}, there is a lot of research about it in the financial sector. There are multiple publications that focus on reviewing cryptocurrencies.\\ 
+In their research, \citet{2017_Tama} review various areas in which the Blockchain technology has been implemented:
+\begin{enumerate*}[label={\Alph*)},font={\color{red!50!black}\bfseries}]
+\item Financial Service
+\item Healthcare
+\item Business and Industry
+\item Other Implementations
+\end{enumerate*}.
+In their section \enquote{Finanical services} \citep[chap. 3.A]{2017_Tama}, they discuss the functionality of the Blockchain for financial transactions and different crytpcurrency systems, like Bitcoin\footnote{\url{https://bitcoin.org/}}, Litecoin\footnote{\url{https://litecoin.org/}}, Peercoin\footnote{\url{https://peercoin.net/}}, Ethereum\footnote{\url{https://www.ethereum.org/}}, etc.\\
+In \cite{2016_Karame} and \cite{2018_Conti} issues related to only Bitcoin are adressed.\\
+\citet{2016_Karame} talks about the security measurements of Bitcoin's Blockchain regarding current attacks. They mention certain challenges of Bitcoin's Blockchain, above all in the areas security, scalability and decentralization.
+\begin{itemize}[noitemsep,align=left]
+	\item \textbf{Security}\\ Studies \cite{2015_Gervais,2015_Heilman, 2012_Karame} have been conducted to show certain attacks on Bitcoin.\\ To improve the scalability issues, Bitcoin made some necessary changes to their system. Yet these changes effect the security of the environement. In their publication, \citet{2015_Gervais} tackle this problem. They show that an attacker can use these weak points for example for a \myquote{Denial-of-service attack (DoS attack)\footnote{\url{https://en.wikipedia.org/wiki/Denial-of-service_attack}}}. As their contribution, they suggest certain countermeasures to be able to provide the same level of security while changing the scalability. \\ In their research, \citet{2015_Heilman} implement an eclipse attack on the P2P-system of Bitcoin and present countermeasures to prevent their attack.
+	\citet{2012_Karame} concluded that Bitcoin is not suitable to use for fast payments because the verification time for a transaction is 10 minutes. Their contribution was that they provided a survey about the security issues that result of using Bitcoin for fast payments.
+	\item \textbf{Scalability} \\ One of Bitcoin's problems is also the transaction rate. They are able to process 7 transactions per second, whilst Visa can process around 50.000 transactions.
+	\item \textbf{Decentralization} \\ In their study, \citet{2014_Gervais} analyze the limits of decentralization in the cryptocurrency Bitcoin. In their article, they proof that some of the processes that are implemented in Bitcoin are not fully decentralized and that a set of peers could be able to control the decision making process.
+\end{itemize}
+In their work, \citet{2018_Conti} discuss the security and privacy  concerns of Bitcoin. In their first part, they review the current vulnerabilities which can end up being a security thread. Further on, they investigate the usefulness and stability of the current security solutions and they also discuss the privacy related challenges. In their conclusion, they summarize these open challenges and present countermeasures for them.
+\citet{2017_Bartoletti} on the other hand, put their attention more towards the data analytics that can be done on the information stored on the Blockchain. Their main contribution is a framework that can be used for general purpose analytics on the Blockchain of Bitcoin or Ethereum to be able to coordinate the Blockchain data with data from other sources and then to organize them in a database.
+\paragraph{Application Areas} There are also multiple review papers that focus on analyzing the application areas in which the Blockchain has been used or tested. Some papers focus only on one specific area, whilst others summarize all.
+\begin{description}[noitemsep,align=left]
+	\item[Internet of things] \cite{2016_Conoscenti,2018_Fernandez,2017_Yeow}
+	\citet{2016_Conoscenti} conducted a \myquote{Systematic Literature Review (SLR)} on the blockchain use cases following the guide of \citet{2007_Kitchenham}. They analyze 18 application examples from which 4 are designed for the IoT.\\
+	\citet{2018_Fernandez} put their focus only on IoT use cases or as they call it in their publication, the \myquote{Blockchain-based IoT (BIoT)} applications. In the first part of their paper, they describe the Blockchain basics and then continue with explaining how it changes the current cloud-centered IoT applications. They finish by discussing challenges and optimization possibilities and provide ideas for further research.\\
+	\citet{2017_Yeow} on the other hand, focus their review on the consensus algorithms for decentralized edge-centric Internet of Things. \myquote{Edge computing}\footnote{\url{https://en.wikipedia.org/wiki/Edge_computing}} shifts the control for computing away from the server or the central nodes.
+	\item[Smart Places] \citet{2018_Brandao} conduct a Systematic Literature Review on literature that was published about the Blockchain. Their five research questions focus on the evolution over the years in the numbers of publications on the topic, the main features analyzed, the application areas, the limitation in the present papers and potential future trends in the Blockchain research.
+	\item[Big Data] The Big Data areas that can be strengthened by using the Blockchain are analyzed by  \citet{2017_Karafiloski}. In their research they review potential Blockchain applications, they focus on the following four areas:
+	\begin{enumerate*}[label={\Alph*)},font={\color{red!50!black}\bfseries}]
+\item Personal Data
+\item Digital Property
+\item Internet of Things
+\item Healthcare
+\end{enumerate*}.
+	\item[Healthcare]
+	\citet{2018_Ekin} review the use cases of the Blockchain in health care. They start by discussing advantages and disadvantages and then focus on the Estonian system, which is the first national health care system implemented on the Blockchain.
+	\\ In their chapter \myquote{Blockchain Applications - Healthcare}, \citet[chap. 3.B]{2017_Tama} discuss the usage of the BC in different examples regarding healt care systems. The health care the main issue if the interoperability. It is very difficult to share electronic health records because of a lot of privacy regulations involved. They present a few concrete example of how to solve these problems.\\
+	\citet{2018_Boulos} provide a review of the state-of-the-art today on the usage of Blockchain in health care. They analyze certain kind of challenges in that area: 
+\begin{enumerate*}[label={\arabic*)},font={\color{red!50!black}\bfseries}]
+	\item Securing Patient and Provider identities
+	\item Health supply chain management
+	\item Clinical research and data monetization
+	\item Medical fraud detection
+	\item Others
+\end{enumerate*}.
+In their last chapter, they discuss geospacial Blockchain applications for smart cities or regions and their challenges. They state that in this area, the IoT with geo-tagged data builds the foundation for these smart ecosystems. 
+	\item[Education] \citet{2018_Chen} present the  current and future blockchain-based systems in education.They conclude with discussing potential issues the blockchain-based ecosystems in education.
+	\item[Government] Many governments wolrd wide explore the possibilities that can obtain by using new technologies to transform their services into smarter services. The work of \citet{2018_Batubara} on the other hand shows that the publications on blockchain application for e-Government are not very numerous yet. As they did in the publication \cite{2016_Conoscenti}, a \myquote{Systematic Literature Review (SLR)} is conducted on the blockchain use cases following the guide of \citet{2007_Kitchenham}. Their research question focuses on the present challenges and future research regarding the blockchain-based systems for e-Government solutions.\\ \citet{2018_Alketbi} survey the most promising application areas of the Blockchain technology in the domain of government services. They investigate the literature and identify securtiy benefits but also challenges. In their conclusion, they mention that the technology has a high potential in this area.
+	\item[Distributed Computing] \citet{2017_Herlihy} reviews the theory and practice of distributed systems that are based on the Blockchain technology and makes a clear distinction from current distributed systems.
+\end{description}
+
+All four papers \cite{2017_Kogon,2018_Li,2018_Miraz, 2017_Tama} review or analyze the current literature on Blockchain use cases or applications, yet each of them has put their focus on a different aspect.
+Whereas \citetwo{2018_Miraz}{2018_Li} distance themselves from the first application of BC, Bitcoin and other crytocurrecies that followed, \citetwo{2017_Kogon}{2017_Tama} include these financial applications in their publications.\\
+\citet{2018_Li} provide a very global overview. They selected 39 relevant article from various databases and started to compare these. The comparison criteria were first the publication year and the geographic distribution and then the publication type and the nature of studies. In their section \myquote{Main applications of blockchain in business organizations} \citep[chap. 3.3]{2018_Li} they categorize the papers according to the form of blockchain usage. They first divide their sample by saying that on the one hand they have various applciations of blockchain in business organizations and on the other hand they have research papers. Further on, they say that for the applications of Blockchain, you also have some that present a specific usage and others that make more of a general use of the technology. The other papers focus on topics like regulation issues, impact, advantages and disadvantages, user experience and opportunities, risks and challenges. Their last criteria is was the focus of inquiry and the level of analysis. For this they invented a schema and classified the papers accordingly. For the focus of the paper, they have the questions what (usage), why (incentive), whom (people) and how (process). Their levels of application were individuals, firms or governments.\\
+\citet{2017_Kogon}'s focus was more specific than \cite{2018_Li}'s research. He did not only focus on the business literature but also on the original use cryptocurrencies. He divided the Blockchain applications, that he discussed in three areas: financial distributed ledgers, smart-contracts and non-financial distributed ledgers. He provided some examples for each of his categories.\\
+\cite{2018_Miraz}'s analysis was more specific than \cite{2017_Kogon}'s again. He focused on three different areas of blockchain applications: 
+\begin{enumerate*}[label={\arabic*)},font={\color{red!50!black}\bfseries}]
+\item Cloud
+\item IoT Ecosystem
+\item Digital Economy \cite{2016_Underwood}
+\end{enumerate*}.
+\clearpage
+\begin{landscape}
+	\begin{figure}
+		\begin{tikzpicture}[node distance = 2cm, auto]
+    % Place nodes
+    \node [block] (init) {Blockchain Reviews};
+    \node [cloud, right of=init] (financial) {Finanical};
+    \node [cloud, right of=financial, node distance=5cm] (cryptocurrencies) {Cryptocurrencies \cite{2017_Tama}};
+    \node [cloud, right of=cryptocurrencies, node distance=5cm] (bitcoin) {Bitcoin \cite{2016_Karame}};
+    \node [cloud, right of= bitcoin, node distance=5cm] (btc_privacy) {Privacy \cite{2018_Conti}};
+    \node [cloud, below of= btc_privacy, node distance=1.5cm] (btc_security) {Security \cite{2015_Gervais,2015_Heilman,2012_Karame, 2018_Conti}};
+    \node [cloud, below of= btc_security, node distance=1.5cm] (btc_decentralization) {Decentralization \cite{2014_Gervais}};
+    \node [cloud, below of= bitcoin, node distance=3cm] (ethereum) {Ethereum};
+    \node [cloud, below of= btc_decentralization, node distance=5cm] (data_analytics) {Data analytics \cite{2017_Bartoletti}};
+    
+     \node [block,  below of= financial] (use_cases) {Use cases};
+    % Draw edges
+    \path [line] (init)  -- (financial);
+    \path [line] (financial)  -- (cryptocurrencies);
+    \path [line] (cryptocurrencies)  -- (bitcoin);
+    \path [line] (bitcoin)  -- (btc_privacy);
+    \path [line] (bitcoin)  -- (btc_security);
+    \path [line] (bitcoin)  -- (data_analytics);
+    \path [line] (cryptocurrencies)  -- (ethereum);
+    \path [line] (ethereum)  -- (data_analytics);
+    \path [line] (init)  -- (use_cases);
+\end{tikzpicture}
+  	\end{figure}
+\end{landscape}
+
+\clearpage
+
+\begin{figure}
+	\begin{tikzpicture}[node distance = 3 cm, auto]
+    % Place nodes
+	\node [block] (init) {Blockchain Reviews};
+	\node [block,  right of= init] (use_cases) {Use cases};
+	\node [block,below of=use_cases] (education) {Education};
+	\node [block,left of=education] (healthcare) {Healthcare};
+	\node [block,left of=healthcare] (government) {Government Servies};
+	\node [block,right of=education] (idss) {Intrusion detection systems (IDSs)};
+	\node [block,right of=idss] (big_data) {Big Data};
+	\node [block,right of=big_data] (smart_places) {Smart places};
+    % Draw edges
+    \path [line] (init)  -- (use_cases);
+\end{tikzpicture}
+\end{figure}
+
+
+%______________________________________________________________________
+
+\clearpage
+\section{Approach}
+
+%______________________________________________________________________
+
+\subsection{Information Selection}
+
+%______________________________________________________________________
+
+\subsubsection{Selection Process}
+The information selection was done in online libraries. Some of those online libraries are open-access, others require authentication. 
+INSA Lyon offers access from the \textit{Biblioth\`{e}que Marie Curie}\footnote{\url{http://scd.docinsa.insa-lyon.fr/voir_tout2p.php}}. The following online databases were used:
+\begin{itemize}[noitemsep]
+	\item Emerald Insight
+	\item Ebooks on Ebsco
+	\item Springer
+	\item Thèses INSA
+\end{itemize}
+University of Passau offers access from the \textit{Universit\"{a}tsbibliothek Passau (DBIS)}\footnote{\url{http://dbis.uni-regensburg.de/fachliste.php?bib_id=ub_pa&lett=l&colors=&ocolors=}}. The following online databases were used:
+\begin{itemize}[noitemsep]
+	\item ACM Digital Library
+	\item IEEE Explore
+	\item arXiv.org
+	\item De Gruyter Online / E-Books
+	\item Springer eBooks: Computer Science
+	\item Springer eBooks: Technik und Informatik
+\end{itemize}
+Also, some free online libraries were used during the research:
+\begin{itemize}[noitemsep]
+	\item Google Scholar
+	\item Google Books
+	\item Google Search Engine
+\end{itemize}
+The main key words that were used during the search were: Blockchain, Bitcoin, Distributed Technology, Distributed Ledger Technology, Distributed Networks, Hyperledger, Use Case. The terms here were inspired by the keywords used in the scoping review conducted by \cite{2018_Li}.
+
+
+%______________________________________________________________________
+
+\begin{landscape}
+\subsubsection{Selected Papers}
+\begin{center}
+\begin{tabular}{ |c|c|c| }
+	\hline
+ 	Publication Channel & Rating &  Paper(s) \\ [0.5ex] 
+ 	\hline\hline
+	 Records Management Journal & A & \citet{2016_Lemieux} \\ 
+	 \hline
+	 International Conference on Service Oriented Computing (ICSOC) & A & \citet{2016_Hull} \\ 
+	 \hline
+	 European Symposium On Research In Computer Security (ESORICS) & A & \citet{2017_Tackmann} \\ 
+	 \hline
+	 IEEE Symposium on Security and Privacy (S\&P) & A* & \citet{2015_Zyskind} \\ 
+	 \hline
+	 ACM Conference on Digital Libraries (JCDL) & A* & \citet{2017_Gipp} \\ 
+	 \hline
+	 IEEE International Conference on Computer Communications (IEEE INFOCOM) & A* & \citet{2016_Kianmajd} \\ 
+	 \hline
+	 International Computer Software and Applications Conference (COMPSAC) & B & \citet{2016_Yasin} \\ 
+	 \hline
+	 Journal of Medical Systems & C & \citet{2016_Yue} \\ 
+	 \hline
+	Symposium on Foundations and Applications of Blockchain (FAB) & N\textbackslash A & \citet{2018_Lucena} \\ 
+	 \hline
+	 N\textbackslash A & N\textbackslash A & \citet{2016_Sharples} \\ 
+	 \hline
+	 N\textbackslash A & N\textbackslash A & \citet{2016_Jacynycz} \\ 
+	 \hline
+	 N\textbackslash A & N\textbackslash A & \citet{2015_Owen} \\ 
+	 \hline
+\end{tabular}
+\end{center}
+
+
+\end{landscape}
+
+%______________________________________________________________________
+
+\clearpage
+\subsection{My schema / Research questions}
+While doing research on for this ‘Blockchain’ review, everyone I talked to kept on asking me ‘WHY?’ would you use this technology. Since I was fairly new to the topic, I could not really respond. While reading, I understood the technical basics of the technology and how \cite{2009_Nakamoto} solved the double-spending problem that occurred in the area of cryptocurrency. I afterwards looked for more cases that the technology was used for and found a lot of experiments. This got me curious and I wanted a review that told me the reasons, why the researches experimented with the Blockchain. Unfortunately, in all the review papers that I read, there was no one that focused on this question and most important, gave a good overview about this. I then asked myself what I wanted to know about the use cases and about the technology Blockchain. I took a look at the basic questions used to gather information: \cite{2002_Hart}
+\begin{itemize}[noitemsep]
+	\item \textbf{Who} was involved?
+	\item \textbf{What} happened?
+	\item \textbf{Where} did it take place?
+	\item \textbf{When} did it take place?
+	\item \textbf{Why} did it that happen?
+	\item \textbf{How} did it happen? 
+\end{itemize}
+I then established that there were two different categories that I wanted to analyze: the general and the content-related information about the paper.
+
+
+%______________________________________________________________________
+
+\subsubsection{General Information}
+In his publication, \cite{2018_Li} used as general information: publication year, geographic distribution, publication type and nature of studies. Combining this with the 6 questions of the beginning, I established my own questions and formulated my research questions (RQ):
+\begin{itemize}[noitemsep]
+	\item \textbf{RQ1}) Publisher: \textbf{Who} published the paper?
+	\item \textbf{RQ2}) Publication Type: \textbf{What} was the publication type of the paper?
+	\item \textbf{RQ3}) Publication Channel: \textbf{Where} was the paper published?
+	\item \textbf{RQ4}) Publishing Date: \textbf{When} was it published?
+\end{itemize}
+For the general information, I had trouble choosing the ‘Why’ and ‘How’ questions. I decided to combine them and analyze the keywords that were selected by the authors:
+\begin{itemize}
+	\item \textbf{RQ5}) Keywords: \textbf{\enquote{Why} \enquote{How}}: What kind of keywords were used?
+\end{itemize}
+
+\paragraph{Publication Type}
+There are various types of scientific papers. In this synthesis, the ones that are used in BibTeX are presented. BibTeX is a reference management software. It is mostly used to create lists of references for the document preparation system LaTeX. The types are:
+\begin{itemize}[noitemsep]
+	\item \textit{Article:} An article that was published in a journal or magazine
+	\item \textit{Book:} A book (with a publisher)
+	\item \textit{Booklet:} A published work without a reference to the publisher 
+	\item \textit{InBook:} A part of a book 
+	\item \textit{InCollection:} A part of a book with an explicit title
+	\item \textit{Inproceedings:} An article that was presented in the context of a conference proceeding 
+	\item \textit{Manual:} A technical documentation 
+	\item \textit{Mastersthesis:} A master’s thesis
+	\item \textit{Misc:} If no other type fits your resource, use this one 
+	\item \textit{Phdthesis:} A Ph.D. thesis 
+	\item \textit{Proceedings:} Collection of scientific papers that were published during a conference 
+	\item \textit{Techreport:} A report (usually published by a school/university) 
+	\item \textit{Unpublished:} A document that has not been officially published
+\end{itemize}
+\paragraph{Publication Channel}
+According to the \myquote{Merriam-Webster Dictionary}\footnote{https://www.merriam-webster.com/}, the following terms are defined as follows:
+\begin{displayquote}
+\textbf{Conference: }\myquote{a meeting of two or more persons for discussing matters of common concern}
+\end{displayquote}
+\begin{displayquote}
+\textbf{Workshop: }\myquote{a usually brief intensive educational program for a relatively small group of people that focuses especially on techniques and skills in a particular field}
+\end{displayquote}
+\begin{displayquote}
+\textbf{Symposium: }\myquote{a formal meeting at which several specialists deliver short addresses on a topic or on related topics}
+\end{displayquote}
+
+%______________________________________________________________________
+
+\subsubsection{Content-based Information}
+For the second category, the content-related information, I looked at \cite{2018_Li} again, since he defined to following schema:
+\begin{itemize}[noitemsep]
+	\item \textbf{What} is the nature of the used blockchain application?
+	\item \textbf{Why} did they invest in the blockchain technology?
+	\item \textbf{Whom} did they target with the blockchain technology?
+	\item \textbf{How} does their implementation of the blockchain work and operate?
+\end{itemize}
+I tried combining his ideas to my 6 questions again and rephrased, so they fit my needs. I left out the questions ‘Where’ and ‘When’ in this section because they were not useful. Since I always wanted to know what they thought about the blockchain in the end, I added a section about the ‘Conclusion’. At the end, I added ‘My Opinion’, to give my personal opinion on the research they conducted.
+My research questions in this category are:
+\begin{itemize}[noitemsep]
+	\item \textbf{RQ6}) Who conducted the research?
+	\item \textbf{RQ7}) What did they analyze? What is their contribution?
+	\item \textbf{RQ8}) Why did they analyze this(these) problem(s)? And why do they think Blockchain could solve their problem(s)?
+	\item \textbf{RQ9}) How? What blockchain technology did they use and how did they implement it?
+	\item \textbf{RQ10}) Conclusion: What was their conclusion? Does is make sense to use the Blockchain to solve the problem they selected? Any benefits or drawbacks?
+\end{itemize}
+
+
+%______________________________________________________________________
+
+\clearpage
+\section{Papers}
+
+%______________________________________________________________________
+
+\subsection{Management of Event Tickets}
+\subsubsection{General Information}
+The research of \cite{2017_Tackmann}:
+\begin{itemize}[noitemsep]
+	\item \textbf{Publisher:} Springer
+	\item \textbf{Publication Type:} Inproceedings
+	\item \textbf{Publication Channel:} A book called: \myquote{Data Privacy Management, Cryptocurrencies and Blockchain Technology} based on the \myquote{European Symposium On Research In Computer Security (ESORICS)}
+	\item \textbf{Publishing Date:} 14 - 15 September, 2017
+	\item \textbf{Keywords:} N/A
+\end{itemize}
+\subsubsection{Content-based information}
+\paragraph{Who?}
+This research was conducted by Bj\"{o}rn Tackmann from IBM Research\footnote{https://www.zurich.ibm.com/} in Zurich, Switzerland.
+\paragraph{What?} His research question was how to make concert tickets more secure for the ticket owner while not downgrading the user experience.
+\paragraph{Why?} Today, the state of the art to sell event tickets is on cheap paper. For the event provider, this is no problem, because he usually scans a QR code at the gate and lets everyone with a valid QR code enter. For the ticket owner, there are a view security issues. He discusses multiple ways of fraud that exist in this area in his fourth chapter (pp. 441 - 443). The basic problem is that the same ticket could be printed multiple times. The first one the arrive at the concert would be able to go and the others would have to stay outside because the QR code was already used. The questions that the author asked himself in his research is if by using the Blockchain technology, one could improve the issues of the ticket owner by keeping the current level of comfort. In the research, they link the unique identifier of a concert ticket with the cryptographic identity of the ticket owner on the Blockchain.
+\paragraph{How?} Since he does research at IBM, he used their own blockchain solution, the Hyperledger Fabric V1. He described the design of his prototype very mathematical in section three (pp. 440 - 441) and then the technologies he used in section five (p. 443).
+\paragraph{Conclusion} They concluded by saying that they solved their original problem of ticket-fraud by keeping the current user experience. In chapter 6 (pp. 443 - 444), Tackmann talks about the possibilities that are there for modifying his prototype by better using the functions that the selected blockchain Hyperledger Fabric V1 provides. He mentions four main modification opportunities: usage of membership services to authenticate sellers, flexible endorsement, inter-ledger payment, analytics, privacy and restricted contracts.
+\paragraph{My opinion} In the beginning, I had trouble reading his paper, since his structure is different from others. The main focus of his research is on a different aspect. He focuses especially on the mathematical background of the blockchain and he also explains mathematically how he implements this in his prototype. After understanding his style, I really like the way he presented his project.  He was one of the only ones that also presented the mathematical formulas before doing the functional implementation. One question that I was looking for and did not really find an answer was why he chose the blockchain technology to solve this problem. 
+One thing I really like is on (p. 442), he mentions that his proposed solution is not very useful for just one event organizer but can be more useful if you have multiple of them because the resilience will be higher. Therefore, the trust into the system infrastructure will increase. 
+
+%______________________________________________________________________
+
+\clearpage
+\section{Evaluation}
+\subsection{General Information}
+\subsection{Content-based Information}
+
+%______________________________________________________________________
+
+\clearpage
+\section{Discussion}
+
+%______________________________________________________________________
+
+\clearpage
+\section{Conclusion}
+
+%______________________________________________________________________
+
+\clearpage
+
+\listoffigures
+ 
+\listoftables
+
+%______________________________________________________________________
+
+\clearpage
+%\bibliographystyle{plainnat}
+%\bibliographystyle{ksfh_nat}
+%\bibliographystyle{plain}
+\bibliographystyle{abbrvnat}
+\bibliography{masters_thesis_library}{}
+\end{document}

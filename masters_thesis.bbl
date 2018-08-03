@@ -1,0 +1,488 @@
+\begin{thebibliography}{59}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alessandra et~al.(2018)Alessandra, Scarpato, Di~Nunzio, Fallucchi, and
+  Raso]{2018_Alessandra}
+P.~Alessandra, N.~Scarpato, L.~Di~Nunzio, F.~Fallucchi, and M.~Raso.
+\newblock Smarter city: Smart energy grid based on blockchain technology.
+\newblock \emph{Smart City Project}, 8:\penalty0 298, 02 2018.
+
+\bibitem[Alketbi et~al.(2018)Alketbi, Nasir, and Talib]{2018_Alketbi}
+A.~Alketbi, Q.~Nasir, and M.~A. Talib.
+\newblock Blockchain for government services - use cases, security benefits and
+  challenges.
+\newblock In \emph{2018 15th Learning and Technology Conference (L T)}, pages
+  112--119, Feb 2018.
+\newblock \doi{10.1109/LT.2018.8368494}.
+
+\bibitem[Azaria et~al.(2016)Azaria, Ekblaw, Vieira, and Lippman]{2016_Azaria}
+A.~Azaria, A.~Ekblaw, T.~Vieira, and A.~Lippman.
+\newblock Medrec: Using blockchain for medical data access and permission
+  management.
+\newblock In \emph{2016 2nd International Conference on Open and Big Data
+  (OBD)}, pages 25--30, Aug 2016.
+\newblock \doi{10.1109/OBD.2016.11}.
+
+\bibitem[Bahga and Madisetti(2016)]{2016_Bahga}
+A.~Bahga and V.~Madisetti.
+\newblock Blockchain platform for industrial internet of things.
+\newblock \emph{Journal of Software Engineering and Applications
+  09(10):533-546}, 09:\penalty0 533--546, 01 2016.
+
+\bibitem[Bartoletti et~al.(2017)Bartoletti, Lande, Pompianu, and
+  Bracciali]{2017_Bartoletti}
+M.~Bartoletti, S.~Lande, L.~Pompianu, and A.~Bracciali.
+\newblock A general framework for blockchain analytics.
+\newblock In \emph{Proceedings of the 1st Workshop on Scalable and Resilient
+  Infrastructures for Distributed Ledgers}, SERIAL '17, pages 7:1--7:6, New
+  York, NY, USA, 2017. ACM.
+\newblock ISBN 978-1-4503-5173-7.
+\newblock \doi{10.1145/3152824.3152831}.
+\newblock URL \url{http://doi.acm.org/10.1145/3152824.3152831}.
+
+\bibitem[Batubara et~al.(2018)Batubara, Ubacht, and Janssen]{2018_Batubara}
+F.~R. Batubara, J.~Ubacht, and M.~Janssen.
+\newblock Challenges of blockchain technology adoption for e-government: A
+  systematic literature review.
+\newblock In \emph{Proceedings of the 19th Annual International Conference on
+  Digital Government Research: Governance in the Data Age}, dg.o '18, pages
+  76:1--76:9, New York, NY, USA, 2018. ACM.
+\newblock ISBN 978-1-4503-6526-0.
+\newblock \doi{10.1145/3209281.3209317}.
+\newblock URL \url{http://doi.acm.org/10.1145/3209281.3209317}.
+
+\bibitem[Bonneau et~al.(2015)Bonneau, Miller, Clark, Narayanan, Kroll, and
+  Felten]{2015_Bonneau}
+J.~Bonneau, A.~Miller, J.~Clark, A.~Narayanan, J.~A. Kroll, and E.~W. Felten.
+\newblock Sok: Research perspectives and challenges for bitcoin and
+  cryptocurrencies.
+\newblock In \emph{2015 IEEE Symposium on Security and Privacy}, pages
+  104--121, May 2015.
+\newblock \doi{10.1109/SP.2015.14}.
+
+\bibitem[Brand{\~a}o et~al.(2018)Brand{\~a}o, Mamede, and
+  Gon{\c{c}}alves]{2018_Brandao}
+A.~Brand{\~a}o, H.~S. Mamede, and R.~Gon{\c{c}}alves.
+\newblock Systematic review of the literature, research on blockchain
+  technology as support to the trust model proposed applied to smart places.
+\newblock In {\'A}.~Rocha, H.~Adeli, L.~P. Reis, and S.~Costanzo, editors,
+  \emph{Trends and Advances in Information Systems and Technologies}, pages
+  1163--1174, Cham, 2018. Springer International Publishing.
+\newblock ISBN 978-3-319-77703-0.
+
+\bibitem[Chalaemwongwan and Kurutach(2018)]{2018_Chalaemwongwan}
+N.~Chalaemwongwan and W.~Kurutach.
+\newblock State of the art and challenges facing consensus protocols on
+  blockchain.
+\newblock In \emph{2018 International Conference on Information Networking
+  (ICOIN)}, pages 957--962, Jan 2018.
+\newblock \doi{10.1109/ICOIN.2018.8343266}.
+
+\bibitem[Chen et~al.(2018)Chen, Xu, Lu, and Chen]{2018_Chen}
+G.~Chen, B.~Xu, M.~Lu, and N.-S. Chen.
+\newblock Exploring blockchain technology and its potential applications for
+  education.
+\newblock \emph{Smart Learning Environments}, 5\penalty0 (1):\penalty0 1, Jan
+  2018.
+\newblock ISSN 2196-7091.
+\newblock \doi{10.1186/s40561-017-0050-x}.
+\newblock URL \url{https://doi.org/10.1186/s40561-017-0050-x}.
+
+\bibitem[Conoscenti et~al.(2016)Conoscenti, Vetrò, and
+  Martin]{2016_Conoscenti}
+M.~Conoscenti, A.~Vetrò, and J.~C.~D. Martin.
+\newblock Blockchain for the internet of things: A systematic literature
+  review.
+\newblock In \emph{2016 IEEE/ACS 13th International Conference of Computer
+  Systems and Applications (AICCSA)}, pages 1--6, Nov 2016.
+\newblock \doi{10.1109/AICCSA.2016.7945805}.
+
+\bibitem[Conti et~al.(2018)Conti, E, Lal, and Ruj]{2018_Conti}
+M.~Conti, S.~K. E, C.~Lal, and S.~Ruj.
+\newblock A survey on security and privacy issues of bitcoin.
+\newblock \emph{CoRR}, abs/1706.00916, 2018.
+\newblock URL \url{http://arxiv.org/abs/1706.00916}.
+
+\bibitem[Coyne and McMickle(2017)]{2017_Coyne}
+J.~G. Coyne and P.~L. McMickle.
+\newblock Can blockchains serve an accounting purpose?
+\newblock \emph{Journal of Emerging Technologies in Accounting}, 14\penalty0
+  (2):\penalty0 101--111, 2017.
+\newblock \doi{10.2308/jeta-51910}.
+\newblock URL \url{https://doi.org/10.2308/jeta-51910}.
+
+\bibitem[Cuccuru(2017)]{2017_Cuccuru}
+P.~Cuccuru.
+\newblock Beyond bitcoin: An early overview on smart contracts.
+\newblock \emph{International Journal of Law and Information Technology, 2017,
+  25, 179–195}, 25:\penalty0 179--195, 09 2017.
+
+\bibitem[Dennis and Owen(2015)]{2015_Dennis}
+R.~Dennis and G.~Owen.
+\newblock Rep on the block: A next generation reputation system based on the
+  blockchain.
+\newblock In \emph{2015 10th International Conference for Internet Technology
+  and Secured Transactions (ICITST)}, pages 131--138, Dec 2015.
+\newblock \doi{10.1109/ICITST.2015.7412073}.
+
+\bibitem[Ekİn and Ünay(2018)]{2018_Ekin}
+A.~Ekİn and D.~Ünay.
+\newblock Blockchain applications in healthcare.
+\newblock In \emph{2018 26th Signal Processing and Communications Applications
+  Conference (SIU)}, pages 1--4, May 2018.
+\newblock \doi{10.1109/SIU.2018.8404275}.
+
+\bibitem[Fernández-Caramés and Fraga-Lamas(2018)]{2018_Fernandez}
+T.~M. Fernández-Caramés and P.~Fraga-Lamas.
+\newblock A review on the use of blockchain for the internet of things.
+\newblock \emph{IEEE Access}, pages 1--1, 2018.
+\newblock \doi{10.1109/ACCESS.2018.2842685}.
+
+\bibitem[Gervais et~al.(2014)Gervais, Karame, Capkun, and Capkun]{2014_Gervais}
+A.~Gervais, G.~O. Karame, V.~Capkun, and S.~Capkun.
+\newblock Is bitcoin a decentralized currency?
+\newblock \emph{IEEE Security Privacy}, 12\penalty0 (3):\penalty0 54--60, May
+  2014.
+\newblock ISSN 1540-7993.
+\newblock \doi{10.1109/MSP.2014.49}.
+
+\bibitem[Gervais et~al.(2015)Gervais, Ritzdorf, Karame, and
+  Capkun]{2015_Gervais}
+A.~Gervais, H.~Ritzdorf, G.~O. Karame, and S.~Capkun.
+\newblock Tampering with the delivery of blocks and transactions in bitcoin.
+\newblock In \emph{Proceedings of the 22Nd ACM SIGSAC Conference on Computer
+  and Communications Security}, CCS '15, pages 692--705, New York, NY, USA,
+  2015. ACM.
+\newblock ISBN 978-1-4503-3832-5.
+\newblock \doi{10.1145/2810103.2813655}.
+\newblock URL
+  \url{http://docweb.rz.uni-passau.de:3043/10.1145/2810103.2813655}.
+
+\bibitem[Gipp et~al.(2017)Gipp, Breitinger, Meuschke, and Beel]{2017_Gipp}
+B.~Gipp, C.~Breitinger, N.~Meuschke, and J.~Beel.
+\newblock Cryptsubmit: Introducing securely timestamped manuscript submission
+  and peer review feedback using the blockchain.
+\newblock In \emph{2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL)},
+  pages 1--4, June 2017.
+\newblock \doi{10.1109/JCDL.2017.7991588}.
+
+\bibitem[Hart(2002)]{2002_Hart}
+G.~Hart.
+\newblock The five w’s of online help systems, 2002.
+\newblock URL \url{http://www.geoff-hart.com/articles/2002/fivew.htm}.
+
+\bibitem[Heilman et~al.(2015)Heilman, Kendler, Zohar, and
+  Goldberg]{2015_Heilman}
+E.~Heilman, A.~Kendler, A.~Zohar, and S.~Goldberg.
+\newblock Eclipse attacks on bitcoin's peer-to-peer network.
+\newblock In \emph{Proceedings of the 24th USENIX Conference on Security
+  Symposium}, SEC'15, pages 129--144, Berkeley, CA, USA, 2015. USENIX
+  Association.
+\newblock ISBN 978-1-931971-232.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2831143.2831152}.
+
+\bibitem[Herlihy(2017)]{2017_Herlihy}
+M.~Herlihy.
+\newblock Blockchains and the future of distributed computing.
+\newblock In \emph{Proceedings of the ACM Symposium on Principles of
+  Distributed Computing}, PODC '17, pages 155--155, New York, NY, USA, 2017.
+  ACM.
+\newblock ISBN 978-1-4503-4992-5.
+\newblock \doi{10.1145/3087801.3087873}.
+\newblock URL \url{http://doi.acm.org/10.1145/3087801.3087873}.
+
+\bibitem[Jaag and Bach(2017)]{2017_Jaag}
+C.~Jaag and C.~Bach.
+\newblock \emph{Blockchain Technology and Cryptocurrencies: Opportunities for
+  Postal Financial Services}, pages 205--221.
+\newblock Springer International Publishing, Cham, 2017.
+\newblock ISBN 978-3-319-46046-8.
+\newblock \doi{10.1007/978-3-319-46046-8_13}.
+\newblock URL \url{https://doi.org/10.1007/978-3-319-46046-8_13}.
+
+\bibitem[Jacynycz et~al.(2016)Jacynycz, Calvo, Hassan, and
+  S{\'a}nchez-Ruiz]{2016_Jacynycz}
+V.~Jacynycz, A.~Calvo, S.~Hassan, and A.~A. S{\'a}nchez-Ruiz.
+\newblock Betfunding: A distributed bounty-based crowdfunding platform over
+  ethereum.
+\newblock In S.~Omatu, A.~Semalat, G.~Bocewicz, P.~Sitek, I.~E. Nielsen, J.~A.
+  Garc{\'i}a~Garc{\'i}a, and J.~Bajo, editors, \emph{Distributed Computing and
+  Artificial Intelligence, 13th International Conference}, pages 403--411,
+  Cham, 2016. Springer International Publishing.
+\newblock ISBN 978-3-319-40162-1.
+
+\bibitem[Kamel~Boulos et~al.(2018)Kamel~Boulos, Wilson, and
+  Clauson]{2018_Boulos}
+M.~N. Kamel~Boulos, J.~T. Wilson, and K.~A. Clauson.
+\newblock Geospatial blockchain: promises, challenges, and scenarios in health
+  and healthcare.
+\newblock \emph{International Journal of Health Geographics}, 17\penalty0
+  (1):\penalty0 25, Jul 2018.
+\newblock ISSN 1476-072X.
+\newblock \doi{10.1186/s12942-018-0144-x}.
+\newblock URL \url{https://doi.org/10.1186/s12942-018-0144-x}.
+
+\bibitem[Karafiloski and Mishev(2017)]{2017_Karafiloski}
+E.~Karafiloski and A.~Mishev.
+\newblock Blockchain solutions for big data challenges: A literature review.
+\newblock In \emph{IEEE EUROCON 2017 -17th International Conference on Smart
+  Technologies}, pages 763--768, July 2017.
+\newblock \doi{10.1109/EUROCON.2017.8011213}.
+
+\bibitem[Karame(2016)]{2016_Karame}
+G.~Karame.
+\newblock On the security and scalability of bitcoin's blockchain.
+\newblock In \emph{Proceedings of the 2016 ACM SIGSAC Conference on Computer
+  and Communications Security}, CCS '16, pages 1861--1862, New York, NY, USA,
+  2016. ACM.
+\newblock ISBN 978-1-4503-4139-4.
+\newblock \doi{10.1145/2976749.2976756}.
+\newblock URL \url{http://doi.acm.org/10.1145/2976749.2976756}.
+
+\bibitem[Karame et~al.(2012)Karame, Androulaki, and Capkun]{2012_Karame}
+G.~O. Karame, E.~Androulaki, and S.~Capkun.
+\newblock Double-spending fast payments in bitcoin.
+\newblock In \emph{Proceedings of the 2012 ACM Conference on Computer and
+  Communications Security}, CCS '12, pages 906--917, New York, NY, USA, 2012.
+  ACM.
+\newblock ISBN 978-1-4503-1651-4.
+\newblock \doi{10.1145/2382196.2382292}.
+\newblock URL
+  \url{http://docweb.rz.uni-passau.de:3043/10.1145/2382196.2382292}.
+
+\bibitem[Kianmajd et~al.(2016)Kianmajd, Rowe, and Levitt]{2016_Kianmajd}
+P.~Kianmajd, J.~Rowe, and K.~Levitt.
+\newblock Privacy-preserving coordination for smart communities.
+\newblock In \emph{2016 IEEE Conference on Computer Communications Workshops
+  (INFOCOM WKSHPS)}, pages 1045--1046, April 2016.
+\newblock \doi{10.1109/INFCOMW.2016.7562245}.
+
+\bibitem[Kitchenham and Charters(2007)]{2007_Kitchenham}
+B.~Kitchenham and S.~Charters.
+\newblock Guidelines for performing systematic literature reviews in software
+  engineering, 2007.
+\newblock URL
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C1C55F92FFC0899D3B8DD6743360D2C7?doi=10.1.1.117.471&rep=rep1&type=pdf}.
+
+\bibitem[Kogon(2017)]{2017_Kogon}
+J.~Kogon.
+\newblock \emph{Blockchain Technology: An Analysis of Potential Applications
+  and Uses}.
+\newblock phdthesis, Pace University - Honors College Theses, 2017.
+\newblock URL
+  \url{https://digitalcommons.pace.edu/cgi/viewcontent.cgi?article=1164&context=honorscollege_theses}.
+
+\bibitem[Li et~al.(2018)Li, Marier-Bienvenue, Perron-Brault, Wang, and
+  Pare]{2018_Li}
+Y.~Li, T.~Marier-Bienvenue, A.~Perron-Brault, X.~Wang, and G.~Pare.
+\newblock Blockchain technology in business organizations: A scoping review.
+\newblock In \emph{51st Hawaii International Conference on System Sciences}, 01
+  2018.
+
+\bibitem[Liu et~al.(2017)Liu, Zhao, Guo, Wang, Tan, and Wang]{2017_Liu}
+Y.~Liu, Z.~Zhao, G.~Guo, X.~Wang, Z.~Tan, and S.~Wang.
+\newblock An identity management system based on blockchain.
+\newblock \emph{University of Calgary}, 2017.
+
+\bibitem[Lucena et~al.(2018)Lucena, Binotto, da~Silva~Momo, and
+  Kim]{2018_Lucena}
+P.~Lucena, A.~P.~D. Binotto, F.~da~Silva~Momo, and H.~Kim.
+\newblock A case study for grain quality assurance tracking based on a
+  blockchain business network.
+\newblock \emph{CoRR}, abs/1803.07877, 2018.
+\newblock URL \url{http://arxiv.org/abs/1803.07877}.
+
+\bibitem[Madhwal and Panfilov(2017)]{2017_Madhwal}
+Y.~Madhwal and P.~Panfilov.
+\newblock Blockchain and supply chain management: Aircrafts’ parts’
+  business case.
+\newblock \emph{Annals of DAAAM \& Proceedings . 2017, Vol. 28, p1051-1056.
+  6p.}, pages 1051--1056, 01 2017.
+
+\bibitem[Meinel et~al.(2018)Meinel, Gayvoronskaya, and Schnjakin]{2018_Meinel}
+C.~Meinel, T.~Gayvoronskaya, and M.~Schnjakin.
+\newblock Blockchain: Hype oder innovation.
+\newblock Technical report, Hasso-Plattner-Instituts, 2018.
+\newblock URL
+  \url{https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/10314/file/tbhpi113.pdf}.
+
+\bibitem[Meng et~al.(2018)Meng, Tischhauser, Wang, Wang, and Han]{2018_Meng}
+W.~Meng, E.~W. Tischhauser, Q.~Wang, Y.~Wang, and J.~Han.
+\newblock When intrusion detection meets blockchain technology: A review.
+\newblock \emph{IEEE Access}, 6:\penalty0 10179--10188, 2018.
+\newblock \doi{10.1109/ACCESS.2018.2799854}.
+
+\bibitem[Mingxiao et~al.(2017)Mingxiao, Xiaofeng, Zhe, Xiangwei, and
+  Qijun]{2017_Mingxiao}
+D.~Mingxiao, M.~Xiaofeng, Z.~Zhe, W.~Xiangwei, and C.~Qijun.
+\newblock A review on consensus algorithm of blockchain.
+\newblock In \emph{2017 IEEE International Conference on Systems, Man, and
+  Cybernetics (SMC)}, pages 2567--2572, Oct 2017.
+\newblock \doi{10.1109/SMC.2017.8123011}.
+
+\bibitem[Miraz and Ali(2018)]{2018_Miraz}
+M.~H. Miraz and M.~Ali.
+\newblock Applications of blockchain technology beyond cryptocurrency.
+\newblock \emph{CoRR}, abs/1801.03528, 2018.
+\newblock URL \url{http://arxiv.org/abs/1801.03528}.
+
+\bibitem[Nakamoto(2009)]{2009_Nakamoto}
+S.~Nakamoto.
+\newblock Bitcoin: A peer-to-peer electronic cash system.
+\newblock \emph{The Mail Archive}, 03 2009.
+
+\bibitem[Nærland et~al.(2017)Nærland, Müller-Bloch, Beck, and
+  Palmund]{2017_Naerland}
+K.~Nærland, C.~Müller-Bloch, R.~Beck, and S.~Palmund.
+\newblock Blockchain to rule the waves – nascent design principles for
+  reducing risk and uncertainty in decentralized environments.
+\newblock In \emph{International Conference on Information Systems (ICIS)}. AIS
+  Electronic Library (AISeL), 12 2017.
+\newblock URL
+  \url{https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1323&context=icis2017}.
+
+\bibitem[Ouaddah et~al.(2017)Ouaddah, Elkalam, and Ouahman]{2017_Ouaddah}
+A.~Ouaddah, A.~A. Elkalam, and A.~A. Ouahman.
+\newblock Towards a novel privacy-preserving access control model based on
+  blockchain technology in iot.
+\newblock In {\'A}.~Rocha, M.~Serrhini, and C.~Felgueiras, editors,
+  \emph{Europe and MENA Cooperation Advances in Information and Communication
+  Technologies}, pages 523--533, Cham, 2017. Springer International Publishing.
+\newblock ISBN 978-3-319-46568-5.
+
+\bibitem[Panetta(2017)]{2017_Panetta}
+K.~Panetta.
+\newblock Top trends in the gartner hype cycle for emerging technologies, 2017,
+  Aug. 2017.
+\newblock URL
+  \url{https://www.gartner.com/smarterwithgartner/top-trends-in-the-gartner-hype-cycle-for-emerging-technologies-2017/}.
+
+\bibitem[Romano and Schmid(2017)]{2017_Romano}
+D.~Romano and G.~Schmid.
+\newblock Beyond bitcoin: A critical look at blockchain-based systems.
+\newblock \emph{Cryptography}, 1\penalty0 (2), 2017.
+\newblock ISSN 2410-387X.
+\newblock \doi{10.3390/cryptography1020015}.
+\newblock URL \url{http://www.mdpi.com/2410-387X/1/2/15}.
+
+\bibitem[Schaub et~al.(2016)Schaub, Bazin, Hasan, and Brunie]{2016_Schaub}
+A.~Schaub, R.~Bazin, O.~Hasan, and L.~Brunie.
+\newblock A trustless privacy-preserving reputation system.
+\newblock In J.-H. Hoepman and S.~Katzenbeisser, editors, \emph{ICT Systems
+  Security and Privacy Protection}, pages 398--411, Cham, 2016. Springer
+  International Publishing.
+\newblock ISBN 978-3-319-33630-5.
+
+\bibitem[Schollmeier(2001)]{2001_Schollmeier}
+R.~Schollmeier.
+\newblock A definition of peer-to-peer networking for the classification of
+  peer-to-peer architectures and applications.
+\newblock In \emph{Proceedings First International Conference on Peer-to-Peer
+  Computing}, pages 101--102, Aug 2001.
+\newblock \doi{10.1109/P2P.2001.990434}.
+
+\bibitem[Seebacher and Sch{\"u}ritz(2017)]{2017_Seebacher}
+S.~Seebacher and R.~Sch{\"u}ritz.
+\newblock Blockchain technology as an enabler of service systems: A structured
+  literature review.
+\newblock In S.~Za, M.~Dr{\u{a}}goicea, and M.~Cavallari, editors,
+  \emph{Exploring Services Science}, pages 12--23, Cham, 2017. Springer
+  International Publishing.
+\newblock ISBN 978-3-319-56925-3.
+
+\bibitem[Sharples and Domingue(2016)]{2016_Sharples}
+M.~Sharples and J.~Domingue.
+\newblock The blockchain and kudos: A distributed system for educational
+  record, reputation and reward.
+\newblock In K.~Verbert, M.~Sharples, and T.~Klobu{\v{c}}ar, editors,
+  \emph{Adaptive and Adaptable Learning}, pages 490--496, Cham, 2016. Springer
+  International Publishing.
+\newblock ISBN 978-3-319-45153-4.
+
+\bibitem[Tackmann(2017)]{2017_Tackmann}
+B.~Tackmann.
+\newblock Secure event tickets on a blockchain.
+\newblock In J.~Garcia-Alfaro, G.~Navarro-Arribas, H.~Hartenstein, and
+  J.~Herrera-Joancomart{\'i}, editors, \emph{Data Privacy Management,
+  Cryptocurrencies and Blockchain Technology}, pages 437--444, Cham, 2017.
+  Springer International Publishing.
+\newblock ISBN 978-3-319-67816-0.
+
+\bibitem[Tama et~al.(2017)Tama, Kweka, Park, and Rhee]{2017_Tama}
+B.~A. Tama, B.~J. Kweka, Y.~Park, and K.~H. Rhee.
+\newblock A critical review of blockchain and its current applications.
+\newblock In \emph{2017 International Conference on Electrical Engineering and
+  Computer Science (ICECOS)}, pages 109--113, Aug 2017.
+\newblock \doi{10.1109/ICECOS.2017.8167115}.
+
+\bibitem[Tian(2016)]{2016_Tian}
+F.~Tian.
+\newblock An agri-food supply chain traceability system for china based on rfid
+  blockchain technology.
+\newblock In \emph{2016 13th International Conference on Service Systems and
+  Service Management (ICSSSM)}, pages 1--6, June 2016.
+\newblock \doi{10.1109/ICSSSM.2016.7538424}.
+
+\bibitem[Underwood(2016)]{2016_Underwood}
+S.~Underwood.
+\newblock Blockchain beyond bitcoin.
+\newblock \emph{Commun. ACM}, 59\penalty0 (11):\penalty0 15--17, Oct. 2016.
+\newblock ISSN 0001-0782.
+\newblock \doi{10.1145/2994581}.
+\newblock URL \url{http://doi.acm.org/10.1145/2994581}.
+
+\bibitem[Yasin and Liu(2016)]{2016_Yasin}
+A.~Yasin and L.~Liu.
+\newblock An online identity and smart contract management system.
+\newblock In \emph{2016 IEEE 40th Annual Computer Software and Applications
+  Conference (COMPSAC)}, volume~2, pages 192--198, June 2016.
+\newblock \doi{10.1109/COMPSAC.2016.2}.
+
+\bibitem[Yeow et~al.(2017)Yeow, Gani, Ahmad, Rodrigues, and Ko]{2017_Yeow}
+K.~Yeow, A.~Gani, R.~W. Ahmad, J.~J. P.~C. Rodrigues, and K.~Ko.
+\newblock Decentralized consensus for edge-centric internet of things: A
+  review, taxonomy, and research issues.
+\newblock \emph{IEEE Access}, 6:\penalty0 1513--1524, 2017.
+\newblock \doi{10.1109/ACCESS.2017.2779263}.
+
+\bibitem[Yli-Huumo et~al.(2016)Yli-Huumo, Ko, Choi, Park, and
+  Smolander]{2016_Yli-Huumo}
+J.~Yli-Huumo, D.~Ko, S.~Choi, S.~Park, and K.~Smolander.
+\newblock Where is current research on blockchain technology?—a systematic
+  review.
+\newblock \emph{PLOS ONE}, 11\penalty0 (10):\penalty0 1--27, 10 2016.
+\newblock \doi{10.1371/journal.pone.0163477}.
+\newblock URL \url{https://doi.org/10.1371/journal.pone.0163477}.
+
+\bibitem[Yue et~al.(2016)Yue, Wang, Jin, Li, and Jiang]{2016_Yue}
+X.~Yue, H.~Wang, D.~Jin, M.~Li, and W.~Jiang.
+\newblock Healthcare data gateways: Found healthcare intelligence on blockchain
+  with novel privacy risk control.
+\newblock \emph{Journal of Medical Systems}, 40\penalty0 (10):\penalty0 218,
+  Aug 2016.
+\newblock ISSN 1573-689X.
+\newblock \doi{10.1007/s10916-016-0574-6}.
+\newblock URL \url{https://doi.org/10.1007/s10916-016-0574-6}.
+
+\bibitem[Zhang et~al.(2018)Zhang, Vitenberg, and Jacobsen]{2018_Zhang}
+K.~Zhang, R.~Vitenberg, and H.-A. Jacobsen.
+\newblock Deconstructing blockchains: Concepts, systems, and insights.
+\newblock In \emph{Proceedings of the 12th ACM International Conference on
+  Distributed and Event-based Systems}, DEBS '18, pages 187--190, New York, NY,
+  USA, 2018. ACM.
+\newblock ISBN 978-1-4503-5782-1.
+\newblock \doi{10.1145/3210284.3219502}.
+\newblock URL \url{http://doi.acm.org/10.1145/3210284.3219502}.
+
+\bibitem[Zyskind et~al.(2015)Zyskind, Nathan, and Pentland]{2015_Zyskind}
+G.~Zyskind, O.~Nathan, and A.~. Pentland.
+\newblock Decentralizing privacy: Using blockchain to protect personal data.
+\newblock In \emph{2015 IEEE Security and Privacy Workshops}, pages 180--184,
+  May 2015.
+\newblock \doi{10.1109/SPW.2015.27}.
+
+\end{thebibliography}
