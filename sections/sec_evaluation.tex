@@ -49,16 +49,16 @@ Springer \footnote{\url{https://www.springer.com/}} is a worldwide publishing fi
 \paragraph{Scientific Research Publishing (SCIRP)} \quoteit{SCIRP}\footnote{\url{https://www.scirp.org}} is also an open-access online repository for research articles and journals. It includes a broad range of areas, like biomedical \& life sciences, business \& economis, chemistry \& materials science, computer sciences \& communications and many more.
 \paragraph{AIS Electronic Library (AISeL)} The \quoteit{AISeL}\footnote{\url{http://aisel.aisnet.org/}} was founded by the Association for Information Systems (AIS) and is an online archive for research papers and journal articles that focus on information systems. It includes publications of the \quoteit{International Conference on Information Systems (ICIS)} and the \quoteit{Americas Conference on Information Systems (AMCIS)}, as well as all other publication channels related to the subject.
 \paragraph{University of Calgary (U of C)} The \quoteit{U of C}\footnote{\url{https://www.ucalgary.ca/}} is a public univeristy in Canada. They provide open-access to certain research papers on their website.
-
+\clearpage
+\paragraph{} As can be seen in the figure \ref{fig:rq1_publishers}, the dominating publishers in this area are Springer and IEEE. These two publishers are very renommated and big. But on the other hand, there is also a growing interest from smaller publishers to start writing about this topic.
 \begin{figure}[!ht]
 	\centering
 	\begin{tikzpicture}
 		\pie[sum=21,text=legend]{7/Springer , 7/IEEE ,2/AISeL , 1/AAA , 1/UoC,  1/SCIRP , 1/INSIGHT , 1/arXiv.org } 
 	\end{tikzpicture}
 	\caption{Number of publications per publisher} 	
-	\label{graph:rq1_publishers}
+	\label{fig:rq1_publishers}
 \end{figure}
-
 
 %______________________________________________________________________
 
@@ -98,13 +98,15 @@ There are various types of scientific papers. In this synthesis, the ones that a
 	\item \textit{Techreport:} A report (usually published by a school/university) 
 	\item \textit{Unpublished:} A document that has not been officially published
 \end{itemize}
+\clearpage
+In the pie chart \ref{fig:rq2_publication_type}, the number of publications per publication type is plotted. Since the technology is in an early phase, most research papers were presented during conference procceedings. The interest in the technolgy is very high at the moment and journals or books are being published.
 \begin{figure}[!ht]
 	\centering
 	\begin{tikzpicture}
 		\pie[sum=21,text=legend]{13/Inproceedings , 7/Article , 1/InBook} 
 	\end{tikzpicture}
 	\caption{Number of publications per publication type} 	
-	\label{graph:rq2_publication_type}
+	\label{fig:rq2_publication_type}
 \end{figure}
 
 
@@ -230,13 +232,15 @@ The conference was not ranked.
 \begin{displayquote}
 \textbf{Book: }\quoteit{something that yields knowledge or understanding}
 \end{displayquote}
-
+\clearpage
+The figure \ref{fig:rq3_publication_channel} presents the number of publications per publication channel. More than half the papers were published during a conference. There is a huge interest in research on the topic and even new conferences, symposiums, journals are only dedicated to solve the current issues. The development is in its peak which confirms further more that the blockchain is a very promising.
 \begin{figure}[!ht]
 	\centering
 	\begin{tikzpicture}
 		\pie[sum=21,text=legend]{11/Conference , 3/Symposium , 4/Journal , 2/Book , 1/N\textbackslash A} 
 	\end{tikzpicture}
-	\caption{Ranking} \label{graph:rq3_publication_channel_1}
+	\caption{Number of publications per publication channel}
+	\label{fig:rq3_publication_channel}
 \end{figure}
 
 \clearpage
@@ -259,12 +263,14 @@ The \quoteit{CORE Conference Ranking}\footnote{\url{http://portal.core.edu.au/co
 	\item \textbf{National} \quoteit{national conference}: a conference that is mainly in one specific country
 	\item \textbf{Regional} \quoteit{regional conference}: a conference that is mainly in one specific region
 \end{itemize}
+The number of publications per rank is plotted in figure \ref{fig:rq3_publication_channel_ranking}. Since the blockchain is a relatively new technology, there is many publication channels that are not considered in the ranking yet. Nevertheless, some publications were presented at very renomated conferences and given good feedback.
 \begin{figure}[!ht]
 	\centering
 	\begin{tikzpicture}
-		\pie[sum=20,text=legend]{3/A* , 2/A , 2/B , 1/C , 1/Not ranked , 11/N\textbackslash A} 
+		\pie[sum=20,text=legend]{4/A* , 2/A , 2/B , 1/C , 1/Not ranked , 11/N\textbackslash A} 
 	\end{tikzpicture}
-	\caption{Ranking 1} \label{graph:rq3_publication_channel_1}
+	\caption{Number of publication per rank} 
+	\label{fig:rq3_publication_channel_ranking}
 \end{figure}
 
 %______________________________________________________________________
@@ -291,13 +297,14 @@ As can be seen in figure \ref{tab:rq4_publication_date}, the selected papers (se
 	 2018 & \cite{2018_Alessandra,2018_Lucena} \\
 	 \hline
 \end{longtable}
-
+The figure \ref{fig:rq4_publication_date} shows the number of publication per year. All research papers were published from 2015 to this day. There is very few publications on application use cases before 2015. As from 2016, the interest in this research area increased tremendously and is still increasing this ongoing year.
 \begin{figure}[!ht]
 	\centering
 	\begin{tikzpicture}
 		\pie[sum=21,text=legend]{2/2015 , 9/2016 , 8/2017 , 2/2018} 
 	\end{tikzpicture}
-	\caption{Publication Date 1} \label{graph:rq4_publication_date_1}
+	\caption{Number of publications per year} 
+	\label{fig:rq4_publication_date}
 \end{figure}
 
 %______________________________________________________________________
@@ -425,6 +432,9 @@ All technical keywords that were found are listed in this table:
 	 & Machine Learning & \\
 	 \hline
 \end{longtable}
+\begin{figure}
+	\caption{Number of publications per category}
+	\label{fig:num_papers_category}
 \begin{tikzpicture}[font=\small]
     \begin{axis}[
       ybar,
@@ -454,7 +464,7 @@ All technical keywords that were found are listed in this table:
       };
     \end{axis}
   \end{tikzpicture}
-
+\end{figure}
 \clearpage
 All keywords related to the application area can be found in this table:
 \begin{longtable}{ |c|c|p{4cm}| }

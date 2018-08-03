@@ -31,42 +31,43 @@
 \contentsline {paragraph}{Scientific Research Publishing (SCIRP)}{18}{section*.11}
 \contentsline {paragraph}{AIS Electronic Library (AISeL)}{18}{section*.12}
 \contentsline {paragraph}{University of Calgary (U of C)}{18}{section*.13}
-\contentsline {subsubsection}{\numberline {4.1.2}RQ2: Publication Type }{19}{subsubsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.3}RQ3: Publication Channel}{21}{subsubsection.4.1.3}
-\contentsline {paragraph}{Joint Conference on Digital Libraries (JCDL)}{22}{section*.14}
-\contentsline {paragraph}{IEEE International Conference on Computer Communications (IEEE INFOCOM)}{22}{section*.15}
-\contentsline {paragraph}{International Conference on Information Systems (ICIS)}{22}{section*.16}
-\contentsline {paragraph}{IEEE Symposium on Security and Privacy (S\&P)}{23}{section*.17}
-\contentsline {paragraph}{Americas Conference on Information Systems (AMCIS)}{23}{section*.18}
-\contentsline {paragraph}{European Symposium On Research In Computer Security (ESORICS)}{23}{section*.19}
-\contentsline {paragraph}{IFIP Information Security \& Privacy Conference (IFIP SEC)}{23}{section*.20}
-\contentsline {paragraph}{International Computer Software and Applications Conference (COMPSAC)}{23}{section*.21}
-\contentsline {paragraph}{Journal of Medical Systems}{23}{section*.22}
-\contentsline {paragraph}{Journal of Software Engineering and Applications (JSEA)}{24}{section*.23}
-\contentsline {paragraph}{International Journal on Advanced Science, Engineering and Information Technology (IJASEIT)}{24}{section*.24}
-\contentsline {paragraph}{International Conference on Open and Big Data (OBD)}{24}{section*.25}
-\contentsline {paragraph}{Journal of Emerging Technologies in Accounting (JETA)}{24}{section*.26}
-\contentsline {paragraph}{International Conference for Internet Technology and Secured Transactions (ICITST)}{24}{section*.27}
-\contentsline {paragraph}{The Changing Postal and Delivery Sector}{24}{section*.28}
-\contentsline {paragraph}{International Conference on Distributed Computing and Artificial Intelligence (DCAI)}{24}{section*.29}
-\contentsline {paragraph}{Symposium on Foundations and Applications of Blockchain (FAB)}{25}{section*.30}
-\contentsline {paragraph}{Europe and MENA Cooperation Advances in Information and Communication Technologies}{25}{section*.31}
-\contentsline {paragraph}{European Conference on Technology Enhanced Learning (EC-TEL)}{25}{section*.32}
-\contentsline {paragraph}{International Conference on Service Systems and Service Management (ICSSSM)}{25}{section*.33}
-\contentsline {paragraph}{Definitions}{25}{section*.34}
-\contentsline {paragraph}{CORE Rankings Portal }{27}{section*.35}
-\contentsline {subsubsection}{\numberline {4.1.4}RQ4: Publication Date}{28}{subsubsection.4.1.4}
-\contentsline {subsubsection}{\numberline {4.1.5}RQ5: Keywords}{29}{subsubsection.4.1.5}
-\contentsline {subsection}{\numberline {4.2}Content-based Information}{35}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}RQ6: Authors}{35}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}RQ7: Contribution}{35}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}RQ8: Reason/Problems}{35}{subsubsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.4}RQ9: Implementation Process}{35}{subsubsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.5}RQ10: Conclusion}{35}{subsubsection.4.2.5}
-\contentsline {section}{\numberline {5}Discussion}{36}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{37}{section.6}
-\contentsline {subsection}{\numberline {6.1}Summary}{37}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Future Work}{37}{subsection.6.2}
-\contentsline {section}{\numberline {A}List of abbreviations}{38}{Appendix.a.A}
-\contentsline {section}{\numberline {B}Second Appendix}{39}{Appendix.a.B}
-\contentsline {section}{Bibliography}{41}{section*.40}
+\contentsline {paragraph}{}{19}{section*.14}
+\contentsline {subsubsection}{\numberline {4.1.2}RQ2: Publication Type }{20}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}RQ3: Publication Channel}{22}{subsubsection.4.1.3}
+\contentsline {paragraph}{Joint Conference on Digital Libraries (JCDL)}{23}{section*.15}
+\contentsline {paragraph}{IEEE International Conference on Computer Communications (IEEE INFOCOM)}{23}{section*.16}
+\contentsline {paragraph}{International Conference on Information Systems (ICIS)}{23}{section*.17}
+\contentsline {paragraph}{IEEE Symposium on Security and Privacy (S\&P)}{24}{section*.18}
+\contentsline {paragraph}{Americas Conference on Information Systems (AMCIS)}{24}{section*.19}
+\contentsline {paragraph}{European Symposium On Research In Computer Security (ESORICS)}{24}{section*.20}
+\contentsline {paragraph}{IFIP Information Security \& Privacy Conference (IFIP SEC)}{24}{section*.21}
+\contentsline {paragraph}{International Computer Software and Applications Conference (COMPSAC)}{24}{section*.22}
+\contentsline {paragraph}{Journal of Medical Systems}{24}{section*.23}
+\contentsline {paragraph}{Journal of Software Engineering and Applications (JSEA)}{25}{section*.24}
+\contentsline {paragraph}{International Journal on Advanced Science, Engineering and Information Technology (IJASEIT)}{25}{section*.25}
+\contentsline {paragraph}{International Conference on Open and Big Data (OBD)}{25}{section*.26}
+\contentsline {paragraph}{Journal of Emerging Technologies in Accounting (JETA)}{25}{section*.27}
+\contentsline {paragraph}{International Conference for Internet Technology and Secured Transactions (ICITST)}{25}{section*.28}
+\contentsline {paragraph}{The Changing Postal and Delivery Sector}{25}{section*.29}
+\contentsline {paragraph}{International Conference on Distributed Computing and Artificial Intelligence (DCAI)}{25}{section*.30}
+\contentsline {paragraph}{Symposium on Foundations and Applications of Blockchain (FAB)}{26}{section*.31}
+\contentsline {paragraph}{Europe and MENA Cooperation Advances in Information and Communication Technologies}{26}{section*.32}
+\contentsline {paragraph}{European Conference on Technology Enhanced Learning (EC-TEL)}{26}{section*.33}
+\contentsline {paragraph}{International Conference on Service Systems and Service Management (ICSSSM)}{26}{section*.34}
+\contentsline {paragraph}{Definitions}{26}{section*.35}
+\contentsline {paragraph}{CORE Rankings Portal }{28}{section*.36}
+\contentsline {subsubsection}{\numberline {4.1.4}RQ4: Publication Date}{29}{subsubsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.5}RQ5: Keywords}{30}{subsubsection.4.1.5}
+\contentsline {subsection}{\numberline {4.2}Content-based Information}{36}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}RQ6: Authors}{36}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}RQ7: Contribution}{36}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}RQ8: Reason/Problems}{36}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}RQ9: Implementation Process}{36}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}RQ10: Conclusion}{36}{subsubsection.4.2.5}
+\contentsline {section}{\numberline {5}Discussion}{37}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{38}{section.6}
+\contentsline {subsection}{\numberline {6.1}Summary}{38}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Future Work}{38}{subsection.6.2}
+\contentsline {section}{\numberline {A}List of abbreviations}{39}{Appendix.a.A}
+\contentsline {section}{\numberline {B}Second Appendix}{40}{Appendix.a.B}
+\contentsline {section}{Bibliography}{42}{section*.41}
