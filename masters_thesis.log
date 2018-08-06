@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  6 AUG 2018 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  6 AUG 2018 18:20
 entering extended mode
 **./masters_thesis.tex
 (masters_thesis.tex
@@ -1399,13 +1399,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 (sections/sec_introduction.tex) [1] (sections/sec_background.tex
-<./images/gartner_hype_cycle.png, id=333, 504.08325pt x 424.58624pt>
+<./images/gartner_hype_cycle.png, id=346, 504.08325pt x 424.58624pt>
 File: ./images/gartner_hype_cycle.png Graphic file (type png)
 <use ./images/gartner_hype_cycle.png>
 Package pdftex.def Info: ./images/gartner_hype_cycle.png  used on input line 15
 .
 (pdftex.def)             Requested size: 256.0774pt x 215.70036pt.
-<./images/blockchain_1.png, id=335, 249.3315pt x 249.3315pt>
+<./images/blockchain_1.png, id=348, 249.3315pt x 249.3315pt>
 File: ./images/blockchain_1.png Graphic file (type png)
 <use ./images/blockchain_1.png>
 Package pdftex.def Info: ./images/blockchain_1.png  used on input line 22.
@@ -1421,12 +1421,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-<./images/encryption.png, id=355, 963.6pt x 542.025pt>
+<./images/encryption.png, id=368, 963.6pt x 542.025pt>
 File: ./images/encryption.png Graphic file (type png)
 <use ./images/encryption.png>
 Package pdftex.def Info: ./images/encryption.png  used on input line 51.
 (pdftex.def)             Requested size: 341.43436pt x 192.05217pt.
-<./images/signature.png, id=357, 548.0475pt x 311.9655pt>
+<./images/signature.png, id=370, 548.0475pt x 311.9655pt>
 File: ./images/signature.png Graphic file (type png)
 <use ./images/signature.png>
 Package pdftex.def Info: ./images/signature.png  used on input line 59.
@@ -2086,50 +2086,75 @@ coord trafo unsupported.
 ]
 [37
 
-] [38
+]
+Overfull \hbox (64.33217pt too wide) in alignment at lines 17--22
+ [] [] [] [] 
+ []
+
+
+Overfull \vbox (8.33334pt too high) detected at line 61
+ []
+
+
+Overfull \hbox (64.33217pt too wide) in alignment at lines 22--62
+ [] [] [] [] 
+ []
+
+
+Overfull \vbox (22.83334pt too high) detected at line 90
+ []
+
+
+Overfull \hbox (64.33217pt too wide) in alignment at lines 62--99
+ [] [] [] [] 
+ []
+
+[38
+
+] [39
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 []|\OT1/cmr/m/n/12 Disadvantage of cur-rent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 \OT1/cmr/m/n/12 manuscript sub-mis-sion sys-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 60--61
+Underfull \hbox (badness 2401) in paragraph at lines 126--127
 \OT1/cmr/m/n/12 tems: no ex-is-tence of proof,
  []
 
-[39
+[40
 
-] [40
+] [41
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []|\OT1/cmr/m/n/12 Tamperproof times-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \OT1/cmr/m/n/12 tamp: proof for
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 94--94
+Underfull \hbox (badness 5022) in paragraph at lines 160--160
 []|\OT1/cmr/m/n/12 Timestamp is in-de-
  []
 
-)) [41
+)) [42
 
-] (sections/sec_discussion.tex) [42
+] (sections/sec_discussion.tex) [43
 
 ] (sections/sec_conclusion.tex)
-[43
+[44
 
-] (sections/appendix.tex (masters_thesis.nls) [44
+] (sections/appendix.tex (masters_thesis.nls) [45
 
 ]
 (sections/sec_summary_reviews.tex
@@ -2137,32 +2162,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
-[45
+[46
 
-]) [46] (sections/content_papers_overview.tex
-(sections/paper_overviews/2017_Gipp.tex [47
+]) [47] (sections/content_papers_overview.tex
+(sections/paper_overviews/2017_Gipp.tex [48
 
 ]
-<./images/2017_Gipp_Overview.png, id=1177, 1121.99174pt x 546.843pt>
+<./images/2017_Gipp_Overview.png, id=1206, 1121.99174pt x 546.843pt>
 File: ./images/2017_Gipp_Overview.png Graphic file (type png)
 <use ./images/2017_Gipp_Overview.png>
 Package pdftex.def Info: ./images/2017_Gipp_Overview.png  used on input line 63
 .
 (pdftex.def)             Requested size: 426.79134pt x 208.0111pt.
- [48 <./images/2017_Gipp_Overview.png>])
+ [49 <./images/2017_Gipp_Overview.png>])
 Underfull \hbox (badness 10000) in paragraph at lines 78--3
 
  []
 
-(sections/paper_overviews/2016_Kianmajd.tex [49])
-(sections/paper_overviews/2017_Naerland.tex [50
+(sections/paper_overviews/2016_Kianmajd.tex [50])
+(sections/paper_overviews/2017_Naerland.tex [51
 
-]))) [51
+])
+(sections/paper_overviews/2015_Zyskind.tex [52
 
-] (masters_thesis.bbl
-[52
+]
+Overfull \hbox (6.89201pt too wide) in alignment at lines 8--13
+ [] [] [] 
+ []
 
-] [53] [54]
+
+Overfull \hbox (6.89201pt too wide) in alignment at lines 13--20
+ [] [] [] 
+ []
+
+) (sections/paper_overviews/2017_Madhwal.tex [53
+
+]
+Overfull \vbox (8.33334pt too high) detected at line 14
+ []
+
+) (sections/paper_overviews/2017_Tackmann.tex [54
+
+])
+(sections/paper_overviews/2016_Schaub.tex [55
+
+])
+(sections/paper_overviews/2016_Yasin.tex [56
+
+])
+(sections/paper_overviews/2016_Yue.tex [57
+
+]
+Overfull \vbox (22.83334pt too high) detected at line 16
+ []
+
+))) [58
+
+] (masters_thesis.bbl [59
+
+] [60] [61]
 Underfull \hbox (badness 10000) in paragraph at lines 265--270
 \OT1/cmr/m/n/12 viewdoc / download ; jsessionid = C1C55F92FFC0899D3B8DD6743360D
 2C7 ?
@@ -2198,7 +2256,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--312
  frontdoor / deliver / index / docId /
  []
 
-[55] [56]) [57] (sections/eidesstattliche_erklaerung.tex) [58
+[62] [63]) [64] (sections/eidesstattliche_erklaerung.tex) [65
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
@@ -2208,22 +2266,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `masters_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FDFEBDB4551CF900B6FBF8A77612CBE4;2927.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 9B1BC81FFB7273DDEF980E3BF900057E;2927.
  ) 
 Here is how much of TeX's memory you used:
- 36100 strings out of 492973
- 870040 string characters out of 3122262
- 1112882 words of memory out of 3000000
- 38873 multiletter control sequences out of 15000+200000
+ 36180 strings out of 492973
+ 871848 string characters out of 3122262
+ 1115404 words of memory out of 3000000
+ 38885 multiletter control sequences out of 15000+200000
  15034 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,98p,1434b,2350s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.59} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.56} has been referenced but does not exis
+t, replaced by a fixed one
 
 <C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 
@@ -2237,9 +2294,9 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ckrutzenbichler
 :/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on masters_thesis.pdf (65 pages, 1795622 bytes).
+Output written on masters_thesis.pdf (72 pages, 1818960 bytes).
 PDF statistics:
- 1396 PDF objects out of 1440 (max. 8388607)
- 352 named destinations out of 1000 (max. 500000)
+ 1507 PDF objects out of 1728 (max. 8388607)
+ 402 named destinations out of 1000 (max. 500000)
  379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
