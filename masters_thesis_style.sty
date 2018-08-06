@@ -7,12 +7,14 @@
 \usepackage{amssymb}
 \usepackage[title]{appendix} % for the appendix numbering
 \usepackage{color}
+\usepackage{colortbl}
 \usepackage{csquotes}
 \usepackage{datetime}
 \usepackage{filecontents}
 \usepackage[inline]{enumitem}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
+\usepackage{hhline}
 \usepackage{hyperref}
 \usepackage{lineno}
 \usepackage{longtable}
@@ -21,6 +23,7 @@
 \usepackage{multirow}
 \usepackage[square,numbers]{natbib}
 \usepackage{nomencl}
+\usepackage{pifont}% http://ctan.org/pkg/pifont
 \usepackage{pdflscape}
 \usepackage{pdfpages}
 \usepackage{pgfgantt}
@@ -35,6 +38,7 @@
 \usepackage{verbatim}
 \usepackage{wrapfig}
 \usepackage{xcolor}
+
 
 \tikzset{
     vertex/.style = {
@@ -94,6 +98,11 @@ To get the text into landscape
 \newcommand{\citetwo}[2]{\citet{#1} and \citet{#2}}
 \newcommand{\urlfootnote}[1]{\footnote{\url{#1}}} 
 % End my commands
+
+% Other defined commands
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+% End other defined commands
 
 % for the list of abbreviations
 \makenomenclature
