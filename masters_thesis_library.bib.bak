@@ -916,7 +916,14 @@ as new and creative ideas come to fruition.},
   year      = {2017},
   month     = {12},
   publisher = {AIS Electronic Library (AISeL)},
-  abstract  = {Many  decentralized,  inter-organizational  environments  such  as  supply  chains  are  characterized by high transactional uncertainty and risk. At the same time, blockchain technology  promises  to  mitigate  these  issues  by  introducing  certainty  into  economic transactions.  This  paper  discusses  the  findings  of  a  Design  Science  Research  project  involving  the  construction  and  evaluation  of  an  information  technology  artifact  in collaboration  with  Maersk,  a  leading  international  shipping  company,  where  central documents in  shipping,  such  as  the  Bill  of  Lading,  are  turned  into  a  smart  contract  on blockchain.  Based  on  our  insights  from  the  project,  we  provide  first  evidence  for preliminary  design  principles  for  applications  that  aim  to  mitigate  the  transactional risk  and  uncertainty  in  decentralized  environments  using  blockchain.  Both  the  artifact and  the  first  evidence  for  emerging  design  principles  are  novel,  contributing  to  the  discourse  on  the  implications  that  the  advent  of  blockchain  technology  poses  for  governing economic activity. },
+  abstract  = {Many  decentralized,  inter-organizational  environments  such  as  supply  chains  are  characterized by high transactional uncertainty and risk. At the same time, blockchain 
+technology  promises  to  mitigate  these  issues  by  introducing  certainty  into  economic 
+transactions.  This  paper  discusses  the  findings  of  a  Design  Science  Research  project  involving  the  construction  and  evaluation  of  an  information  technology  artifact  in 
+collaboration  with  Maersk,  a  leading  international  shipping  company,  where  central 
+documents in  shipping,  such  as  the  Bill  of  Lading,  are  turned  into  a  smart  contract  on 
+blockchain.  Based  on  our  insights  from  the  project,  we  provide  first  evidence  for 
+preliminary  design  principles  for  applications  that  aim  to  mitigate  the  transactional 
+risk  and  uncertainty  in  decentralized  environments  using  blockchain.  Both  the  artifact and  the  first  evidence  for  emerging  design  principles  are  novel,  contributing  to  the  discourse  on  the  implications  that  the  advent  of  blockchain  technology  poses  for  governing economic activity. },
   keywords  = {Blockchain, Bill of Lading, international trade, decentralized environments},
   url       = {https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1323&context=icis2017 },
 }

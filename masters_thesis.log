@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  6 AUG 2018 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  6 AUG 2018 16:49
 entering extended mode
 **./masters_thesis.tex
 (masters_thesis.tex
@@ -1399,13 +1399,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 (sections/sec_introduction.tex) [1] (sections/sec_background.tex
-<./images/gartner_hype_cycle.png, id=329, 504.08325pt x 424.58624pt>
+<./images/gartner_hype_cycle.png, id=333, 504.08325pt x 424.58624pt>
 File: ./images/gartner_hype_cycle.png Graphic file (type png)
 <use ./images/gartner_hype_cycle.png>
 Package pdftex.def Info: ./images/gartner_hype_cycle.png  used on input line 15
 .
 (pdftex.def)             Requested size: 256.0774pt x 215.70036pt.
-<./images/blockchain_1.png, id=331, 249.3315pt x 249.3315pt>
+<./images/blockchain_1.png, id=335, 249.3315pt x 249.3315pt>
 File: ./images/blockchain_1.png Graphic file (type png)
 <use ./images/blockchain_1.png>
 Package pdftex.def Info: ./images/blockchain_1.png  used on input line 22.
@@ -1421,12 +1421,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-<./images/encryption.png, id=351, 963.6pt x 542.025pt>
+<./images/encryption.png, id=355, 963.6pt x 542.025pt>
 File: ./images/encryption.png Graphic file (type png)
 <use ./images/encryption.png>
 Package pdftex.def Info: ./images/encryption.png  used on input line 51.
 (pdftex.def)             Requested size: 341.43436pt x 192.05217pt.
-<./images/signature.png, id=353, 548.0475pt x 311.9655pt>
+<./images/signature.png, id=357, 548.0475pt x 311.9655pt>
 File: ./images/signature.png Graphic file (type png)
 <use ./images/signature.png>
 Package pdftex.def Info: ./images/signature.png  used on input line 59.
@@ -2089,17 +2089,17 @@ coord trafo unsupported.
 ] [38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 []|\OT1/cmr/m/n/12 Disadvantage of cur-rent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \OT1/cmr/m/n/12 manuscript sub-mis-sion sys-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 56--57
+Underfull \hbox (badness 2401) in paragraph at lines 60--61
 \OT1/cmr/m/n/12 tems: no ex-is-tence of proof,
  []
 
@@ -2108,17 +2108,17 @@ Underfull \hbox (badness 2401) in paragraph at lines 56--57
 ] [40
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []|\OT1/cmr/m/n/12 Tamperproof times-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 tamp: proof for
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 90--90
+Underfull \hbox (badness 5022) in paragraph at lines 94--94
 []|\OT1/cmr/m/n/12 Timestamp is in-de-
  []
 
@@ -2139,23 +2139,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
 [45
 
-]) [46] (sections/content_papers_overview.tex [47
+]) [46] (sections/content_papers_overview.tex
+(sections/paper_overviews/2017_Gipp.tex [47
 
 ]
-<./images/2017_Gipp_Overview.png, id=1173, 1121.99174pt x 546.843pt>
+<./images/2017_Gipp_Overview.png, id=1177, 1121.99174pt x 546.843pt>
 File: ./images/2017_Gipp_Overview.png Graphic file (type png)
 <use ./images/2017_Gipp_Overview.png>
-Package pdftex.def Info: ./images/2017_Gipp_Overview.png  used on input line 64
+Package pdftex.def Info: ./images/2017_Gipp_Overview.png  used on input line 63
 .
 (pdftex.def)             Requested size: 426.79134pt x 208.0111pt.
- [48 <./images/2017_Gipp_Overview.png>]))
-Underfull \hbox (badness 10000) in paragraph at lines 79--69
+ [48 <./images/2017_Gipp_Overview.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 78--3
 
  []
 
-[49] (masters_thesis.bbl [50
+(sections/paper_overviews/2016_Kianmajd.tex [49])
+(sections/paper_overviews/2017_Naerland.tex [50
 
-] [51] [52]
+]))) [51
+
+] (masters_thesis.bbl
+[52
+
+] [53] [54]
 Underfull \hbox (badness 10000) in paragraph at lines 265--270
 \OT1/cmr/m/n/12 viewdoc / download ; jsessionid = C1C55F92FFC0899D3B8DD6743360D
 2C7 ?
@@ -2191,7 +2198,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--312
  frontdoor / deliver / index / docId /
  []
 
-[53] [54]) [55] (sections/eidesstattliche_erklaerung.tex) [56
+[55] [56]) [57] (sections/eidesstattliche_erklaerung.tex) [58
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
@@ -2201,31 +2208,38 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `masters_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 370EE3BBCA75850D2FD67EDD41B2CAE1;2927.
+(rerunfilecheck)             Checksum: FDFEBDB4551CF900B6FBF8A77612CBE4;2927.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 36068 strings out of 492973
- 869094 string characters out of 3122262
- 1112692 words of memory out of 3000000
- 38869 multiletter control sequences out of 15000+200000
+ 36100 strings out of 492973
+ 870040 string characters out of 3122262
+ 1112882 words of memory out of 3000000
+ 38873 multiletter control sequences out of 15000+200000
  15034 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,98p,1434b,2350s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ckrutzenbichler/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
-s/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ckrutzenbichler/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ckrutzenbichl
-er/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not ex
+ist, replaced by a fixed one
+
 <C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmti12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on masters_thesis.pdf (63 pages, 1788274 bytes).
+amsfonts/cm/cmbx12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ckrutzenbichler/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
+ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/ckrutzenbichler/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ckrutzenbichler
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on masters_thesis.pdf (65 pages, 1795622 bytes).
 PDF statistics:
- 1362 PDF objects out of 1440 (max. 8388607)
- 335 named destinations out of 1000 (max. 500000)
+ 1396 PDF objects out of 1440 (max. 8388607)
+ 352 named destinations out of 1000 (max. 500000)
  379 words of extra memory for PDF output out of 10000 (max. 10000000)
 

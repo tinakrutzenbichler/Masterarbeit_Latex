@@ -71,4 +71,4 @@
 \contentsline {section}{\numberline {A}List of abbreviations}{44}{Appendix.a.A}
 \contentsline {section}{\numberline {B}Second Appendix}{45}{Appendix.a.B}
 \contentsline {section}{\numberline {C}Content-Based Information per paper}{47}{Appendix.a.C}
-\contentsline {section}{Bibliography}{50}{section*.47}
+\contentsline {section}{Bibliography}{52}{section*.59}
