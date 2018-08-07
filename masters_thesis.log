@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  7 AUG 2018 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  7 AUG 2018 13:16
 entering extended mode
 **./masters_thesis.tex
 (masters_thesis.tex
@@ -2146,44 +2146,7 @@ coord trafo unsupported.
 ]
 [37
 
-]
-Overfull \hbox (43.64322pt too wide) in alignment at lines 16--21
- [] [] [] [] 
- []
-
-
-Overfull \hbox (3.52249pt too wide) in paragraph at lines 44--44
- []|[]| 
- []
-
-
-Overfull \hbox (43.64322pt too wide) in alignment at lines 21--61
- [] [] [] [] 
- []
-
-
-Overfull \hbox (43.64322pt too wide) in alignment at lines 61--102
- [] [] [] [] 
- []
-
-
-Overfull \hbox (43.64322pt too wide) in alignment at lines 102--146
- [] [] [] [] 
- []
-
-
-Overfull \hbox (43.64322pt too wide) in alignment at lines 146--186
- [] [] [] [] 
- []
-
-[38
-
-]
-Overfull \hbox (43.64322pt too wide) in alignment at lines 186--197
- [] [] [] [] 
- []
-
-[39] [40] [41
+] [38] [39] [40
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 223--224
@@ -2200,9 +2163,9 @@ Underfull \hbox (badness 2401) in paragraph at lines 223--224
 \OT1/cmr/m/n/12 tems: no ex-is-tence of proof,
  []
 
-[42
+[41
 
-] [43
+] [42
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 255--255
@@ -2219,14 +2182,14 @@ Underfull \hbox (badness 5022) in paragraph at lines 257--257
 []|\OT1/cmr/m/n/12 Timestamp is in-de-
  []
 
-)) [44
+)) [43
 
-] (sections/sec_discussion.tex) [45
+] (sections/sec_discussion.tex) [44
 
 ] (sections/sec_conclusion.tex)
-[46
+[45
 
-] (sections/appendix.tex (masters_thesis.nls) [47
+] (sections/appendix.tex (masters_thesis.nls) [46
 
 ]
 (sections/sec_summary_reviews.tex
@@ -2234,64 +2197,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
-[48
+[47
 
-]) [49] (sections/content_papers_overview.tex
-(sections/paper_overviews/2017_Gipp.tex [50
+]) [48] (sections/content_papers_overview.tex
+(sections/paper_overviews/2017_Gipp.tex [49
 
 ]
-<./images/2017_Gipp_Overview.png, id=1248, 1121.99174pt x 546.843pt>
+<./images/2017_Gipp_Overview.png, id=1244, 1121.99174pt x 546.843pt>
 File: ./images/2017_Gipp_Overview.png Graphic file (type png)
 <use ./images/2017_Gipp_Overview.png>
 Package pdftex.def Info: ./images/2017_Gipp_Overview.png  used on input line 63
 .
 (pdftex.def)             Requested size: 426.79134pt x 208.0111pt.
- [51 <./images/2017_Gipp_Overview.png>])
+ [50 <./images/2017_Gipp_Overview.png>])
 Underfull \hbox (badness 10000) in paragraph at lines 78--3
 
  []
 
-(sections/paper_overviews/2016_Kianmajd.tex [52])
-(sections/paper_overviews/2017_Naerland.tex [53
+(sections/paper_overviews/2016_Kianmajd.tex [51])
+(sections/paper_overviews/2017_Naerland.tex [52
 
 ])
-(sections/paper_overviews/2015_Zyskind.tex [54
+(sections/paper_overviews/2015_Zyskind.tex [53
 
 ])
-(sections/paper_overviews/2017_Madhwal.tex [55
+(sections/paper_overviews/2017_Madhwal.tex [54
 
 ])
-(sections/paper_overviews/2017_Tackmann.tex [56
+(sections/paper_overviews/2017_Tackmann.tex [55
 
 ])
-(sections/paper_overviews/2016_Schaub.tex [57
+(sections/paper_overviews/2016_Schaub.tex [56
 
 ])
-(sections/paper_overviews/2016_Yasin.tex [58
+(sections/paper_overviews/2016_Yasin.tex [57
 
 ])
-(sections/paper_overviews/2016_Yue.tex [59
+(sections/paper_overviews/2016_Yue.tex [58
 
 ])
-(sections/paper_overviews/2016_Bahga.tex [60
+(sections/paper_overviews/2016_Bahga.tex [59
 
 ])
-(sections/paper_overviews/2018_Alessandra.tex [61
+(sections/paper_overviews/2018_Alessandra.tex [60
 
 ])
-(sections/paper_overviews/2016_Azaria.tex [62
+(sections/paper_overviews/2016_Azaria.tex [61
 
 ])
-(sections/paper_overviews/2017_Coyne.tex [63
+(sections/paper_overviews/2017_Coyne.tex [62
 
 ])
-(sections/paper_overviews/2015_Dennis.tex [64
+(sections/paper_overviews/2015_Dennis.tex [63
 
 ])
-(sections/paper_overviews/2017_Jaag.tex [65
+(sections/paper_overviews/2017_Jaag.tex [64
 
 ])
-(sections/paper_overviews/2016_Jacynycz.tex [66
+(sections/paper_overviews/2016_Jacynycz.tex [65
 
 ]
 Overfull \hbox (24.73764pt too wide) in alignment at lines 8--13
@@ -2303,26 +2266,26 @@ Overfull \hbox (24.73764pt too wide) in alignment at lines 13--22
  [] [] [] 
  []
 
-) (sections/paper_overviews/2017_Liu.tex [67
+) (sections/paper_overviews/2017_Liu.tex [66
 
 ])
-(sections/paper_overviews/2018_Lucena.tex [68
+(sections/paper_overviews/2018_Lucena.tex [67
 
 ])
-(sections/paper_overviews/2017_Ouaddah.tex [69
+(sections/paper_overviews/2017_Ouaddah.tex [68
 
 ])
-(sections/paper_overviews/2016_Sharples.tex [70
+(sections/paper_overviews/2016_Sharples.tex [69
 
 ])
-(sections/paper_overviews/2016_Tian.tex [71
+(sections/paper_overviews/2016_Tian.tex [70
 
-]))) [72
+]))) [71
 
 ] (masters_thesis.bbl
-[73
+[72
 
-] [74] [75]
+] [73] [74]
 Underfull \hbox (badness 10000) in paragraph at lines 265--270
 \OT1/cmr/m/n/12 viewdoc / download ; jsessionid = C1C55F92FFC0899D3B8DD6743360D
 2C7 ?
@@ -2358,7 +2321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--312
  frontdoor / deliver / index / docId /
  []
 
-[76] [77]) [78] (sections/eidesstattliche_erklaerung.tex) [79
+[75] [76]) [77] (sections/eidesstattliche_erklaerung.tex) [78
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
@@ -2371,9 +2334,9 @@ Package rerunfilecheck Info: File `masters_thesis.out' has not changed.
 (rerunfilecheck)             Checksum: F8693921398F9F12278B5D7E6A903DFF;2928.
  ) 
 Here is how much of TeX's memory you used:
- 36796 strings out of 492973
- 882666 string characters out of 3122262
- 1157658 words of memory out of 3000000
+ 36795 strings out of 492973
+ 882659 string characters out of 3122262
+ 1152657 words of memory out of 3000000
  39354 multiletter control sequences out of 15000+200000
  15034 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2399,9 +2362,9 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ckrutzenbichler
 :/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on masters_thesis.pdf (86 pages, 1862449 bytes).
+Output written on masters_thesis.pdf (85 pages, 1861998 bytes).
 PDF statistics:
- 1723 PDF objects out of 1728 (max. 8388607)
- 501 named destinations out of 1000 (max. 500000)
+ 1719 PDF objects out of 1728 (max. 8388607)
+ 500 named destinations out of 1000 (max. 500000)
  379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
