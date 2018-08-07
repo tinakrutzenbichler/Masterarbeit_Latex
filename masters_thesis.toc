@@ -60,15 +60,15 @@
 \contentsline {subsubsection}{\numberline {4.1.5}RQ5: Keywords}{30}{subsubsection.4.1.5}
 \contentsline {subsection}{\numberline {4.2}Content-based Information}{36}{subsection.4.2}
 \contentsline {subsubsection}{\numberline {4.2.1}RQ6: Authors}{37}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}RQ7: Contribution}{40}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}RQ8: Reason/Problems}{41}{subsubsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.4}RQ9: Implementation Process}{42}{subsubsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.5}RQ10: Conclusion}{43}{subsubsection.4.2.5}
-\contentsline {section}{\numberline {5}Discussion}{44}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{45}{section.6}
-\contentsline {subsection}{\numberline {6.1}Summary}{45}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Future Work}{45}{subsection.6.2}
-\contentsline {section}{\numberline {A}List of abbreviations}{46}{Appendix.a.A}
-\contentsline {section}{\numberline {B}Second Appendix}{47}{Appendix.a.B}
-\contentsline {section}{\numberline {C}Content-Based Information per paper}{49}{Appendix.a.C}
-\contentsline {section}{Bibliography}{72}{section*.167}
+\contentsline {subsubsection}{\numberline {4.2.2}RQ7: Contribution}{44}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}RQ8: Reason/Problems}{45}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}RQ9: Implementation Process}{46}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}RQ10: Conclusion}{47}{subsubsection.4.2.5}
+\contentsline {section}{\numberline {5}Discussion}{48}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{49}{section.6}
+\contentsline {subsection}{\numberline {6.1}Summary}{49}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Future Work}{49}{subsection.6.2}
+\contentsline {section}{\numberline {A}List of abbreviations}{50}{Appendix.a.A}
+\contentsline {section}{\numberline {B}Second Appendix}{51}{Appendix.a.B}
+\contentsline {section}{\numberline {C}Content-Based Information per paper}{53}{Appendix.a.C}
+\contentsline {section}{Bibliography}{76}{section*.167}
