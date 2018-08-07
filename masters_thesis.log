@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  7 AUG 2018 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  7 AUG 2018 13:27
 entering extended mode
 **./masters_thesis.tex
 (masters_thesis.tex
@@ -2256,17 +2256,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--3
 ])
 (sections/paper_overviews/2016_Jacynycz.tex [65
 
-]
-Overfull \hbox (24.73764pt too wide) in alignment at lines 8--13
- [] [] [] 
- []
-
-
-Overfull \hbox (24.73764pt too wide) in alignment at lines 13--22
- [] [] [] 
- []
-
-) (sections/paper_overviews/2017_Liu.tex [66
+])
+(sections/paper_overviews/2017_Liu.tex [66
 
 ])
 (sections/paper_overviews/2018_Lucena.tex [67
@@ -2336,11 +2327,11 @@ Package rerunfilecheck Info: File `masters_thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  36795 strings out of 492973
  882659 string characters out of 3122262
- 1152657 words of memory out of 3000000
+ 1152651 words of memory out of 3000000
  39354 multiletter control sequences out of 15000+200000
  15034 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,15n,98p,1434b,2346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,13n,98p,1434b,2346s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.60} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -2362,7 +2353,7 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ckrutzenbichler
 :/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on masters_thesis.pdf (85 pages, 1861998 bytes).
+Output written on masters_thesis.pdf (85 pages, 1862275 bytes).
 PDF statistics:
  1719 PDF objects out of 1728 (max. 8388607)
  500 named destinations out of 1000 (max. 500000)
