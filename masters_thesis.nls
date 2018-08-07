@@ -3,15 +3,15 @@
  \nomgroup{O}
 
   \item [{AI}]\begingroup Artificial intelligence\nomeqref {0}
-		\nompageref{27}
+		\nompageref{25}
   \item [{IT}]\begingroup Information Technology\nomeqref {0}
-		\nompageref{27}
+		\nompageref{25}
   \item [{MENA}]\begingroup Middle East and North Africa\nomeqref {0}
-		\nompageref{27}
+		\nompageref{26}
   \item [{P2P}]\begingroup Peer-to-Peer Network\nomeqref {0}
 		\nompageref{3}
   \item [{RQ(s)}]\begingroup Research Question(s)\nomeqref {0}
-		\nompageref{14}
+		\nompageref{15}
 
  \nomgroup{P}
 
@@ -20,15 +20,15 @@
   \item [{COMPSAC}]\begingroup International Computer Software and Applications Conference\nomeqref {0}
 		\nompageref{22}
   \item [{DCAI}]\begingroup International Conference on Distributed Computing and Artificial Intelligence\nomeqref {0}
-		\nompageref{22}
+		\nompageref{23}
   \item [{EC-TEL}]\begingroup European Conference on Technology Enhanced Learning\nomeqref {0}
-		\nompageref{22}
+		\nompageref{23}
   \item [{EMENA-TSSL}]\begingroup Europe, Middle East and North Africa Conference on Technology and Security to Support Learning\nomeqref {0}
-		\nompageref{27}
+		\nompageref{26}
   \item [{ESORICS}]\begingroup European Symposium On Research In Computer Security\nomeqref {0}
 		\nompageref{22}
   \item [{FAB}]\begingroup Symposium on Foundations and Applications of Blockchain\nomeqref {0}
-		\nompageref{22}
+		\nompageref{23}
   \item [{ICITST}]\begingroup International Conference for Internet Technology and Secured Transactions\nomeqref {0}
 		\nompageref{23}
   \item [{ICSSSM}]\begingroup International Conference on Service Systems and Service Management\nomeqref {0}
@@ -38,16 +38,21 @@
   \item [{IFIP SEC}]\begingroup IFIP Information Security \& Privacy Conference\nomeqref {0}
 		\nompageref{22}
   \item [{IJASEIT}]\begingroup International Journal on Advanced Science, Engineering and Information Technology\nomeqref {0}
-		\nompageref{23}
+		\nompageref{22}
   \item [{JCDL}]\begingroup Joint Conference on Digital Libraries\nomeqref {0}
 		\nompageref{22}
   \item [{JETA}]\begingroup Journal of Emerging Technologies in Accounting\nomeqref {0}
-		\nompageref{23}
+		\nompageref{22}
   \item [{JSEA}]\begingroup Journal of Software Engineering and Applications\nomeqref {0}
 		\nompageref{22}
   \item [{OBD}]\begingroup International Conference on Open and Big Data\nomeqref {0}
-		\nompageref{23}
+		\nompageref{22}
   \item [{S\&P}]\begingroup IEEE Symposium on Security and Privacy\nomeqref {0}
 		\nompageref{22}
+
+ \nomgroup{U}
+
+  \item [{UFRGS}]\begingroup Federal University of Rio Grande do Sul\nomeqref {0}
+		\nompageref{69}
 
 \end{thenomenclature}

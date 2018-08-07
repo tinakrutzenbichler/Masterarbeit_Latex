@@ -5,6 +5,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{array}
 \usepackage[title]{appendix} % for the appendix numbering
 \usepackage{color}
 \usepackage{colortbl}
@@ -13,6 +14,7 @@
 \usepackage{filecontents}
 \usepackage[inline]{enumitem}
 \usepackage{graphicx}
+\usepackage[a4paper]{geometry}
 \graphicspath{ {./images/} }
 \usepackage{hhline}
 \usepackage{hyperref}
@@ -82,7 +84,7 @@ To get the text into landscape
 
 \sloppy % Damit LaTeX nicht so viel über "overfull hbox" u.Ä. meckert
 
-% Ränder
+% Anfang Ränder
 \addtolength{\topmargin}{-16mm}
 \setlength{\oddsidemargin}{25mm}
 \setlength{\evensidemargin}{35mm}
@@ -90,7 +92,7 @@ To get the text into landscape
 \addtolength{\evensidemargin}{-1in}
 \setlength{\textwidth}{15cm}
 \addtolength{\textheight}{34mm}
-
+% End Ränder
 
 % Start My commands
 \newcommand{\quoteit}[1]{\textit{\enquote{#1}}} 
@@ -102,6 +104,7 @@ To get the text into landscape
 % Other defined commands
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{55}}%
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 % End other defined commands
 
 % for the list of abbreviations
@@ -113,7 +116,8 @@ To get the text into landscape
 \renewcommand\nomgroup[1]{%
   \item[\bfseries
   \ifstrequal{#1}{P}{Publication Channels}{%
+  \ifstrequal{#1}{U}{Universities}{%
   \ifstrequal{#1}{N}{Number Sets}{%
-  \ifstrequal{#1}{O}{Others}{}}}%
+  \ifstrequal{#1}{O}{Others}{}}}}%
 ]}
 % -----------------------------------------

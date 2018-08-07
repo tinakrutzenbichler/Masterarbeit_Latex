@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  6 AUG 2018 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  7 AUG 2018 11:58
 entering extended mode
 **./masters_thesis.tex
 (masters_thesis.tex
@@ -147,6 +147,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\ar
+ray.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen113
+\ar@mcellbox=\box28
+\extrarowheight=\dimen114
+\NC@list=\toks21
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box29
+)
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix
 \appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
@@ -171,18 +182,6 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl
 \colortbl.sty"
 Package: colortbl 2018/05/02 v1.0c Color table columns (DPC)
-
-("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\ar
-ray.sty"
-Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
-\col@sep=\dimen113
-\ar@mcellbox=\box28
-\extrarowheight=\dimen114
-\NC@list=\toks21
-\extratabsurround=\skip46
-\backup@length=\skip47
-\ar@cellbox=\box29
-)
 \everycr=\toks22
 \minrowclearance=\skip48
 )
@@ -329,6 +328,38 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
+("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry
+\geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
+ek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdi
+ek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxete
+x\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count139
+\Gm@cntv=\count140
+\c@Gm@tempcnt=\count141
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks30
+
+("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry
+\geometry.cfg"))
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\hh
 line.sty"
 Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
@@ -350,10 +381,9 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -382,10 +412,6 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxete
-x\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
 \auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
@@ -394,9 +420,9 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 \kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen118
-\Hy@linkcounter=\count139
-\Hy@pagecounter=\count140
+\@linkdim=\dimen126
+\Hy@linkcounter=\count142
+\Hy@pagecounter=\count143
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
 \pd1enc.def"
@@ -404,7 +430,7 @@ File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count141
+\Hy@SavedSpaceFactor=\count144
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex
 \hyperref.cfg"
@@ -417,7 +443,7 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count142
+\c@Hy@tempcnt=\count145
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.
 sty"
@@ -425,10 +451,10 @@ sty"
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen119
-\Fld@menulength=\count143
-\Field@Width=\dimen120
-\Fld@charsize=\dimen121
+\XeTeXLinkMargin=\dimen127
+\Fld@menulength=\count146
+\Field@Width=\dimen128
+\Fld@charsize=\dimen129
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -438,17 +464,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count144
-\c@Item=\count145
-\c@Hfootnote=\count146
+\Hy@abspage=\count147
+\c@Item=\count148
+\c@Hfootnote=\count149
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
 \hpdftex.def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count147
-\c@bookmark@seq@number=\count148
+\Fld@listcount=\count150
+\c@bookmark@seq@number=\count151
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
 \rerunfilecheck.sty"
@@ -461,19 +487,19 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lineno\l
 ineno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count149
-\output=\toks30
-\linenoprevgraf=\count150
-\linenumbersep=\dimen122
-\linenumberwidth=\dimen123
-\c@linenumber=\count151
-\c@pagewiselinenumber=\count152
-\c@LN@truepage=\count153
-\c@internallinenumber=\count154
-\c@internallinenumbers=\count155
-\quotelinenumbersep=\dimen124
-\bframerule=\dimen125
-\bframesep=\dimen126
+\linenopenalty=\count152
+\output=\toks31
+\linenoprevgraf=\count153
+\linenumbersep=\dimen130
+\linenumberwidth=\dimen131
+\c@linenumber=\count154
+\c@pagewiselinenumber=\count155
+\c@LN@truepage=\count156
+\c@internallinenumber=\count157
+\c@internallinenumbers=\count158
+\quotelinenumbersep=\dimen132
+\bframerule=\dimen133
+\bframesep=\dimen134
 \bframebox=\box31
 
 
@@ -489,17 +515,17 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip52
 \LTpre=\skip53
 \LTpost=\skip54
-\LTchunksize=\count156
-\LTcapwidth=\dimen127
+\LTchunksize=\count159
+\LTcapwidth=\dimen135
 \LT@head=\box32
 \LT@firsthead=\box33
 \LT@foot=\box34
 \LT@lastfoot=\box35
-\LT@cols=\count157
-\LT@rows=\count158
-\c@LT@tables=\count159
-\c@LT@chunks=\count160
-\LT@p@ftn=\toks31
+\LT@cols=\count160
+\LT@rows=\count161
+\c@LT@tables=\count162
+\c@LT@chunks=\count163
+\LT@p@ftn=\toks32
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics
 \lscape.sty"
@@ -512,15 +538,15 @@ Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\ca
 lc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count161
-\calc@Bcount=\count162
-\calc@Adimen=\dimen128
-\calc@Bdimen=\dimen129
+\calc@Acount=\count164
+\calc@Bcount=\count165
+\calc@Adimen=\dimen136
+\calc@Bdimen=\dimen137
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count163
+\calc@Ccount=\count166
 \calc@Cskip=\skip57
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtool
@@ -531,23 +557,23 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count164
-\l_MT_multwidth_dim=\dimen130
+\g_MT_multlinerow_int=\count167
+\l_MT_multwidth_dim=\dimen138
 \origjot=\skip58
-\l_MT_shortvdotswithinadjustabove_dim=\dimen131
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen132
-\l_MT_above_intertext_sep=\dimen133
-\l_MT_below_intertext_sep=\dimen134
-\l_MT_above_shortintertext_sep=\dimen135
-\l_MT_below_shortintertext_sep=\dimen136
+\l_MT_shortvdotswithinadjustabove_dim=\dimen139
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen140
+\l_MT_above_intertext_sep=\dimen141
+\l_MT_below_intertext_sep=\dimen142
+\l_MT_above_shortintertext_sep=\dimen143
+\l_MT_below_shortintertext_sep=\dimen144
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow
 \multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip59
-\multirow@cntb=\count165
+\multirow@cntb=\count168
 \multirow@dima=\skip60
-\bigstrutjot=\dimen137
+\bigstrutjot=\dimen145
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\n
 atbib.sty"
@@ -555,13 +581,13 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip61
 \bibsep=\skip62
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count166
+\c@NAT@ctr=\count169
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\nomencl\
 nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen138
-\nom@tempdim=\dimen139
+\nomlabelwidth=\dimen146
+\nom@tempdim=\dimen147
 \nomitemsep=\skip63
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\p
@@ -592,17 +618,17 @@ Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 eso-pic.sty"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
-\AM@pagewidth=\dimen140
-\AM@pageheight=\dimen141
+\AM@pagewidth=\dimen148
+\AM@pageheight=\dimen149
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages
 \pppdftex.def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box36
-\AM@global@opts=\toks32
-\AM@toc@title=\toks33
-\c@AM@survey=\count167
+\AM@global@opts=\toks33
+\AM@toc@title=\toks34
+\c@AM@survey=\count170
 \AM@templatesizebox=\box37
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfgantt
@@ -617,9 +643,9 @@ clayer\pgf.sty"
 ities\pgfrcs.sty"
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
 ilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks34
-\pgfutil@tempdima=\dimen142
-\pgfutil@tempdimb=\dimen143
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen150
+\pgfutil@tempdimb=\dimen151
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
 ilities\pgfutil-common-lists.tex"))
@@ -647,30 +673,30 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
 ilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
 ilities\pgfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks37
+\pgfkeys@tmptoks=\toks38
 ))
-\pgf@x=\dimen144
-\pgf@y=\dimen145
-\pgf@xa=\dimen146
-\pgf@ya=\dimen147
-\pgf@xb=\dimen148
-\pgf@yb=\dimen149
-\pgf@xc=\dimen150
-\pgf@yc=\dimen151
+\pgf@x=\dimen152
+\pgf@y=\dimen153
+\pgf@xa=\dimen154
+\pgf@ya=\dimen155
+\pgf@xb=\dimen156
+\pgf@yb=\dimen157
+\pgf@xc=\dimen158
+\pgf@yc=\dimen159
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count168
-\c@pgf@countb=\count169
-\c@pgf@countc=\count170
-\c@pgf@countd=\count171
-\t@pgf@toka=\toks38
-\t@pgf@tokb=\toks39
-\t@pgf@tokc=\toks40
+\c@pgf@counta=\count171
+\c@pgf@countb=\count172
+\c@pgf@countc=\count173
+\c@pgf@countd=\count174
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
 stemlayer\pgf.cfg"
@@ -689,8 +715,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
 stemlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count172
-\pgfsyssoftpath@bigbuffer@items=\count173
+\pgfsyssoftpath@smallbuffer@items=\count175
+\pgfsyssoftpath@bigbuffer@items=\count176
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\sy
 stemlayer\pgfsysprotocol.code.tex"
@@ -728,12 +754,12 @@ th\pgfmathcalc.code.tex"
 th\pgfmathutil.code.tex")
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
 th\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen152
-\pgfmath@count=\count174
+\pgfmath@dimen=\dimen160
+\pgfmath@count=\count177
 \pgfmath@box=\box39
-\pgfmath@toks=\toks41
-\pgfmath@stack@operand=\toks42
-\pgfmath@stack@operation=\toks43
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
 th\pgfmathfunctions.code.tex"
@@ -755,37 +781,37 @@ th\pgfmathfunctions.misc.code.tex")
 th\pgfmathfunctions.integerarithmetics.code.tex")))
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
 th\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count175
+\c@pgfmathroundto@lastzeros=\count178
 ))
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen153
-\pgf@picmaxx=\dimen154
-\pgf@picminy=\dimen155
-\pgf@picmaxy=\dimen156
-\pgf@pathminx=\dimen157
-\pgf@pathmaxx=\dimen158
-\pgf@pathminy=\dimen159
-\pgf@pathmaxy=\dimen160
-\pgf@xx=\dimen161
-\pgf@xy=\dimen162
-\pgf@yx=\dimen163
-\pgf@yy=\dimen164
-\pgf@zx=\dimen165
-\pgf@zy=\dimen166
+\pgf@picminx=\dimen161
+\pgf@picmaxx=\dimen162
+\pgf@picminy=\dimen163
+\pgf@picmaxy=\dimen164
+\pgf@pathminx=\dimen165
+\pgf@pathmaxx=\dimen166
+\pgf@pathminy=\dimen167
+\pgf@pathmaxy=\dimen168
+\pgf@xx=\dimen169
+\pgf@xy=\dimen170
+\pgf@yx=\dimen171
+\pgf@yy=\dimen172
+\pgf@zx=\dimen173
+\pgf@zy=\dimen174
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen167
-\pgf@path@lasty=\dimen168
+\pgf@path@lastx=\dimen175
+\pgf@path@lasty=\dimen176
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen169
-\pgf@shorten@start@additional=\dimen170
+\pgf@shorten@end@additional=\dimen177
+\pgf@shorten@start@additional=\dimen178
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcorescopes.code.tex"
@@ -793,19 +819,19 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box40
 \pgf@hbox=\box41
 \pgf@layerbox@main=\box42
-\pgf@picture@serial@count=\count176
+\pgf@picture@serial@count=\count179
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen171
+\pgflinewidth=\dimen179
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen172
-\pgf@pt@y=\dimen173
-\pgf@pt@temp=\dimen174
+\pgf@pt@x=\dimen180
+\pgf@pt@y=\dimen181
+\pgf@pt@temp=\dimen182
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcorequick.code.tex"
@@ -822,13 +848,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen175
+\pgfarrowsep=\dimen183
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen176
-\pgf@sys@shading@range@num=\count177
+\pgf@max=\dimen184
+\pgf@sys@shading@range@num=\count180
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ba
 siclayer\pgfcoreimage.code.tex"
@@ -863,8 +889,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\comp
 atibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen177
-\pgf@nodesepend=\dimen178
+\pgf@nodesepstart=\dimen185
+\pgf@nodesepend=\dimen186
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\comp
 atibility\pgfcomp-version-1-18.sty"
@@ -886,10 +912,10 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ma
 th\pgfmath.code.tex")
-\pgffor@iter=\dimen179
-\pgffor@skip=\dimen180
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
+\pgffor@iter=\dimen187
+\pgffor@skip=\dimen188
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 ))
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
 ontendlayer\tikz\tikz.code.tex"
@@ -898,32 +924,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\li
 braries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count178
-\pgfplotmarksize=\dimen181
+\pgf@plot@mark@count=\count181
+\pgfplotmarksize=\dimen189
 )
-\tikz@lastx=\dimen182
-\tikz@lasty=\dimen183
-\tikz@lastxsaved=\dimen184
-\tikz@lastysaved=\dimen185
-\tikzleveldistance=\dimen186
-\tikzsiblingdistance=\dimen187
+\tikz@lastx=\dimen190
+\tikz@lasty=\dimen191
+\tikz@lastxsaved=\dimen192
+\tikz@lastysaved=\dimen193
+\tikzleveldistance=\dimen194
+\tikzsiblingdistance=\dimen195
 \tikz@figbox=\box45
 \tikz@figbox@bg=\box46
 \tikz@tempbox=\box47
 \tikz@tempbox@bg=\box48
-\tikztreelevel=\count179
-\tikznumberofchildren=\count180
-\tikznumberofcurrentchild=\count181
-\tikz@fig@count=\count182
+\tikztreelevel=\count182
+\tikznumberofchildren=\count183
+\tikznumberofcurrentchild=\count184
+\tikz@fig@count=\count185
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\mo
 dules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count183
-\pgfmatrixcurrentcolumn=\count184
-\pgf@matrix@numberofcolumns=\count185
+\pgfmatrixcurrentrow=\count186
+\pgfmatrixcurrentcolumn=\count187
+\pgf@matrix@numberofcolumns=\count188
 )
-\tikz@expandcount=\count186
+\tikz@expandcount=\count189
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
 ontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex"
@@ -936,7 +962,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\li
 braries\pgflibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen188
+\arrowsize=\dimen196
 ))
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
 ontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex"
@@ -975,24 +1001,24 @@ ities\pgfcalendar.sty"
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\ut
 ilities\pgfcalendar.code.tex"
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count187
+\pgfcalendarcurrentjulian=\count190
 ))
-\gtt@currentline=\count188
-\gtt@lasttitleline=\count189
-\gtt@currgrid=\count190
-\gtt@chartwidth=\count191
-\gtt@lasttitleslot=\count192
-\gtt@elementid=\count193
-\gtt@today@slot=\count194
-\gtt@startjulian=\count195
-\gtt@endjulian=\count196
-\gtt@chartid=\count197
-\gtt@vrule@slot=\count198
-\gtt@calendar@slots=\count199
-\gtt@calendar@weeknumber=\count266
-\gtt@calendar@startofweek=\count267
-\gtt@left@slot=\count268
-\gtt@right@slot=\count269
+\gtt@currentline=\count191
+\gtt@lasttitleline=\count192
+\gtt@currgrid=\count193
+\gtt@chartwidth=\count194
+\gtt@lasttitleslot=\count195
+\gtt@elementid=\count196
+\gtt@today@slot=\count197
+\gtt@startjulian=\count198
+\gtt@endjulian=\count199
+\gtt@chartid=\count266
+\gtt@vrule@slot=\count267
+\gtt@calendar@slots=\count268
+\gtt@calendar@weeknumber=\count269
+\gtt@calendar@startofweek=\count270
+\gtt@left@slot=\count271
+\gtt@right@slot=\count272
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfplots
 \pgfplots.sty"
@@ -1004,12 +1030,12 @@ Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 ts\pgfplots.code.tex"
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\pgfplotscore.code.tex"
-\t@pgfplots@toka=\toks46
-\t@pgfplots@tokb=\toks47
-\t@pgfplots@tokc=\toks48
-\pgfplots@tmpa=\dimen189
-\c@pgfplots@coordindex=\count270
-\c@pgfplots@scanlineindex=\count271
+\t@pgfplots@toka=\toks47
+\t@pgfplots@tokb=\toks48
+\t@pgfplots@tokc=\toks49
+\pgfplots@tmpa=\dimen197
+\c@pgfplots@coordindex=\count273
+\c@pgfplots@scanlineindex=\count274
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\sys\pgfplotssysgeneric.code.tex"))
@@ -1025,7 +1051,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 ts\oldpgfcompatib\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\oldpgfcompatib\pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count272
+\c@pgfmathroundto@lastzeros=\count275
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\oldpgfcompatib\pgfplotsoldpgfsupp_leq.code.tex"))
@@ -1037,14 +1063,14 @@ ts\liststructure\pgfplotsliststructure.code.tex")
 ts\liststructure\pgfplotsliststructureext.code.tex")
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\liststructure\pgfplotsarray.code.tex"
-\c@pgfplotsarray@tmp=\count273
+\c@pgfplotsarray@tmp=\count276
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\liststructure\pgfplotsmatrix.code.tex")
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\numtable\pgfplotstableshared.code.tex"
-\c@pgfplotstable@counta=\count274
-\t@pgfplotstable@a=\toks49
+\c@pgfplotstable@counta=\count277
+\t@pgfplotstable@a=\toks50
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\liststructure\pgfplotsdeque.code.tex")
@@ -1056,7 +1082,7 @@ ts\util\pgfplotsbinary.data.code.tex"))
 ts\util\pgfplotsutil.verb.code.tex")
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\libs\pgflibrarypgfplots.surfshading.code.tex"
-\c@pgfplotslibrarysurf@no=\count275
+\c@pgfplotslibrarysurf@no=\count278
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplo
 ts\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
@@ -1088,14 +1114,14 @@ ts\pgfplots.paths.code.tex")
 ontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex"
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\mo
 dules\pgfmoduledecorations.code.tex"
-\pgfdecoratedcompleteddistance=\dimen190
-\pgfdecoratedremainingdistance=\dimen191
-\pgfdecoratedinputsegmentcompleteddistance=\dimen192
-\pgfdecoratedinputsegmentremainingdistance=\dimen193
-\pgf@decorate@distancetomove=\dimen194
-\pgf@decorate@repeatstate=\count276
-\pgfdecorationsegmentamplitude=\dimen195
-\pgfdecorationsegmentlength=\dimen196
+\pgfdecoratedcompleteddistance=\dimen198
+\pgfdecoratedremainingdistance=\dimen199
+\pgfdecoratedinputsegmentcompleteddistance=\dimen256
+\pgfdecoratedinputsegmentremainingdistance=\dimen257
+\pgf@decorate@distancetomove=\dimen258
+\pgf@decorate@repeatstate=\count279
+\pgfdecorationsegmentamplitude=\dimen259
+\pgfdecorationsegmentlength=\dimen260
 )
 \tikz@lib@dec@box=\box51
 )
@@ -1107,13 +1133,13 @@ braries\decorations\pgflibrarydecorations.pathmorphing.code.tex"))
 ontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex"
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\li
 braries\decorations\pgflibrarydecorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count277
-\pgfplots@xmin@reg=\dimen197
-\pgfplots@xmax@reg=\dimen198
-\pgfplots@ymin@reg=\dimen199
-\pgfplots@ymax@reg=\dimen256
-\pgfplots@zmin@reg=\dimen257
-\pgfplots@zmax@reg=\dimen258
+\pgfplots@numplots=\count280
+\pgfplots@xmin@reg=\dimen261
+\pgfplots@xmax@reg=\dimen262
+\pgfplots@ymin@reg=\dimen263
+\pgfplots@ymax@reg=\dimen264
+\pgfplots@zmin@reg=\dimen265
+\pgfplots@zmax@reg=\dimen266
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fr
 ontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex"
@@ -1142,23 +1168,23 @@ ikz package.
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\carlisle
 \scalefnt.sty")
 \pgfpie@angleEnd=\skip64
-\c@pgfpie@explodeLength=\count278
-\c@pgfpie@colorLength=\count279
-\c@pgfpie@sliceLength=\count280
+\c@pgfpie@explodeLength=\count281
+\c@pgfpie@colorLength=\count282
+\c@pgfpie@sliceLength=\count283
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigur
 e\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip65
 \subfigcapskip=\skip66
-\subfigcaptopadj=\dimen259
+\subfigcaptopadj=\dimen267
 \subfigbottomskip=\skip67
-\subfigcapmargin=\dimen260
+\subfigcapmargin=\dimen268
 \subfiglabelskip=\skip68
-\c@subfigure=\count281
-\c@lofdepth=\count282
-\c@subtable=\count283
-\c@lotdepth=\count284
+\c@subfigure=\count284
+\c@lofdepth=\count285
+\c@subtable=\count286
+\c@lotdepth=\count287
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -1248,25 +1274,25 @@ Package tocbibind Note: Using section or other style headings.
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\ve
 rbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks50
-\verbatim@line=\toks51
+\every@verbatim=\toks51
+\verbatim@line=\toks52
 \verbatim@in@stream=\read2
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\
 wrapfig.sty"
-\wrapoverhang=\dimen261
-\WF@size=\dimen262
-\c@WF@wrappedlines=\count285
+\wrapoverhang=\dimen269
+\WF@size=\dimen270
+\c@WF@wrappedlines=\count288
 \WF@box=\box72
-\WF@everypar=\toks52
+\WF@everypar=\toks53
 Package: wrapfig 2003/01/31  v 3.6
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\af
 terpage.sty"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks53
+\AP@output=\toks54
 \AP@partial=\box73
 \AP@footins=\box74
 )
@@ -1283,35 +1309,35 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (masters_thesis.aux)
 \openout1 = `masters_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\s
 upp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen263
+\scratchcounter=\count289
+\scratchdimen=\dimen271
 \scratchbox=\box75
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen264
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks55
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen272
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks56
 )
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek
 \epstopdf-base.sty"
@@ -1328,8 +1354,42 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79134pt
+* \textheight=688.26956pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=27.31465pt
+* \topmargin=-53.38774pt
+* \headheight=13.6pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 \AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring ON on input line 7.
+Package hyperref Info: Link coloring ON on input line 8.
 
 ("C:\Users\ckrutzenbichler\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref
 \nameref.sty"
@@ -1339,11 +1399,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count292
+\c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
  (masters_thesis.out) (masters_thesis.out)
 \@outlinefile=\write5
 \openout5 = `masters_thesis.out'.
@@ -1399,13 +1459,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 (sections/sec_introduction.tex) [1] (sections/sec_background.tex
-<./images/gartner_hype_cycle.png, id=346, 504.08325pt x 424.58624pt>
+<./images/gartner_hype_cycle.png, id=371, 504.08325pt x 424.58624pt>
 File: ./images/gartner_hype_cycle.png Graphic file (type png)
 <use ./images/gartner_hype_cycle.png>
 Package pdftex.def Info: ./images/gartner_hype_cycle.png  used on input line 15
 .
 (pdftex.def)             Requested size: 256.0774pt x 215.70036pt.
-<./images/blockchain_1.png, id=348, 249.3315pt x 249.3315pt>
+<./images/blockchain_1.png, id=373, 249.3315pt x 249.3315pt>
 File: ./images/blockchain_1.png Graphic file (type png)
 <use ./images/blockchain_1.png>
 Package pdftex.def Info: ./images/blockchain_1.png  used on input line 22.
@@ -1421,12 +1481,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-<./images/encryption.png, id=368, 963.6pt x 542.025pt>
+<./images/encryption.png, id=393, 963.6pt x 542.025pt>
 File: ./images/encryption.png Graphic file (type png)
 <use ./images/encryption.png>
 Package pdftex.def Info: ./images/encryption.png  used on input line 51.
 (pdftex.def)             Requested size: 341.43436pt x 192.05217pt.
-<./images/signature.png, id=370, 548.0475pt x 311.9655pt>
+<./images/signature.png, id=395, 548.0475pt x 311.9655pt>
 File: ./images/signature.png Graphic file (type png)
 <use ./images/signature.png>
 Package pdftex.def Info: ./images/signature.png  used on input line 59.
@@ -1453,7 +1513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
 
 ]
-Overfull \hbox (25.45917pt too wide) in paragraph at lines 45--92
+Overfull \hbox (25.92897pt too wide) in paragraph at lines 45--92
  [] 
  []
 
@@ -2087,74 +2147,86 @@ coord trafo unsupported.
 [37
 
 ]
-Overfull \hbox (64.33217pt too wide) in alignment at lines 17--22
+Overfull \hbox (43.64322pt too wide) in alignment at lines 16--21
  [] [] [] [] 
  []
 
 
-Overfull \vbox (8.33334pt too high) detected at line 61
+Overfull \hbox (3.52249pt too wide) in paragraph at lines 44--44
+ []|[]| 
  []
 
 
-Overfull \hbox (64.33217pt too wide) in alignment at lines 22--62
+Overfull \hbox (43.64322pt too wide) in alignment at lines 21--61
  [] [] [] [] 
  []
 
 
-Overfull \vbox (22.83334pt too high) detected at line 90
+Overfull \hbox (43.64322pt too wide) in alignment at lines 61--102
+ [] [] [] [] 
  []
 
 
-Overfull \hbox (64.33217pt too wide) in alignment at lines 62--99
+Overfull \hbox (43.64322pt too wide) in alignment at lines 102--146
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (43.64322pt too wide) in alignment at lines 146--186
  [] [] [] [] 
  []
 
 [38
 
-] [39
+]
+Overfull \hbox (43.64322pt too wide) in alignment at lines 186--197
+ [] [] [] [] 
+ []
+
+[39] [40] [41
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 []|\OT1/cmr/m/n/12 Disadvantage of cur-rent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 \OT1/cmr/m/n/12 manuscript sub-mis-sion sys-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 126--127
+Underfull \hbox (badness 2401) in paragraph at lines 223--224
 \OT1/cmr/m/n/12 tems: no ex-is-tence of proof,
  []
 
-[40
+[42
 
-] [41
+] [43
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 []|\OT1/cmr/m/n/12 Tamperproof times-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 \OT1/cmr/m/n/12 tamp: proof for
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 160--160
+Underfull \hbox (badness 5022) in paragraph at lines 257--257
 []|\OT1/cmr/m/n/12 Timestamp is in-de-
  []
 
-)) [42
+)) [44
 
-] (sections/sec_discussion.tex) [43
+] (sections/sec_discussion.tex) [45
 
 ] (sections/sec_conclusion.tex)
-[44
+[46
 
-] (sections/appendix.tex (masters_thesis.nls) [45
+] (sections/appendix.tex (masters_thesis.nls) [47
 
 ]
 (sections/sec_summary_reviews.tex
@@ -2162,65 +2234,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
-[46
+[48
 
-]) [47] (sections/content_papers_overview.tex
-(sections/paper_overviews/2017_Gipp.tex [48
+]) [49] (sections/content_papers_overview.tex
+(sections/paper_overviews/2017_Gipp.tex [50
 
 ]
-<./images/2017_Gipp_Overview.png, id=1206, 1121.99174pt x 546.843pt>
+<./images/2017_Gipp_Overview.png, id=1248, 1121.99174pt x 546.843pt>
 File: ./images/2017_Gipp_Overview.png Graphic file (type png)
 <use ./images/2017_Gipp_Overview.png>
 Package pdftex.def Info: ./images/2017_Gipp_Overview.png  used on input line 63
 .
 (pdftex.def)             Requested size: 426.79134pt x 208.0111pt.
- [49 <./images/2017_Gipp_Overview.png>])
+ [51 <./images/2017_Gipp_Overview.png>])
 Underfull \hbox (badness 10000) in paragraph at lines 78--3
 
  []
 
-(sections/paper_overviews/2016_Kianmajd.tex [50])
-(sections/paper_overviews/2017_Naerland.tex [51
+(sections/paper_overviews/2016_Kianmajd.tex [52])
+(sections/paper_overviews/2017_Naerland.tex [53
 
 ])
-(sections/paper_overviews/2015_Zyskind.tex [52
+(sections/paper_overviews/2015_Zyskind.tex [54
+
+])
+(sections/paper_overviews/2017_Madhwal.tex [55
+
+])
+(sections/paper_overviews/2017_Tackmann.tex [56
+
+])
+(sections/paper_overviews/2016_Schaub.tex [57
+
+])
+(sections/paper_overviews/2016_Yasin.tex [58
+
+])
+(sections/paper_overviews/2016_Yue.tex [59
+
+])
+(sections/paper_overviews/2016_Bahga.tex [60
+
+])
+(sections/paper_overviews/2018_Alessandra.tex [61
+
+])
+(sections/paper_overviews/2016_Azaria.tex [62
+
+])
+(sections/paper_overviews/2017_Coyne.tex [63
+
+])
+(sections/paper_overviews/2015_Dennis.tex [64
+
+])
+(sections/paper_overviews/2017_Jaag.tex [65
+
+])
+(sections/paper_overviews/2016_Jacynycz.tex [66
 
 ]
-Overfull \hbox (6.89201pt too wide) in alignment at lines 8--13
+Overfull \hbox (24.73764pt too wide) in alignment at lines 8--13
  [] [] [] 
  []
 
 
-Overfull \hbox (6.89201pt too wide) in alignment at lines 13--20
+Overfull \hbox (24.73764pt too wide) in alignment at lines 13--22
  [] [] [] 
  []
 
-) (sections/paper_overviews/2017_Madhwal.tex [53
-
-]
-Overfull \vbox (8.33334pt too high) detected at line 14
- []
-
-) (sections/paper_overviews/2017_Tackmann.tex [54
+) (sections/paper_overviews/2017_Liu.tex [67
 
 ])
-(sections/paper_overviews/2016_Schaub.tex [55
+(sections/paper_overviews/2018_Lucena.tex [68
 
 ])
-(sections/paper_overviews/2016_Yasin.tex [56
+(sections/paper_overviews/2017_Ouaddah.tex [69
 
 ])
-(sections/paper_overviews/2016_Yue.tex [57
+(sections/paper_overviews/2016_Sharples.tex [70
 
-]
-Overfull \vbox (22.83334pt too high) detected at line 16
- []
+])
+(sections/paper_overviews/2016_Tian.tex [71
 
-))) [58
+]))) [72
 
-] (masters_thesis.bbl [59
+] (masters_thesis.bbl
+[73
 
-] [60] [61]
+] [74] [75]
 Underfull \hbox (badness 10000) in paragraph at lines 265--270
 \OT1/cmr/m/n/12 viewdoc / download ; jsessionid = C1C55F92FFC0899D3B8DD6743360D
 2C7 ?
@@ -2256,30 +2358,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--312
  frontdoor / deliver / index / docId /
  []
 
-[62] [63]) [64] (sections/eidesstattliche_erklaerung.tex) [65
+[76] [77]) [78] (sections/eidesstattliche_erklaerung.tex) [79
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
 
 (masters_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `masters_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9B1BC81FFB7273DDEF980E3BF900057E;2927.
+(rerunfilecheck)             Checksum: F8693921398F9F12278B5D7E6A903DFF;2928.
  ) 
 Here is how much of TeX's memory you used:
- 36180 strings out of 492973
- 871848 string characters out of 3122262
- 1115404 words of memory out of 3000000
- 38885 multiletter control sequences out of 15000+200000
+ 36796 strings out of 492973
+ 882666 string characters out of 3122262
+ 1157658 words of memory out of 3000000
+ 39354 multiletter control sequences out of 15000+200000
  15034 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,98p,1434b,2350s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.59} has been referenced but does not ex
+ 69i,15n,98p,1434b,2346s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.60} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.56} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.59} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not exis
 t, replaced by a fixed one
 
 <C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
@@ -2294,9 +2399,9 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ckrutzenbichler
 :/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on masters_thesis.pdf (72 pages, 1818960 bytes).
+Output written on masters_thesis.pdf (86 pages, 1862449 bytes).
 PDF statistics:
- 1507 PDF objects out of 1728 (max. 8388607)
- 402 named destinations out of 1000 (max. 500000)
+ 1723 PDF objects out of 1728 (max. 8388607)
+ 501 named destinations out of 1000 (max. 500000)
  379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
