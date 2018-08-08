@@ -69,6 +69,9 @@
 \contentsline {subsection}{\numberline {6.1}Summary}{49}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Future Work}{49}{subsection.6.2}
 \contentsline {section}{\numberline {A}List of abbreviations}{50}{Appendix.a.A}
-\contentsline {section}{\numberline {B}Second Appendix}{51}{Appendix.a.B}
-\contentsline {section}{\numberline {C}Content-Based Information per paper}{53}{Appendix.a.C}
-\contentsline {section}{Bibliography}{76}{section*.167}
+\contentsline {section}{\numberline {B}Second Appendix}{52}{Appendix.a.B}
+\contentsline {section}{\numberline {C}Content-Based Information per paper}{54}{Appendix.a.C}
+\contentsline {paragraph}{Enroll a ticket}{62}{section*.76}
+\contentsline {paragraph}{Re-sell a ticket}{62}{section*.77}
+\contentsline {paragraph}{Invalidate a ticket}{62}{section*.78}
+\contentsline {section}{Bibliography}{81}{section*.170}

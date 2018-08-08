@@ -10,6 +10,8 @@
 		\nompageref{26}
   \item [{P2P}]\begingroup Peer-to-Peer Network\nomeqref {0}
 		\nompageref{3}
+  \item [{QR code}]\begingroup Quick Response Code\nomeqref {0}
+		\nompageref{60}
   \item [{RQ(s)}]\begingroup Research Question(s)\nomeqref {0}
 		\nompageref{15}
 
@@ -52,7 +54,11 @@
 
  \nomgroup{U}
 
+  \item [{LIRIS}]\begingroup Laboratoire d'Informatique en Images et Syst\`{e}mes d'Information\nomeqref {0}
+		\nompageref{63}
+  \item [{MIT}]\begingroup Massachusetts Institute of Technology\nomeqref {0}
+		\nompageref{37}
   \item [{UFRGS}]\begingroup Federal University of Rio Grande do Sul\nomeqref {0}
-		\nompageref{69}
+		\nompageref{74}
 
 \end{thenomenclature}

@@ -24,17 +24,63 @@ The authors of the paper can be viewed in table \ref{tab:2018_Lucena_Authors}.
 %______________________________________________________________________
 
 \subsection*{Contribution}
-
+The contribution of \citet{2018_Lucena} is a grain quality assurance tracking system.
+Their work is not available open source.
 
 %______________________________________________________________________
 
 \subsection*{Reason/Problems}
+The brazilian \quoteit{Grain Exports Business Network (GEBN)}\nomenclature[O]{GEBN}{Grain Exports Business Network} is composed of the following actors:
+\begin{enumerate}[label={\arabic*)},font={\color{red!50!black}\bfseries}]
+	\item \textbf{Grain Producer} classification of the grains is done properly so he can be paid accordingly /
+	\item \textbf{Rural Credit Bank agent} / needs accurate data from the Grain Producers so that he can regulate credit giving risks and offere different interest credit rates
+	\item \textbf{Private warehouse agent} / depends on accurate grain classifiacaiton data in order to wholesale grains
+	\item \textbf{Trading company agent} / buying large amounts of grains with the right quality from several warehouses in order to fullfill an export request
+	\item \textbf{Food processing company} / 
+\end{enumerate}
+\clearpage
+\begin{longtable}{ |P{3cm}|P{4cm}|P{5cm}| }
+	\caption{Authors} \label{tab:2018_Lucena_Authors} \\
+	\hline
+ 	\cellcolor{Gray}Actor & \cellcolor{Gray}Concern & \cellcolor{Gray}Reason \\ [0.5ex] 
+ 	\hline\hline
+ 	\endhead
+	\multirow{3}{3cm}{\centering Grain Producer} & Correct management of grain ingest and classification & to be fairly paid \\
+	\cline{2-3}
+	 & \multirow{2}{4cm}{\centering Proper ingest receipt} & so he can get a credit on Rural Credit Banks\\
+	 \cline{3-3}
+	 & & and agree on a procution insurance \\
+	 \hline
+	 Rural Credit Bank agent & \multirow{2}{4cm}{\centering Accurate data from producers} & reduce credit giving risks\\
+	 \cline{3-3}
+	 & & offer lower interest credit rates for credit operations\\
+	 \hline
+	 Private Warehouse agent & accurate grain classification data & in order to sell the grains to various entities. \\
+	 \hline
+	 Trading Company agent & buying large amounts of grains with the right quality from several warehouses & to fulfill an export request \\
+	 \hline
+	 Food processing company &buying special selected grains that have specific characteristics (e.g.\ high protein) & \xmark \\
+	 \hline
+\end{longtable}
 
+
+\begin{figure}[!ht]
+    \centering
+    \label{fig:2018_Lucena_Implementation_Business}
+    \caption{Business Network}
+    \includegraphics[width=0.8\textwidth]{2018_Lucena_1.png}
+\end{figure}
 
 %______________________________________________________________________
 
 \subsection*{Implementation Process}
 
+\begin{figure}[!ht]
+    \centering
+    \label{fig:2018_Lucena_Implementation_Architecture}
+    \caption{Architecture}
+    \includegraphics[width=0.8\textwidth]{2018_Lucena_2.png}
+\end{figure}
 %______________________________________________________________________
 
 \subsection*{Conclusion}

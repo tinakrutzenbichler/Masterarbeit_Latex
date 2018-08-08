@@ -18,18 +18,65 @@ The authors of the paper can be viewed in table \ref{tab:2017_Tackmann_Authors}.
 %______________________________________________________________________
 
 \subsection*{Contribution}
-
-
+The contribution of \citet{2017_Tackmann} is an event ticket management system. His system provides more security for the ticket owner to prevent ticket theft and to be able to re-sell the tickets in a secure way. His research question is:
+\begin{displayquote}
+\quoteit{Can we use blockchain technology to achieve the convenience of standard tickets, but with the improved security of ID-based ones?}
+\end{displayquote}
+His work is not available open-source.
 %______________________________________________________________________
 
 \subsection*{Reason/Problems}
-
+Today, the event providers sell tickets in form of a piece of paper with an unique Quick Response code (QR code) to their customers.\nomenclature[O]{QR code}{Quick Response Code}. This poses no problem for the organizing entity because he usually scans a QR code at the gate and lets everyone with a valid QR code enter. For the ticket buyer on the other hand, there are various issues. The main problems that are trying to be solved with this research are:
+\begin{enumerate}[label={\arabic*)},font={\color{red!50!black}\bfseries}]
+	\item \textbf{Ticket theft} by reprinting the same ticket multiple times 
+	\item Proofing the validity of tickets when \textbf{re-selling spare ones} 
+\end{enumerate}.  
+The questions that the author asked himself in his research is if by using the Blockchain technology, one could improve the issues of the ticket owner by keeping the current level of comfort for both parties involved. In the research, they link the unique identifier of a concert ticket with the cryptographic identity of the ticket owner on the Blockchain.
 
 %______________________________________________________________________
 
 \subsection*{Implementation Process}
-
+To implement his ticket manangement system, he used \quoteit{Hyperledger Fabric V1}\urlfootnote{https://www.hyperledger.org/projects/fabric} as his Blockchain Platform. There are three different actors involved, each of which has a pair of keys (private key and public key):
+\begin{enumerate}[label={\arabic*)},font={\color{red!50!black}\bfseries}]
+	\item \textbf{Ticket Seller}
+	\item \textbf{Ticket owner} 
+	\item \textbf{Event organizer}
+\end{enumerate}.  
+Each of these actors has a functionality. The customers can re-sell their tickets, the organizers can invalidate the ticktes and the tickets seller can enroll new tickets onto the Blockchain. For each of these tasks an application was developed to provide the function that is needed. All application were developed with Swift for \quoteit{iOS}. These application communicate with the Hyperledger Blockcain via a REST proxy. 
+\begin{longtable}{ |P{3cm}|P{5cm}|P{4cm}| }
+	\caption{Implementation} \label{tab:2017_Tackmann_Implementation} \\
+	\hline
+ 	\cellcolor{Gray}Actor & \cellcolor{Gray}Task & \cellcolor{Gray}Realisation \\ [0.5ex] 
+ 	\hline\hline
+ 	\endhead
+ 	 Ticket seller & Enrolling a ticket on the Blockchain  & Seller Application  \\
+	 \hline
+	 Ticket owner & Re-selling a ticket  & Client Application  \\
+	 \hline
+	 Event organizer & Invalidation a ticket & Organizer Application  \\
+	 \hline
+\end{longtable}
+The ticket is implemented as a tuple of parameters:
+\begin{enumerate}[label={\arabic*)},font={\color{red!50!black}\bfseries}]
+	\item Ticket Identifier (ticket id)
+	\item Signature Public Key of the ticket owner 
+	\item Signature Public Key of the event organizer
+	\item Ticket State (valide or invalid)
+	\item Ticket age
+\end{enumerate}
+The procedure to execute each task is precisely specified.
+\paragraph{Enroll a ticket}
+Only the ticket seller can enroll a ticket onto the Blockchain. He takes an unique identifier, the public key of the event organizer and the public key of the ticket owner  to do so. He signs this process with his private key to provide a signature. This ensures that only he can add tickets to the system.
+\paragraph{Re-sell a ticket}
+To re-sell a ticket, the ticket owner takes to ticket id, the public key of the buyer and signs this with his private key to create a signature. The system then checks if the id exists and if the state is valide. If all is good, the age of the ticket is augmented to prevent from replay attacks.
+\paragraph{Invalidate a ticket}
+The event organizer takes the ticket id, the owners public key and his signature to invalidete the ticket. If the ticket id with the right public key is correct, the status of the ticket changes to invalid.
 %______________________________________________________________________
 
 \subsection*{Conclusion}
-
+The developed prototype solves the research question successfully. Yet there is non theoretical necessity to use a Blockchain. The event organizer could also host the system on his servers. On the other hand, by using this system, an organizer has the opportunity to outsource the application to multiple providers. By doing so, he can prevent his severs from being attacked. Since the Blockchain is used, he does not have to trust the other parties. To increase resilience, multiple event organizers could run the system together.
+The benefits of Blockchain system are:
+\begin{enumerate}[label={\arabic*)},font={\color{red!50!black}\bfseries}]
+	\item \textbf{Consistency} For each task, the ticket can only make valid changes of its current state.
+	\item \textbf{Unforgeability} Change requests can only be made by relevant parties.
+\end{enumerate}.  

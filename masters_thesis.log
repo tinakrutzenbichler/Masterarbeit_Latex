@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  7 AUG 2018 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  8 AUG 2018 16:43
 entering extended mode
 **./masters_thesis.tex
 (masters_thesis.tex
@@ -1313,6 +1313,9 @@ LaTeX Warning: Label `tab:rq6_authors' multiply defined.
 
 LaTeX Warning: Label `tab:rq6_authors' multiply defined.
 
+
+LaTeX Warning: Label `tab:2018_Lucena_Authors' multiply defined.
+
 )
 \openout1 = `masters_thesis.aux'.
 
@@ -1466,13 +1469,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 (sections/sec_introduction.tex) [1] (sections/sec_background.tex
-<./images/gartner_hype_cycle.png, id=385, 504.08325pt x 424.58624pt>
+<./images/gartner_hype_cycle.png, id=393, 504.08325pt x 424.58624pt>
 File: ./images/gartner_hype_cycle.png Graphic file (type png)
 <use ./images/gartner_hype_cycle.png>
 Package pdftex.def Info: ./images/gartner_hype_cycle.png  used on input line 15
 .
 (pdftex.def)             Requested size: 256.0774pt x 215.70036pt.
-<./images/blockchain_1.png, id=387, 249.3315pt x 249.3315pt>
+<./images/blockchain_1.png, id=395, 249.3315pt x 249.3315pt>
 File: ./images/blockchain_1.png Graphic file (type png)
 <use ./images/blockchain_1.png>
 Package pdftex.def Info: ./images/blockchain_1.png  used on input line 22.
@@ -1488,12 +1491,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-<./images/encryption.png, id=407, 963.6pt x 542.025pt>
+<./images/encryption.png, id=415, 963.6pt x 542.025pt>
 File: ./images/encryption.png Graphic file (type png)
 <use ./images/encryption.png>
 Package pdftex.def Info: ./images/encryption.png  used on input line 51.
 (pdftex.def)             Requested size: 341.43436pt x 192.05217pt.
-<./images/signature.png, id=409, 548.0475pt x 311.9655pt>
+<./images/signature.png, id=417, 548.0475pt x 311.9655pt>
 File: ./images/signature.png Graphic file (type png)
 <use ./images/signature.png>
 Package pdftex.def Info: ./images/signature.png  used on input line 59.
@@ -2747,17 +2750,17 @@ Missing character: There is no 0 in font nullfont!
 ] [43] [44
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 []|\OT1/cmr/m/n/12 Disadvantage of cur-rent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 \OT1/cmr/m/n/12 manuscript sub-mis-sion sys-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 34--35
+Underfull \hbox (badness 2401) in paragraph at lines 36--37
 \OT1/cmr/m/n/12 tems: no ex-is-tence of proof,
  []
 
@@ -2766,17 +2769,17 @@ Underfull \hbox (badness 2401) in paragraph at lines 34--35
 ] [46
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 []|\OT1/cmr/m/n/12 Tamperproof times-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 \OT1/cmr/m/n/12 tamp: proof for
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 68--68
+Underfull \hbox (badness 5022) in paragraph at lines 73--73
 []|\OT1/cmr/m/n/12 Timestamp is in-de-
  []
 
@@ -2787,97 +2790,110 @@ Underfull \hbox (badness 5022) in paragraph at lines 68--68
 ] (sections/sec_conclusion.tex)
 [49
 
-] (sections/appendix.tex (masters_thesis.nls) [50
+] (sections/appendix.tex (masters_thesis.nls [50
 
-]
+]) [51]
 (sections/sec_summary_reviews.tex
 Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
-[51
+[52
 
-]) [52] (sections/content_papers_overview.tex
-(sections/paper_overviews/2017_Gipp.tex [53
+]) [53] (sections/content_papers_overview.tex
+(sections/paper_overviews/2017_Gipp.tex [54
 
 ]
-<./images/2017_Gipp_Overview.png, id=1281, 1121.99174pt x 546.843pt>
+<./images/2017_Gipp_Overview.png, id=1298, 1121.99174pt x 546.843pt>
 File: ./images/2017_Gipp_Overview.png Graphic file (type png)
 <use ./images/2017_Gipp_Overview.png>
 Package pdftex.def Info: ./images/2017_Gipp_Overview.png  used on input line 63
 .
 (pdftex.def)             Requested size: 426.79134pt x 208.0111pt.
- [54 <./images/2017_Gipp_Overview.png>])
+ [55 <./images/2017_Gipp_Overview.png>])
 Underfull \hbox (badness 10000) in paragraph at lines 78--3
 
  []
 
-(sections/paper_overviews/2016_Kianmajd.tex [55])
-(sections/paper_overviews/2017_Naerland.tex [56
+(sections/paper_overviews/2016_Kianmajd.tex [56])
+(sections/paper_overviews/2017_Naerland.tex [57
 
 ])
-(sections/paper_overviews/2015_Zyskind.tex [57
+(sections/paper_overviews/2015_Zyskind.tex [58
 
 ])
-(sections/paper_overviews/2017_Madhwal.tex [58
+(sections/paper_overviews/2017_Madhwal.tex [59
 
 ])
-(sections/paper_overviews/2017_Tackmann.tex [59
+(sections/paper_overviews/2017_Tackmann.tex [60
 
-])
-(sections/paper_overviews/2016_Schaub.tex [60
+] [61
 
-]
+] [62])
+(sections/paper_overviews/2016_Schaub.tex [63]
 Overfull \vbox (11.33334pt too high) detected at line 19
  []
 
-) (sections/paper_overviews/2016_Yasin.tex [61
+) (sections/paper_overviews/2016_Yasin.tex [64
 
 ])
-(sections/paper_overviews/2016_Yue.tex [62
+(sections/paper_overviews/2016_Yue.tex [65
 
 ])
-(sections/paper_overviews/2016_Bahga.tex [63
+(sections/paper_overviews/2016_Bahga.tex [66
 
 ])
-(sections/paper_overviews/2018_Alessandra.tex [64
+(sections/paper_overviews/2018_Alessandra.tex [67
 
 ])
-(sections/paper_overviews/2016_Azaria.tex [65
+(sections/paper_overviews/2016_Azaria.tex [68
 
 ])
-(sections/paper_overviews/2017_Coyne.tex [66
+(sections/paper_overviews/2017_Coyne.tex [69
 
 ])
-(sections/paper_overviews/2015_Dennis.tex [67
+(sections/paper_overviews/2015_Dennis.tex [70
 
 ])
-(sections/paper_overviews/2017_Jaag.tex [68
+(sections/paper_overviews/2017_Jaag.tex [71
 
 ])
-(sections/paper_overviews/2016_Jacynycz.tex [69
+(sections/paper_overviews/2016_Jacynycz.tex [72
 
 ])
-(sections/paper_overviews/2017_Liu.tex [70
+(sections/paper_overviews/2017_Liu.tex [73
 
 ])
-(sections/paper_overviews/2018_Lucena.tex [71
+(sections/paper_overviews/2018_Lucena.tex [74
 
-])
-(sections/paper_overviews/2017_Ouaddah.tex [72
+] [75
 
-])
-(sections/paper_overviews/2016_Sharples.tex [73
+]
+<./images/2018_Lucena_1.png, id=1562, 752.21025pt x 433.62pt>
+File: ./images/2018_Lucena_1.png Graphic file (type png)
+<use ./images/2018_Lucena_1.png>
+Package pdftex.def Info: ./images/2018_Lucena_1.png  used on input line 71.
+(pdftex.def)             Requested size: 341.43436pt x 196.82764pt.
+<./images/2018_Lucena_2.png, id=1563, 684.75826pt x 552.26324pt>
+File: ./images/2018_Lucena_2.png Graphic file (type png)
+<use ./images/2018_Lucena_2.png>
+Package pdftex.def Info: ./images/2018_Lucena_2.png  used on input line 82.
+(pdftex.def)             Requested size: 341.43436pt x 275.36409pt.
+)
+(sections/paper_overviews/2017_Ouaddah.tex [76
 
-])
-(sections/paper_overviews/2016_Tian.tex [74
+ <./images/2018_Lucena_1.png>]
+[77 <./images/2018_Lucena_2.png>]) (sections/paper_overviews/2016_Sharples.tex
+[78
 
-]))) [75
+]) (sections/paper_overviews/2016_Tian.tex [79
+
+]))) [80
 
 ] (masters_thesis.bbl
-[76
+[81
 
-] [77] [78]
+] [82] [83]
 Underfull \hbox (badness 10000) in paragraph at lines 265--270
 \OT1/cmr/m/n/12 viewdoc / download ; jsessionid = C1C55F92FFC0899D3B8DD6743360D
 2C7 ?
@@ -2913,7 +2929,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--312
  frontdoor / deliver / index / docId /
  []
 
-[79] [80]) [81] (sections/eidesstattliche_erklaerung.tex) [82
+[84] [85]) [86] (sections/eidesstattliche_erklaerung.tex) [87
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
@@ -2923,24 +2939,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `masters_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F8693921398F9F12278B5D7E6A903DFF;2928.
+(rerunfilecheck)             Checksum: BCABAF6BC84B28A8E397A80C642B66AA;2928.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 36958 strings out of 492973
- 886544 string characters out of 3122262
- 1153179 words of memory out of 3000000
- 39501 multiletter control sequences out of 15000+200000
+ 37003 strings out of 492973
+ 887211 string characters out of 3122262
+ 1153419 words of memory out of 3000000
+ 39514 multiletter control sequences out of 15000+200000
  15034 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,13n,98p,1434b,2346s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.60} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.61} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.59} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.60} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not exis
@@ -2958,9 +2974,9 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ckrutzenbichler
 :/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on masters_thesis.pdf (89 pages, 1875561 bytes).
+Output written on masters_thesis.pdf (94 pages, 2181960 bytes).
 PDF statistics:
- 1759 PDF objects out of 2073 (max. 8388607)
- 511 named destinations out of 1000 (max. 500000)
- 379 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1825 PDF objects out of 2073 (max. 8388607)
+ 541 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
