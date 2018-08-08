@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  8 AUG 2018 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.26)  8 AUG 2018 17:00
 entering extended mode
 **./masters_thesis.tex
 (masters_thesis.tex
@@ -2879,14 +2879,13 @@ File: ./images/2018_Lucena_2.png Graphic file (type png)
 <use ./images/2018_Lucena_2.png>
 Package pdftex.def Info: ./images/2018_Lucena_2.png  used on input line 82.
 (pdftex.def)             Requested size: 341.43436pt x 275.36409pt.
-)
-(sections/paper_overviews/2017_Ouaddah.tex [76
+ [76
 
- <./images/2018_Lucena_1.png>]
-[77 <./images/2018_Lucena_2.png>]) (sections/paper_overviews/2016_Sharples.tex
-[78
+ <./images/2018_Lucena_1.png>]) (sections/paper_overviews/2017_Ouaddah.tex [77 
+<./images/2018_Lucena_2.png>]) (sections/paper_overviews/2016_Sharples.tex [78
 
-]) (sections/paper_overviews/2016_Tian.tex [79
+])
+(sections/paper_overviews/2016_Tian.tex [79
 
 ]))) [80
 
@@ -2974,7 +2973,7 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ckrutzenbichler
 :/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/ckrutzenbichler/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on masters_thesis.pdf (94 pages, 2181960 bytes).
+Output written on masters_thesis.pdf (94 pages, 2181540 bytes).
 PDF statistics:
  1825 PDF objects out of 2073 (max. 8388607)
  541 named destinations out of 1000 (max. 500000)
